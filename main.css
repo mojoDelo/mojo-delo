@@ -249,6 +249,7 @@ body .main__container .container .header .header__nav {
     background-color: #292929;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+    gap: 20px;
   }
   body .main__container .container .header .header__nav.active {
     right: 0;
@@ -262,9 +263,6 @@ body .main__container .container .header .header__nav .header__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -280,6 +278,7 @@ body .main__container .container .header .header__nav .header__title {
 @media screen and (max-width: 768px) {
   body .main__container .container .header .header__nav .header__title {
     width: 100%;
+    height: auto;
     margin-top: 100px;
     background-color: #292929;
     color: azure;
@@ -287,9 +286,6 @@ body .main__container .container .header .header__nav .header__title {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
     right: 20px;
   }
 }
