@@ -139,6 +139,9 @@ body {
                     height: 80px;
                     gap: 5px;
                 }
+                @media screen and (max-width: 768px) {
+                    height: 60px;
+                }
 
                 .header__link {
                     margin-left: 5px;
@@ -149,9 +152,9 @@ body {
                     //     font-size: 15px;
                     // }
 
-                    @media screen and (max-width: 750px) {
-                        font-size: 20px;
-                    }
+                    // @media screen and (max-width: 750px) {
+                    //     font-size: 20px;
+                    // }
 
                     // @media screen and (max-width: 380px) {
                     //     font-size: 9px;
@@ -169,11 +172,96 @@ body {
                     }
                 }
 
+                .header__burger {
+                    display: none;
+                }
+    
+                @media screen and (max-width: 768px) {
+                    .header__burger {
+                        display: block;
+                        position: relative;
+                        top: -5px;
+                        right: 40px;
+                        width: 30px;
+                        height: 30px;
+                        z-index: 10000;
+    
+                        &.active {
+                            & span {
+                                transform: rotate(90deg);
+                                top: 20px;
+                                right: 10;
+                                background-color: #fff;
+                            }
+    
+                            &:before {
+                                transform: rotate(90deg);
+                                top: 20px;
+                                right: 10px;
+                                background-color: #fff;
+                            }
+    
+                            &:after {
+                                transform: rotate(90deg);
+                                top: 20px;
+                                left: -3px;
+                                background-color: #fff;
+                            }
+                        }
+    
+                        & span {
+                            margin-right: 13px;
+                            background-color: #545454;
+                            position: absolute;
+                            width: 100%;
+                            height: 2px;
+                            right: 0;
+                            top: 10px;
+                            transition: all 0.3s ease 0s;
+                        }
+    
+                        &:before,
+                        &:after {
+                            content: '';
+                            margin-right: 13px;
+                            background-color: #545454;
+                            position: absolute;
+                            width: 100%;
+                            height: 2px;
+                            right: 0;
+                            transition: all 0.3s ease 0s;
+                        }
+    
+                        &:before {
+                            top: 20px;
+                        }
+    
+                        &:after {
+                            top: 30px;
+                        }
+                    }
+                }
+
                 .header__nav {
                     width: 100%;
                     height: 100%;
                     display: flex;
                     flex-direction: column;
+
+                    @media screen and (max-width: 768px) {
+                        position: fixed;
+                        top: 0;
+                        right: -100%;
+                        width: 100%;
+                        max-width:220px;
+                        background-color: #292929;
+                        transition: all 0.3s ease 0s;
+                        gap: 20px;
+
+                        &.active {
+                            right: 0;
+                        }
+                    }
 
                     .header__title {
                         width: 100%;
@@ -188,9 +276,16 @@ body {
                             gap: 10px;
                         }
 
-                        @media screen and (max-width: 580px) {
-                            gap: 0px;
-                            flex-wrap: wrap;
+                        @media screen and (max-width: 768px) {
+                            width: 100%;
+                            height: auto;
+                            margin-top: 100px;
+                            background-color: #292929;
+                            color: azure;
+                            flex-direction: column;
+                            // justify-content: flex-start;
+                            right: 20px;
+
                         }
 
                         .header__link {
@@ -201,19 +296,22 @@ body {
                             //     font-size: 15px;
                             // }
 
-                            @media screen and (max-width: 750px) {
-                                font-size: 20px;
+                            @media screen and (max-width: 768px) {
+                                font-size: 22px;
                             }
 
-                            @media screen and (max-width: 540px) {
-                                font-size: 15px;
+                            // @media screen and (max-width: 540px) {
+                            //     font-size: 15px;
                                 
-                            margin-left: 10px;
-                            }
+                            // margin-left: 10px;
+                            // }
 
                             &.active {
                                 color: $active-color;
                                 opacity: 1;
+                                @media screen and (max-width: 768px) {
+                                    color: white;
+                                }
                             }
 
                             &:hover {
@@ -230,6 +328,15 @@ body {
                         display: none;
                         border-radius: 10px;
 
+                        @media screen and (max-width: 768px) {
+                            width: 100%;
+                            height: auto;
+                            background-color: #292929;
+                            flex-direction: column;
+                            align-items: center;
+                            right: 20px;
+                        }
+
 
                         &.active {
                             display: flex;
@@ -241,36 +348,35 @@ body {
                                 gap: 10px;
                             }
 
-                            @media screen and (max-width: 700px) {
-                                gap: 6px;
-                                font-size: 10px;
-                            }
-
-                            @media screen and (max-width: 480px) {
-                                gap: 0px;
-                                flex-wrap: wrap;
-                            }
+                            // @media screen and (max-width: 480px) {
+                            //     gap: 0px;
+                            //     flex-wrap: wrap;
+                            // }
                         }
 
                         .sub__link {
                             padding: 2px;
+                            opacity: 0.6;
 
                             @media screen and (max-width: 1030px) {
                                 font-size: 15px;
                             }
-
-                            @media screen and (max-width: 550px) {
-                                font-size: 12px;
+                            @media screen and (max-width: 768px) {
+                                font-size: 20px;
                             }
 
-                            @media screen and (max-width: 480px) {
-                                font-size: 9px;
-                                margin-left: 10px;
-                            }
+                            // @media screen and (max-width: 550px) {
+                            //     font-size: 12px;
+                            // }
+
+                            // @media screen and (max-width: 480px) {
+                            //     font-size: 9px;
+                            //     margin-left: 10px;
+                            // }
                             
                             &:hover {
                                 cursor: pointer;
-                                opacity: 0.8;
+                                opacity: 1;
                             }
 
                             &.blu {
@@ -543,22 +649,25 @@ body {
                 }
             }
             .cost {
-                margin: 0 auto;
+                margin: 25px auto;
                 display: none;
 
                 &.active {
+                    width: 100%;
                     display: block;
                     max-width: 520px;
                     .column1 {
                         border: 1px solid black;
                         font-family: 'Mulish', sans-serif;
                         padding: 3px;
+                        width: 85%;
                     }
                     .column2 {
                         font-size: 16px;
                         border: 1px solid black;
                         font-family: 'Mulish', sans-serif;
                         padding: 3px;
+                        width: 15%;
                     }
                 }
 

@@ -84,7 +84,7 @@ const coordinates = [
 const pagesContent = [
     Build = [
         { id: "1", name: 'ОТДЕЛОЧНЫЕ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}]},
-        { id: "2", name: 'СПЕЦИАЛЬНЫЕ', coast : [{name: "электрика"}, {name: "прокладка кабеля", pay: "1"}, {name: "сварочные работы"}] },
+        { id: "2", name: 'СПЕЦИАЛЬНЫЕ', coast : [{name: "электрика", pay: ""}, {name: "прокладка кабеля", pay: "1"}, {name: "сварочные работы", pay: ""}] },
         { id: "3", name: 'ОБЩЕСТРОИТЕЛЬНЫЕ', coast : [{name: "кровля", pay: "25"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
         { id: "4", name: 'ДРУГОЕ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] }
     ],
@@ -96,7 +96,7 @@ const pagesContent = [
     ],
     Beauty = [
         { id: "1", name: 'МЕДИЦИНА', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
-        { id: "2", name: 'КОСМЕТИЧЕСКИЕ УСЛУГИ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
+        { id: "2", name: 'КОСМЕТ. УСЛУГИ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
         { id: "3", name: 'СПОРТ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
         { id: "4", name: 'ДРУГОЕ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] }
     ],
@@ -117,7 +117,7 @@ const pagesContent = [
 
 const center = [52.4345, 30.9754];
 
-const map = L.map('map').setView(center, 12);
+const map = L.map('map').setView(center, 11);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     minZoom: 6,
     maxZoom: 17,
@@ -167,10 +167,7 @@ const changePage = (numb) => {
     for (link of sub__link) {
         link.addEventListener('click', link => changeSubClass(num, link.target.id))
     };
-}  
-
-
-
+}
 
 const changeClass = (el) => {
     markerGroup.clearLayers()
