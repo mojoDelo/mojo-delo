@@ -267,6 +267,11 @@ body {
                                 font-size: 9px;
                                 margin-left: 10px;
                             }
+                            
+                            &:hover {
+                                cursor: pointer;
+                                opacity: 0.8;
+                            }
 
                             &.blu {
                                 color: #2A81CB;
@@ -536,6 +541,27 @@ body {
                     margin-right: 0;
                     margin-bottom: 20px;
                 }
+            }
+            .cost {
+                margin: 0 auto;
+                display: none;
+
+                &.active {
+                    display: block;
+                    max-width: 520px;
+                    .column1 {
+                        border: 1px solid black;
+                        font-family: 'Mulish', sans-serif;
+                        padding: 3px;
+                    }
+                    .column2 {
+                        font-size: 16px;
+                        border: 1px solid black;
+                        font-family: 'Mulish', sans-serif;
+                        padding: 3px;
+                    }
+                }
+
             }
 
         }
