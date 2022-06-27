@@ -1,9 +1,10 @@
 const header__links = document.getElementsByClassName('header__link'),
     pop__btn = document.getElementsByClassName('pop__btn'),
-    object__photo = document.getElementsByClassName('object__photo'),
+    
     person__data = document.getElementsByClassName('person__data'),
     header__subtitle = document.getElementById('header__subtitle'),
     person = document.getElementById('person'),
+    cost = document.getElementById('cost'),
     mainPages = document.querySelector('.mainPages'),
     sub__link = document.getElementsByClassName('sub__link');
 
@@ -82,34 +83,34 @@ const coordinates = [
 ];
 const pagesContent = [
     Build = [
-        { id: "1", name: 'ОТДЕЛОЧНЫЕ' },
-        { id: "2", name: 'СПЕЦИАЛЬНЫЕ' },
-        { id: "3", name: 'ОБЩЕСТРОИТЕЛЬНЫЕ' },
-        { id: "4", name: 'ДРУГОЕ' }
+        { id: "1", name: 'ОТДЕЛОЧНЫЕ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}]},
+        { id: "2", name: 'СПЕЦИАЛЬНЫЕ', coast : [{name: "электрика"}, {name: "прокладка кабеля", pay: "1"}, {name: "сварочные работы"}] },
+        { id: "3", name: 'ОБЩЕСТРОИТЕЛЬНЫЕ', coast : [{name: "кровля", pay: "25"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
+        { id: "4", name: 'ДРУГОЕ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] }
     ],
     Car = [
-        { id: "1", name: 'РЕМОНТ' },
-        { id: "2", name: 'ОБСЛУЖИВАНИЕ' },
-        { id: "3", name: 'ЗАПЧАСТИ' },
-        { id: "4", name: 'ДРУГОЕ' }
+        { id: "1", name: 'РЕМОНТ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
+        { id: "2", name: 'ОБСЛУЖИВАНИЕ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
+        { id: "3", name: 'ЗАПЧАСТИ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
+        { id: "4", name: 'ДРУГОЕ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] }
     ],
     Beauty = [
-        { id: "1", name: 'МЕДИЦИНА' },
-        { id: "2", name: 'КОСМЕТИЧЕСКИЕ УСЛУГИ' },
-        { id: "3", name: 'СПОРТ' },
-        { id: "4", name: 'ДРУГОЕ' }
+        { id: "1", name: 'МЕДИЦИНА', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
+        { id: "2", name: 'КОСМЕТИЧЕСКИЕ УСЛУГИ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
+        { id: "3", name: 'СПОРТ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
+        { id: "4", name: 'ДРУГОЕ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] }
     ],
     Travel = [
-        { id: "1", name: 'ПРИРОДА' },
-        { id: "2", name: 'ЕДА' },
-        { id: "3", name: 'РАЗВЛЕЧЕНИЯ' },
-        { id: "4", name: 'ДРУГОЕ' }
+        { id: "1", name: 'ПРИРОДА', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
+        { id: "2", name: 'ЕДА', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
+        { id: "3", name: 'РАЗВЛЕЧЕНИЯ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
+        { id: "4", name: 'ДРУГОЕ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] }
     ],
     Other = [
-        { id: "1", name: 'ИСКУССТВО' },
-        { id: "2", name: 'ТЕХНИКА' },
-        { id: "3", name: 'ФИНАНСЫ' },
-        { id: "4", name: 'ДРУГОЕ' }
+        { id: "1", name: 'ИСКУССТВО', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
+        { id: "2", name: 'ТЕХНИКА', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
+        { id: "3", name: 'ФИНАНСЫ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] },
+        { id: "4", name: 'ДРУГОЕ', coast : [{name: "шпатлёвка под обои", pay: "3"}, {name: "шпатлёвка под покраску", pay: "6"}, {name: "штукатурка по маякам", pay: "4"}] }
     ]
 
 ];
@@ -143,49 +144,37 @@ const addMarkers = () => {
 addMarkers();
 
 
+const changeSubClass = (num, link) => {
+    cost.innerHTML = "";
+    console.log(link)
+    cost.classList.add("active")
+    let tableCost = pagesContent[num][link].coast.map(el => `<tr class="row"><td class="column1">${el.name}</td><td class="column2">${el.pay}</td></tr>`)
+    for (price of tableCost) {
+        console.log(price)
+        cost.innerHTML += price;
+    };
+}
 
-const changePage = (num) => {
+const changePage = (numb) => {
+    
     header__subtitle.classList.add("active")
+    let num = numb - 1;
     let n = 0;
     for (page of sub__link) {
-        page.innerHTML = pagesContent[num - 1][n].name;
+        page.innerHTML = pagesContent[num][n].name;
         n++;
     }
-
-}
-const changeSubClass = (el) => {
-    let num = el.target.id
     for (link of sub__link) {
-        link.classList.remove("active")
-    }
-    sub__link[num].classList.add("active")
-}
-for (link of sub__link) {
-    link.addEventListener('click', link => changeSubClass(link))
-};
-const moreInfo = (pag, sun) => {
-    console.log(pag)
-    console.log(sun)
-    let obj = coordinates[pag].filter(el => el.id == sun)[0]
-    console.log(obj)
-    let n = 0;
-    let photos = obj.photos
-    person__data[0].innerHTML = obj.name;
-    person__data[1].innerHTML = obj.text
-    person__data[2].innerHTML = obj.tel;
-    person__data[2].href = `tel:${obj.tel}`;
-    person.classList.add('active')
-    console.log(object__photo)
-    for (photo of object__photo) {
-        console.log(photo.src)
-        photo.src = photos[n];
-        n++
+        link.addEventListener('click', link => changeSubClass(num, link.target.id))
     };
-    person.classList.add('active')
-}
+}  
+
+
+
 
 const changeClass = (el) => {
     markerGroup.clearLayers()
+    cost.classList.remove("active")
     let num = el.target.id
     if (num == 0) {
         header__subtitle.classList.remove("active")
@@ -218,14 +207,7 @@ const changeClass = (el) => {
     }
     console.log(markerGroup)
 }
-var _bindPopupClick = function (e) {
-    let sun = e.popup._wrapper.children[0].children[0].id;
-    let pag = e.popup._wrapper.children[0].children[0].className;
-    if (e.popup) {
-        e.popup._wrapper.addEventListener('click', moreInfo(pag, sun));
-    }
-}
-map.on('popupopen', _bindPopupClick)
+
 for (link of header__links) {
     link.addEventListener('click', link => changeClass(link))
 }
