@@ -737,6 +737,10 @@ body .main__container .container .prices .categories .category {
   padding: 3px;
 }
 
+body .main__container .container .prices .categories .category:hover {
+  cursor: pointer;
+}
+
 body .main__container .container .prices .cost {
   margin: 25px auto;
   display: none;

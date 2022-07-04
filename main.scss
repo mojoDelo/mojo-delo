@@ -646,6 +646,9 @@ body {
                 background-color: $active-color;
                 border-radius: 100px;
                 padding: 3px;
+                &:hover {
+                  cursor: pointer;                  
+                }
             }
         }
         .cost {
