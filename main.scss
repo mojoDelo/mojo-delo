@@ -631,10 +631,11 @@ body {
         margin: 40px 0;
         padding: 0 5px;
         justify-content: space-around;
+        margin: 25px auto;
+
         .categories{
-            margin: 25px auto;
+            
             display: none;
-            width: 30%;
             &.active {            
                 display: flex;
                 flex-direction: column;
@@ -644,16 +645,15 @@ body {
             .category {
                 background-color: $active-color;
                 border-radius: 100px;
+                padding: 3px;
             }
         }
         .cost {
           margin: 25px auto;
           display: none;        
 
-          &.active {
-            
+          &.active {            
             display: block;
-            max-width: 520px;
             .column1 {
               border: 1px solid black;
               font-family: "Mulish", sans-serif;

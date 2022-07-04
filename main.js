@@ -311,6 +311,7 @@ const pagesContent = [
       categories: [
         {
           name: "электромонтаж",
+          color: "blue",
           coast: [
             { name: "точка", pay: "12" },
             { name: "расп. коробка", pay: "10" },
