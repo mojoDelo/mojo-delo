@@ -70,12 +70,33 @@ const coordinates = [
         ],
         img: "img/img/gomel.jpg",
         text: "отделочные работы",
-      },
+      }
     ]),
-    (special = []),
+    (special = [
+      {
+        id: "19",
+        name: "Сергей",
+        tel: "+375(25)655-62-12",
+        icon: { icon: blueIcon },
+        cord: [52.435618, 31.006265],
+        photos: [
+          "img/build/special/electric/sergey/1.jpg",
+          "img/build/special/electric/sergey/2.jpg",
+          "img/build/special/electric/sergey/3.jpg",
+          "img/build/special/electric/sergey/4.jpg",
+          "img/build/special/electric/sergey/5.jpg",
+          "img/build/special/electric/sergey/6.jpg",
+          "img/build/special/electric/sergey/7.jpg",
+          "img/build/special/electric/sergey/8.jpg",
+          "img/build/special/electric/sergey/9.jpg",
+        ],
+        img: "img/img/gomel.jpg",
+        text: "электромонтаж",
+      }
+    ]),
     (general = [
       {
-        id: "32",
+        id: "52",
         name: "Евгений Л.Н.",
         tel: "+375(29)363-28-30 ",
         icon: { icon: greenIcon },
@@ -289,11 +310,11 @@ const pagesContent = [
       name: "СПЕЦИАЛЬНЫЕ",
       categories: [
         {
-          name: "под ключ",
+          name: "электромонтаж",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "точка", pay: "12" },
+            { name: "расп. коробка", pay: "10" },
+            { name: "точка чистовая", pay: "5" },
           ],
         },
       ],
