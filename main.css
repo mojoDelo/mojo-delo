@@ -11,24 +11,24 @@
 
 h1 {
   margin: 0;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-size: 32px;
   line-height: 35.2px;
   letter-spacing: 6%;
-  color: #F1CDB3;
+  color: #f1cdb3;
 }
 
 h2 {
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 22px;
 }
 
 h3 {
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 0.06em;
@@ -36,7 +36,7 @@ h3 {
 
 h4 {
   margin: 0;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
@@ -47,7 +47,7 @@ h4 {
 
 h5 {
   margin: 0;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 16.5px;
@@ -69,7 +69,7 @@ body .main__container {
   width: 100%;
   height: 100%;
   max-width: 1280px;
-  background-color: #FDDCC4;
+  background-color: #fddcc4;
   padding: 40px;
 }
 
@@ -90,7 +90,7 @@ body .main__container .container {
   width: 100%;
   max-width: 1200px;
   height: 100%;
-  background-color: #FDDCC4;
+  background-color: #fddcc4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,7 +110,7 @@ body .main__container .container {
 }
 
 body .main__container .container .header {
-  background-color: #F1CDB3;
+  background-color: #f1cdb3;
   width: 100%;
   height: 100px;
   position: -webkit-sticky;
@@ -209,7 +209,7 @@ body .main__container .container .header .header__burger {
     transition: all 0.3s ease 0s;
   }
   body .main__container .container .header .header__burger:before, body .main__container .container .header .header__burger:after {
-    content: '';
+    content: "";
     margin-right: 13px;
     background-color: #545454;
     position: absolute;
@@ -259,7 +259,7 @@ body .main__container .container .header .header__nav {
 body .main__container .container .header .header__nav .header__title {
   width: 100%;
   height: 60%;
-  background-color: #F1CDB3;
+  background-color: #f1cdb3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -367,6 +367,7 @@ body .main__container .container .header .header__nav .header__subtitle.active {
 body .main__container .container .header .header__nav .header__subtitle .sub__link {
   padding: 2px;
   opacity: 0.6;
+  color: #fddcc4;
 }
 
 @media screen and (max-width: 1030px) {
@@ -386,20 +387,8 @@ body .main__container .container .header .header__nav .header__subtitle .sub__li
   opacity: 1;
 }
 
-body .main__container .container .header .header__nav .header__subtitle .sub__link.blu {
-  color: #2A81CB;
-}
-
-body .main__container .container .header .header__nav .header__subtitle .sub__link.gr {
-  color: #2AAD27;
-}
-
-body .main__container .container .header .header__nav .header__subtitle .sub__link.gol {
-  color: #FFD326;
-}
-
-body .main__container .container .header .header__nav .header__subtitle .sub__link.r {
-  color: #CB2B3E;
+body .main__container .container .header .header__nav .header__subtitle .sub__link.active {
+  opacity: 1;
 }
 
 body .main__container .container .mainPages {
@@ -427,7 +416,7 @@ body .main__container .container .mainPages.active {
 }
 
 body .main__container .container .mainPages .intro__titles {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 35px;
   line-height: 1.1;
   text-align: center;
@@ -445,7 +434,7 @@ body .main__container .container .mainPages .intro__titles {
 body .main__container .container .mainPages .intro__subtitles {
   width: 70%;
   text-align: center;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   font-size: 28px;
   color: #000000;
   font-weight: 700;
@@ -470,12 +459,12 @@ body .main__container .container .mainPages .icon {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   gap: 8%;
-  background-color: #F1CDB3;
+  background-color: #f1cdb3;
   opacity: 0.7;
 }
 
@@ -514,7 +503,7 @@ body .main__container .container .mainPages .icon .icon__inner.active {
 body .main__container .container .mainPages .icon .icon__info {
   border-radius: 680px;
   background-color: #63372f;
-  color: #FDDCC4;
+  color: #fddcc4;
   padding: 10px;
   margin-right: 10px;
   text-align: center;
@@ -596,7 +585,7 @@ body .main__container .container .person .person__info {
   padding: 15px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: #F1CDB3;
+  background-color: #f1cdb3;
   color: #545454;
 }
 
@@ -666,8 +655,8 @@ body .main__container .container .person .person__slider #btn-next {
   background-color: gray;
   opacity: 0.4;
   cursor: pointer;
-  -webkit-transition: opacity .2s ease-in-out;
-  transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
 }
 
 body .main__container .container .person .person__slider #btn-prev:hover,
@@ -714,29 +703,62 @@ body .main__container .container .person span:last-child {
   margin-bottom: 20px;
 }
 
-body .main__container .container .cost {
+body .main__container .container .prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 40px 0;
+  padding: 0 5px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .main__container .container .prices .categories {
+  margin: 25px auto;
+  display: none;
+  width: 30%;
+}
+
+body .main__container .container .prices .categories.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  max-width: 520px;
+}
+
+body .main__container .container .prices .categories .category {
+  background-color: #63372f;
+  border-radius: 100px;
+}
+
+body .main__container .container .prices .cost {
   margin: 25px auto;
   display: none;
 }
 
-body .main__container .container .cost.active {
-  width: 100%;
+body .main__container .container .prices .cost.active {
   display: block;
   max-width: 520px;
 }
 
-body .main__container .container .cost.active .column1 {
+body .main__container .container .prices .cost.active .column1 {
   border: 1px solid black;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   padding: 3px;
-  width: 85%;
+  width: 80%;
 }
 
-body .main__container .container .cost.active .column2 {
+body .main__container .container .prices .cost.active .column2 {
   font-size: 16px;
   border: 1px solid black;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   padding: 3px;
-  width: 15%;
+  width: 20%;
 }
 /*# sourceMappingURL=main.css.map */

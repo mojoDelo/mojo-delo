@@ -3,10 +3,18 @@ const object__photo = document.getElementsByClassName('object__photo');
 const moreInfo = (pag, sun) => {
     console.log(pag)
     console.log(sun)
-    let obj = coordinates[pag].filter(el => el.id == sun)[0]
-    console.log(obj)
+    let obj = {};    
+    for (list of coordinates[pag]) {
+        for (lis of list) {
+            if(lis !== []) {
+                if(lis.id == sun) {
+                    obj = lis;
+                }
+            }
+        }
+    }
     let n = 0;
-    let photos = obj.photos
+    let photos = obj.photos;
     person__data[0].innerHTML = obj.name;
     person__data[1].innerHTML = obj.text
     person__data[2].innerHTML = obj.tel;
@@ -22,8 +30,10 @@ const moreInfo = (pag, sun) => {
 }
 
 var _bindPopupClick = function (e) {
+    console.log(e.popup._wrapper.children[0].children[0])
     let sun = e.popup._wrapper.children[0].children[0].id;
     let pag = e.popup._wrapper.children[0].children[0].className;
+
     if (e.popup) {
         e.popup._wrapper.addEventListener('click', moreInfo(pag, sun));
     }
