@@ -78,7 +78,7 @@ const coordinates = [
         name: "Сергей",
         tel: "+375(25)655-62-12",
         icon: { icon: blueIcon },
-        cord: [52.435618, 31.006265],
+        cord: [52.436143, 31.012995],
         photos: [
           "img/build/special/electric/sergey/1.jpg",
           "img/build/special/electric/sergey/2.jpg",
@@ -180,7 +180,28 @@ const coordinates = [
     ]),
   ]),
   (Car = [
-    (repair = []),
+    (repair = [
+      {
+        id: "51",
+        name: "М-ДРАЙВ",
+        tel: "+375 (29) 142-74-68",
+        icon: { icon: blueIcon },
+        cord: [52.446426, 30.954143],
+        photos: [
+          "img/auto/sto/m-drive/1.jpg",
+          "img/auto/sto/m-drive/2.jpg",
+          "img/auto/sto/m-drive/3.jpg",
+          "img/auto/sto/m-drive/4.jpg",
+          "img/auto/sto/m-drive/5.jpg",
+          "img/auto/sto/m-drive/6.jpg",
+          "img/auto/sto/m-drive/7.jpg",
+          "img/auto/sto/m-drive/8.jpg",
+          "img/auto/sto/m-drive/9.jpg",
+        ],
+        img: "img/img/gomel.jpg",
+        text: "СТО",
+      }
+    ]),
     (service = [
       {
         id: "41",
@@ -284,7 +305,7 @@ const coordinates = [
       },
     ]),
     (economic = []),
-    (otherr = []),
+    (handMade = []),
     (other = []),
   ]),
 ];
@@ -295,12 +316,12 @@ const pagesContent = [
       name: "ОТДЕЛОЧНЫЕ",
       categories: [
         {
-          name: "под ключ",
+          name: "отделочные",
           color: "blue",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "шпатлёвка под обои", pay: "8" },
+            { name: "шпатлёвка под покраску", pay: "15" },
+            { name: "штукатурка по маякам", pay: "10" },
           ],
         },
       ],
@@ -311,6 +332,7 @@ const pagesContent = [
       categories: [
         {
           name: "электромонтаж",
+          color: "blue",
           coast: [
             { name: "точка", pay: "12" },
             { name: "расп. коробка", pay: "10" },
@@ -347,9 +369,7 @@ const pagesContent = [
           name: "сварочные работы",
           color: "red",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "изделие", pay: "от 50р" }
           ],
         },
       ],
@@ -359,12 +379,11 @@ const pagesContent = [
       name: "ДРУГОЕ",
       categories: [
         {
-          name: "под ключ",
+          name: "аренда",
           color: "red",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "болгарка", pay: "от 9" },
+            { name: "перфоратор", pay: "от 15" }
           ],
         },
       ],
@@ -376,11 +395,19 @@ const pagesContent = [
       name: "РЕМОНТ",
       categories: [
         {
-          name: "под ключ",
+          name: "подвеска +",
+          color: "blue",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "ТОРМОЗНАЯ СИСТЕМА", pay: "" },
+            { name: "Замена тормозных дисков", pay: "от 30р" },
+            { name: "Замена тормозной жидкости", pay: "от 25р" },
+            { name: "Диагностика тормозной системы", pay: "от 15р" },
+            { name: "Замена передних тормозных колодок", pay: "от 20р" },
+            { name: "Замена задних тормозных колодок", pay: "от 25р" },
+            { name: "Регулировка ручного тормоза", pay: "от 40р" },
+            { name: "Регулировка ручного тормоза", pay: "от 40р" },
+            { name: "Регулировка ручного тормоза", pay: "от 40р" },
+            { name: "Регулировка ручного тормоза", pay: "от 40р" },
           ],
         },
       ],
@@ -390,13 +417,23 @@ const pagesContent = [
       name: "ОБСЛУЖИВАНИЕ",
       categories: [
         {
-          name: "под ключ",
+          name: "шиномонтаж",
+          color: "green",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "сняти - установка колеса", pay: "4р" }
           ],
         },
+        {
+          name: "Тех. обслуживание",
+          color: "blue",
+          coast: [
+            { name: "Замена салонного фильтра", pay: "10р" },
+            { name: "Замена воздушного фильтра", pay: "15р" },
+            { name: "Замена антифриза", pay: "от 35р" },
+            { name: "Замена масла в двигателе", pay: "от 15р" },
+            { name: "Замена топливного фильтра", pay: "от 10р" },
+          ],
+        }
       ],
     },
     {
@@ -405,6 +442,7 @@ const pagesContent = [
       categories: [
         {
           name: "под ключ",
+          color: "blue",
           coast: [
             { name: "шпатлёвка под обои", pay: "3" },
             { name: "шпатлёвка под покраску", pay: "6" },
@@ -419,6 +457,7 @@ const pagesContent = [
       categories: [
         {
           name: "под ключ",
+          color: "blue",
           coast: [
             { name: "шпатлёвка под обои", pay: "3" },
             { name: "шпатлёвка под покраску", pay: "6" },
@@ -435,6 +474,7 @@ const pagesContent = [
       categories: [
         {
           name: "под ключ",
+          color: "green",
           coast: [
             { name: "шпатлёвка под обои", pay: "3" },
             { name: "шпатлёвка под покраску", pay: "6" },
@@ -448,11 +488,11 @@ const pagesContent = [
       name: "КОСМЕТ. УСЛУГИ",
       categories: [
         {
-          name: "под ключ",
+          name: "ресницы брови",
+          color: "green",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "наращивание ресниц", pay: "от 25р." },
+            { name: "брови", pay: "от 20р" }
           ],
         },
       ],
@@ -463,6 +503,7 @@ const pagesContent = [
       categories: [
         {
           name: "под ключ",
+          color: "green",
           coast: [
             { name: "шпатлёвка под обои", pay: "3" },
             { name: "шпатлёвка под покраску", pay: "6" },
@@ -477,6 +518,7 @@ const pagesContent = [
       categories: [
         {
           name: "под ключ",
+          color: "green",
           coast: [
             { name: "шпатлёвка под обои", pay: "3" },
             { name: "шпатлёвка под покраску", pay: "6" },
@@ -493,6 +535,7 @@ const pagesContent = [
       categories: [
         {
           name: "под ключ",
+          color: "green",
           coast: [
             { name: "шпатлёвка под обои", pay: "3" },
             { name: "шпатлёвка под покраску", pay: "6" },
@@ -506,11 +549,12 @@ const pagesContent = [
       name: "ИСКУССТВО",
       categories: [
         {
-          name: "под ключ",
+          name: "Арт салон",
+          color: "green",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "кофе", pay: "3р" },
+            { name: "кино", pay: "0р" },
+            { name: "хорошее настроение", pay: "0р" },
           ],
         },
       ],
@@ -521,6 +565,7 @@ const pagesContent = [
       categories: [
         {
           name: "под ключ",
+          color: "green",
           coast: [
             { name: "шпатлёвка под обои", pay: "3" },
             { name: "шпатлёвка под покраску", pay: "6" },
@@ -535,6 +580,7 @@ const pagesContent = [
       categories: [
         {
           name: "под ключ",
+          color: "green",
           coast: [
             { name: "шпатлёвка под обои", pay: "3" },
             { name: "шпатлёвка под покраску", pay: "6" },
@@ -547,24 +593,26 @@ const pagesContent = [
   (Other = [
     {
       id: "1",
-      name: "ИСКУССТВО",
+      name: "ТЕХНИКА",
       categories: [
         {
-          name: "под ключ",
+          name: "ремонт техники",
+          color: "green",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "чистка ноутбуков", pay: "от 30р" },
+            { name: "диагностика", pay: "0 р" },
+            { name: "заправка картр.", pay: "от 15р" },
           ],
         },
       ],
     },
     {
       id: "2",
-      name: "ТЕХНИКА",
+      name: "ЭКОНОМИКА",
       categories: [
         {
-          name: "под ключ",
+          name: "ремонт орг техники",
+          color: "green",
           coast: [
             { name: "шпатлёвка под обои", pay: "3" },
             { name: "шпатлёвка под покраску", pay: "6" },
@@ -575,7 +623,7 @@ const pagesContent = [
     },
     {
       id: "3",
-      name: "ФИНАНСЫ",
+      name: "ИЗДЕЛИЯ РУЧКАМИ",
       categories: [
         {
           name: "под ключ",
