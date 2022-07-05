@@ -180,7 +180,28 @@ const coordinates = [
     ]),
   ]),
   (Car = [
-    (repair = []),
+    (repair = [
+      {
+        id: "51",
+        name: "М-ДРАЙВ",
+        tel: "+375 (29) 142-74-68",
+        icon: { icon: blueIcon },
+        cord: [52.446426, 30.954143],
+        photos: [
+          "img/auto/sto/m-drive/1.jpg",
+          "img/auto/sto/m-drive/2.jpg",
+          "img/auto/sto/m-drive/3.jpg",
+          "img/auto/sto/m-drive/4.jpg",
+          "img/auto/sto/m-drive/5.jpg",
+          "img/auto/sto/m-drive/6.jpg",
+          "img/auto/sto/m-drive/7.jpg",
+          "img/auto/sto/m-drive/8.jpg",
+          "img/auto/sto/m-drive/9.jpg",
+        ],
+        img: "img/img/gomel.jpg",
+        text: "СТО",
+      }
+    ]),
     (service = [
       {
         id: "41",
@@ -284,7 +305,7 @@ const coordinates = [
       },
     ]),
     (economic = []),
-    (otherr = []),
+    (handMade = []),
     (other = []),
   ]),
 ];
@@ -295,7 +316,7 @@ const pagesContent = [
       name: "ОТДЕЛОЧНЫЕ",
       categories: [
         {
-          name: "под ключ",
+          name: "отделочные",
           color: "blue",
           coast: [
             { name: "шпатлёвка под обои", pay: "8" },
@@ -374,12 +395,19 @@ const pagesContent = [
       name: "РЕМОНТ",
       categories: [
         {
-          name: "под ключ",
+          name: "подвеска +",
           color: "blue",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "ТОРМОЗНАЯ СИСТЕМА", pay: "" },
+            { name: "Замена тормозных дисков", pay: "от 30р" },
+            { name: "Замена тормозной жидкости", pay: "от 25р" },
+            { name: "Диагностика тормозной системы", pay: "от 15р" },
+            { name: "Замена передних тормозных колодок", pay: "от 20р" },
+            { name: "Замена задних тормозных колодок", pay: "от 25р" },
+            { name: "Регулировка ручного тормоза", pay: "от 40р" },
+            { name: "Регулировка ручного тормоза", pay: "от 40р" },
+            { name: "Регулировка ручного тормоза", pay: "от 40р" },
+            { name: "Регулировка ручного тормоза", pay: "от 40р" },
           ],
         },
       ],
@@ -395,6 +423,17 @@ const pagesContent = [
             { name: "сняти - установка колеса", pay: "4р" }
           ],
         },
+        {
+          name: "Тех. обслуживание",
+          color: "blue",
+          coast: [
+            { name: "Замена салонного фильтра", pay: "10р" },
+            { name: "Замена воздушного фильтра", pay: "15р" },
+            { name: "Замена антифриза", pay: "от 35р" },
+            { name: "Замена масла в двигателе", pay: "от 15р" },
+            { name: "Замена топливного фильтра", pay: "от 10р" },
+          ],
+        }
       ],
     },
     {
@@ -569,7 +608,7 @@ const pagesContent = [
     },
     {
       id: "2",
-      name: "ИСКУССТВО",
+      name: "ЭКОНОМИКА",
       categories: [
         {
           name: "ремонт орг техники",
@@ -584,7 +623,7 @@ const pagesContent = [
     },
     {
       id: "3",
-      name: "ФИНАНСЫ",
+      name: "ИЗДЕЛИЯ РУЧКАМИ",
       categories: [
         {
           name: "под ключ",
