@@ -326,7 +326,28 @@ const coordinates = [
       },
     ]),
     (economic = []),
-    (handMade = []),
+    (handMade = [
+      {
+        id: "4",
+        name: "Евгения",
+        tel: "+375 (29) 839-57-56",
+        icon: { icon: redIcon },
+        cord: [52.426867, 30.965291],
+        photos: [
+          "img/other/handMade/soap/jenn/1.jpg",
+          "img/other/handMade/soap/jenn/2.jpg",
+          "img/other/handMade/soap/jenn/3.jpg",
+          "img/other/handMade/soap/jenn/4.jpg",
+          "img/other/handMade/soap/jenn/5.jpg",
+          "img/other/handMade/soap/jenn/6.jpg",
+          "img/other/handMade/soap/jenn/7.jpg",
+          "img/other/handMade/soap/jenn/8.jpg",
+          "img/other/handMade/soap/jenn/9.jpg",
+        ],
+        img: "img/img/gomel.jpg",
+        text: "Мыло ручной работы",
+      }
+    ]),
     (other = []),
   ]),
 ];
@@ -513,7 +534,8 @@ const pagesContent = [
           color: "green",
           coast: [
             { name: "наращивание ресниц", pay: "от 25р." },
-            { name: "брови", pay: "от 20р" }
+            { name: "брови", pay: "от 20р" },
+
           ],
         },
       ],
@@ -647,13 +669,12 @@ const pagesContent = [
     {
       id: "3",
       name: "ИЗДЕЛИЯ РУЧКАМИ",
+      color: "red",
       categories: [
         {
-          name: "под ключ",
+          name: "Мыло ручной работы",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "Мыло ручной работы", pay: "от 10р." }
           ],
         },
       ],
