@@ -255,7 +255,28 @@ const coordinates = [
     (other = []),
   ]),
   (Leisure = [
-    (nature = []),
+    (nature = [
+      {
+        id: "72",
+        name: "конный манеж",
+        tel: "8 0232 60-99-14",
+        icon: { icon: goldIcon },
+        cord: [52.468915, 31.000178],
+        photos: [
+          "img/leisure/nature/horses/gomel/1.jpg",
+          "img/leisure/nature/horses/gomel/2.jpg",
+          "img/leisure/nature/horses/gomel/3.jpg",
+          "img/leisure/nature/horses/gomel/4.jpg",
+          "img/leisure/nature/horses/gomel/5.jpg",
+          "img/leisure/nature/horses/gomel/6.jpg",
+          "img/leisure/nature/horses/gomel/7.jpg",
+          "img/leisure/nature/horses/gomel/8.jpg",
+          "img/leisure/nature/horses/gomel/9.jpg",
+        ],
+        img: "img/img/gomel.jpg",
+        text: "конные прогулки"
+      }
+    ]),
     (art = []),
     (fun = [
       {
@@ -534,12 +555,14 @@ const pagesContent = [
       name: "ПРИРОДА",
       categories: [
         {
-          name: "под ключ",
-          color: "green",
+          name: "конные прогулки",
+          color: "gold",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "с сопровождением (5 минут)", pay: "5р" },
+            { name: "с сопровождением (2 минуты)", pay: "3р" },
+            { name: "фото- или видеосъёмок (до 30 мин)", pay: "22р" },
+            { name: "фото- или видеосъёмок (до 10 мин)", pay: "9р" },
+            { name: "Стрельба из лука (6 выстрелов) (дети)", pay: "2р" }
           ],
         },
       ],
