@@ -532,6 +532,7 @@ body .main__container .container #map {
 
 body .main__container .container #map section {
   width: 100%;
+  max-width: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -546,12 +547,6 @@ body .main__container .container #map section {
       -ms-flex-align: center;
           align-items: center;
   background-color: #ece7e2;
-}
-
-@media screen and (max-width: 530px) {
-  body .main__container .container #map section {
-    max-height: 160px;
-  }
 }
 
 body .main__container .container #map section .pop__into {

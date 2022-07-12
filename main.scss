@@ -493,17 +493,17 @@ body {
 
         section {
           width: 100%;
+          max-width: 150px;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
 
-          @media screen and (max-width: 530px) {
-            max-height: 160px;
-          }
+          // @media screen and (max-width: 530px) {
+          //   max-height: 160px;
+          // }
 
           background-color: #ece7e2;
-
           .pop__into {
             margin: 0;
             font-weight: 800;
