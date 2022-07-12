@@ -52,7 +52,7 @@ const coordinates = [
   (Build = [
     (finishing = [
       {
-        id: "19",
+        id: "191",
         name: "Александр",
         tel: "+375(29)106-26-19",
         icon: { icon: blueIcon },
@@ -348,7 +348,28 @@ const coordinates = [
         text: "Мыло ручной работы",
       }
     ]),
-    (other = []),
+    (other = [
+      {
+        id: "49",
+        name: "3 кота",
+        tel: "+375(29)533-51-60",
+        icon: { icon: greenIcon },
+        cord: [52.519045, 30.933165],
+        photos: [
+          "img/other/other/pets/eremino/1.jpg",
+          "img/other/other/pets/eremino/2.jpg",
+          "img/other/other/pets/eremino/3.jpg",
+          "img/other/other/pets/eremino/4.jpg",
+          "img/other/other/pets/eremino/5.jpg",
+          "img/other/other/pets/eremino/6.jpg",
+          "img/other/other/pets/eremino/7.jpg",
+          "img/other/other/pets/eremino/8.jpg",
+          "img/other/other/pets/eremino/9.jpg",
+        ],
+        img: "img/img/gomel.jpg",
+        text: "ГОСТИНИЦА, СТРИЖКА для кошек и собак",
+      } 
+    ]),
   ]),
 ];
 const pagesContent = [
@@ -684,11 +705,9 @@ const pagesContent = [
       name: "ДРУГОЕ",
       categories: [
         {
-          name: "под ключ",
+          name: "домашние питомцы",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "стрижка", pay: "от 30р" }
           ],
         },
       ],
