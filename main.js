@@ -346,6 +346,26 @@ const coordinates = [
         ],
         img: "img/img/gomel.jpg",
         text: "Мыло ручной работы",
+      },
+      {
+        id: "104",
+        name: "Евгения",
+        tel: "+375 (44) 561-63-25",
+        icon: { icon: blueIcon },
+        cord: [52.454815, 30.977372],
+        photos: [
+          "img/other/handMade/decore/flowers/1.jpg",
+          "img/other/handMade/decore/flowers/2.jpg",
+          "img/other/handMade/decore/flowers/3.jpg",
+          "img/other/handMade/decore/flowers/4.jpg",
+          "img/other/handMade/decore/flowers/5.jpg",
+          "img/other/handMade/decore/flowers/6.jpg",
+          "img/other/handMade/decore/flowers/7.jpg",
+          "img/other/handMade/decore/flowers/8.jpg",
+          "img/other/handMade/decore/flowers/9.jpg",
+        ],
+        img: "img/img/gomel.jpg",
+        text: "Декор",
       }
     ]),
     (other = [
@@ -690,12 +710,19 @@ const pagesContent = [
     {
       id: "3",
       name: "ИЗДЕЛИЯ РУЧКАМИ",
-      color: "red",
       categories: [
         {
           name: "Мыло ручной работы",
+          color: "red",
           coast: [
             { name: "Мыло ручной работы", pay: "от 10р." }
+          ],
+        },
+        {
+          name: "Декор",
+          color: "blue",
+          coast: [
+            { name: "букеты", pay: "от 15р." }
           ],
         },
       ],
