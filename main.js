@@ -92,6 +92,26 @@ const coordinates = [
         ],
         img: "img/img/gomel.jpg",
         text: "электромонтаж",
+      },
+      {
+        id: "86",
+        name: "Александр",
+        tel: "+375(29)364-69-25",
+        icon: { icon: goldIcon },
+        cord: [53.877950, 27.555663],
+        photos: [
+          "img/build/special/pechnik/minsk-aleksandr/1.jpg",
+          "img/build/special/pechnik/minsk-aleksandr/2.jpg",
+          "img/build/special/pechnik/minsk-aleksandr/3.jpg",
+          "img/build/special/pechnik/minsk-aleksandr/4.jpg",
+          "img/build/special/pechnik/minsk-aleksandr/5.jpg",
+          "img/build/special/pechnik/minsk-aleksandr/6.jpg",
+          "img/build/special/pechnik/minsk-aleksandr/7.jpg",
+          "img/build/special/pechnik/minsk-aleksandr/8.jpg",
+          "img/build/special/pechnik/minsk-aleksandr/9.jpg",
+        ],
+        img: "img/img/gomel.jpg",
+        text: "ремонт печей и каминов",
       }
     ]),
     (general = [
@@ -155,6 +175,26 @@ const coordinates = [
         img: "img/img/gomel.jpg",
         text: "демонтаж, электромонтаж",
       },
+      {
+        id: "162",
+        name: "Александр",
+        tel: "+375(33)6020498",
+        icon: { icon: goldIcon },
+        cord: [53.072710, 30.045182],
+        photos: [
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/1.jpg",
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/2.jpg",
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/3.jpg",
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/4.jpg",
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/5.jpg",
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/6.jpg",
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/7.jpg",
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/8.jpg",
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/9.jpg",
+        ],
+        img: "img/img/gomel.jpg",
+        text: " Шлифовка, конопатка, покрытие пропиткой, гермитизация швов, cпил деревьев, уборка участка.",
+      }
     ]),
     (other = [
       {
@@ -422,6 +462,13 @@ const pagesContent = [
             { name: "точка чистовая", pay: "5" },
           ],
         },
+        {
+          name: "ремонт печей и каминов",
+          color: "gold",
+          coast: [
+            { name: "ремонт печи", pay: "от 50р" }
+          ],
+        }
       ],
     },
     {
@@ -453,8 +500,15 @@ const pagesContent = [
           color: "red",
           coast: [
             { name: "изделие", pay: "от 50р" }
-          ],
+          ],          
         },
+        {
+          name: "столярные",
+          color: "gold",
+          coast: [
+            { name: "изделие", pay: "от 50р" }
+          ],          
+        }
       ],
     },
     {
