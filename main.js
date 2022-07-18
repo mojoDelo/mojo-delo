@@ -52,7 +52,7 @@ const coordinates = [
   (Build = [
     (finishing = [
       {
-        id: "19",
+        id: "191",
         name: "Александр",
         tel: "+375(29)106-26-19",
         icon: { icon: blueIcon },
@@ -92,6 +92,26 @@ const coordinates = [
         ],
         img: "img/img/gomel.jpg",
         text: "электромонтаж",
+      },
+      {
+        id: "86",
+        name: "Александр",
+        tel: "+375(29)364-69-25",
+        icon: { icon: goldIcon },
+        cord: [53.877950, 27.555663],
+        photos: [
+          "img/build/special/pechnik/minsk-aleksandr/1.jpg",
+          "img/build/special/pechnik/minsk-aleksandr/2.jpg",
+          "img/build/special/pechnik/minsk-aleksandr/3.jpg",
+          "img/build/special/pechnik/minsk-aleksandr/4.jpg",
+          "img/build/special/pechnik/minsk-aleksandr/5.jpg",
+          "img/build/special/pechnik/minsk-aleksandr/6.jpg",
+          "img/build/special/pechnik/minsk-aleksandr/7.jpg",
+          "img/build/special/pechnik/minsk-aleksandr/8.jpg",
+          "img/build/special/pechnik/minsk-aleksandr/9.jpg",
+        ],
+        img: "img/img/gomel.jpg",
+        text: "ремонт печей и каминов",
       }
     ]),
     (general = [
@@ -155,6 +175,26 @@ const coordinates = [
         img: "img/img/gomel.jpg",
         text: "демонтаж, электромонтаж",
       },
+      {
+        id: "162",
+        name: "Александр",
+        tel: "+375(33)6020498",
+        icon: { icon: goldIcon },
+        cord: [53.072710, 30.045182],
+        photos: [
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/1.jpg",
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/2.jpg",
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/3.jpg",
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/4.jpg",
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/5.jpg",
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/6.jpg",
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/7.jpg",
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/8.jpg",
+          "img/build/obshestroy/stolyarnie/srub-alex-rog/9.jpg",
+        ],
+        img: "img/img/gomel.jpg",
+        text: " Шлифовка, конопатка, покрытие пропиткой, гермитизация швов, cпил деревьев, уборка участка.",
+      }
     ]),
     (other = [
       {
@@ -346,9 +386,50 @@ const coordinates = [
         ],
         img: "img/img/gomel.jpg",
         text: "Мыло ручной работы",
+      },
+      {
+        id: "104",
+        name: "Евгения",
+        tel: "+375 (44) 561-63-25",
+        icon: { icon: blueIcon },
+        cord: [52.454815, 30.977372],
+        photos: [
+          "img/other/handMade/decore/flowers/1.jpg",
+          "img/other/handMade/decore/flowers/2.jpg",
+          "img/other/handMade/decore/flowers/3.jpg",
+          "img/other/handMade/decore/flowers/4.jpg",
+          "img/other/handMade/decore/flowers/5.jpg",
+          "img/other/handMade/decore/flowers/6.jpg",
+          "img/other/handMade/decore/flowers/7.jpg",
+          "img/other/handMade/decore/flowers/8.jpg",
+          "img/other/handMade/decore/flowers/9.jpg",
+        ],
+        img: "img/img/gomel.jpg",
+        text: "Декор",
       }
     ]),
-    (other = []),
+    (other = [
+      {
+        id: "49",
+        name: "3 кота",
+        tel: "+375(29)533-51-60",
+        icon: { icon: greenIcon },
+        cord: [52.519045, 30.933165],
+        photos: [
+          "img/other/other/pets/eremino/1.jpg",
+          "img/other/other/pets/eremino/2.jpg",
+          "img/other/other/pets/eremino/3.jpg",
+          "img/other/other/pets/eremino/4.jpg",
+          "img/other/other/pets/eremino/5.jpg",
+          "img/other/other/pets/eremino/6.jpg",
+          "img/other/other/pets/eremino/7.jpg",
+          "img/other/other/pets/eremino/8.jpg",
+          "img/other/other/pets/eremino/9.jpg",
+        ],
+        img: "img/img/gomel.jpg",
+        text: "ГОСТИНИЦА, СТРИЖКА для кошек и собак",
+      } 
+    ]),
   ]),
 ];
 const pagesContent = [
@@ -381,6 +462,13 @@ const pagesContent = [
             { name: "точка чистовая", pay: "5" },
           ],
         },
+        {
+          name: "ремонт печей и каминов",
+          color: "gold",
+          coast: [
+            { name: "ремонт печи", pay: "от 50р" }
+          ],
+        }
       ],
     },
     {
@@ -412,8 +500,15 @@ const pagesContent = [
           color: "red",
           coast: [
             { name: "изделие", pay: "от 50р" }
-          ],
+          ],          
         },
+        {
+          name: "столярные",
+          color: "gold",
+          coast: [
+            { name: "изделие", pay: "от 50р" }
+          ],          
+        }
       ],
     },
     {
@@ -669,12 +764,19 @@ const pagesContent = [
     {
       id: "3",
       name: "ИЗДЕЛИЯ РУЧКАМИ",
-      color: "red",
       categories: [
         {
           name: "Мыло ручной работы",
+          color: "red",
           coast: [
             { name: "Мыло ручной работы", pay: "от 10р." }
+          ],
+        },
+        {
+          name: "Декор",
+          color: "blue",
+          coast: [
+            { name: "букеты", pay: "от 15р." }
           ],
         },
       ],
@@ -684,21 +786,19 @@ const pagesContent = [
       name: "ДРУГОЕ",
       categories: [
         {
-          name: "под ключ",
+          name: "домашние питомцы",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "стрижка", pay: "от 30р" }
           ],
         },
       ],
     },
   ]),
 ];
+// 52.4345, 30.9754
+const center = [53.899994, 27.558725];
 
-const center = [52.4345, 30.9754];
-
-const map = L.map("map").setView(center, 11);
+const map = L.map("map").setView(center, 6);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   minZoom: 6,
   maxZoom: 17,
