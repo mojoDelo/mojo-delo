@@ -482,6 +482,24 @@ body {
         }
       }
 
+      #oblasts {
+        margin: 0 auto;
+        width: 280px;
+        margin-bottom: 10px;
+        height: 30px;
+      }
+      #cities {
+        display: none;
+        height: 20px;
+        &.active{
+          display: block;
+          margin: 0 auto;
+          height: 30px;
+          width: 280px;  
+          margin-bottom: 30px;        
+        }        
+      }
+
       #map {
         width: 90%;
         height: 600px;

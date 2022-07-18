@@ -518,6 +518,26 @@ body .main__container .container .mainPages .icon .icon__info:hover {
   background: #3b1f0b;
 }
 
+body .main__container .container #oblasts {
+  margin: 0 auto;
+  width: 280px;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+body .main__container .container #cities {
+  display: none;
+  height: 20px;
+}
+
+body .main__container .container #cities.active {
+  display: block;
+  margin: 0 auto;
+  height: 30px;
+  width: 280px;
+  margin-bottom: 30px;
+}
+
 body .main__container .container #map {
   width: 90%;
   height: 600px;
