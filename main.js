@@ -494,8 +494,7 @@ const coordinates = [
         text: "конные прогулки"
       }
     ]),
-    (art = []),
-    (fun = [
+    (art = [
       {
         id: "46",
         name: "Чаша Мира",
@@ -515,6 +514,28 @@ const coordinates = [
         ],
         img: "img/img/gomel.jpg",
         text: "Арт-Салон",
+      }
+    ]),
+    (fun = [
+      {
+        id: "146",
+        name: "лазертаг, квест, икс-бокс",
+        tel: "+375 (29) 116-17-52",
+        icon: { icon: redIcon },
+        cord: [52.412973, 30.953246],
+        photos: [
+          "img/leisure/fun/lasertag/gomel/1.jpg",
+          "img/leisure/fun/lasertag/gomel/2.jpg",
+          "img/leisure/fun/lasertag/gomel/3.jpg",
+          "img/leisure/fun/lasertag/gomel/4.jpg",
+          "img/leisure/fun/lasertag/gomel/5.jpg",
+          "img/leisure/fun/lasertag/gomel/6.jpg",
+          "img/leisure/fun/lasertag/gomel/7.jpg",
+          "img/leisure/fun/lasertag/gomel/8.jpg",
+          "img/leisure/fun/lasertag/gomel/9.jpg",
+        ],
+        img: "img/img/gomel.jpg",
+        text: "лазертаг, квест, икс-бокс",
       },
     ]),
     (other = []),
@@ -877,17 +898,16 @@ const pagesContent = [
       ],
     },
     {
-      id: "2",
+      id: "3",
       name: "РАЗВЛЕЧЕНИЯ",
       categories: [
         {
-          name: "Арт салон",
-          color: "green",
+          name: "лазертаг, квест, икс-бокс",
+          color: "red",
           coast: [
-            { name: "кофе", pay: "3р" },
-            { name: "кино", pay: "0р" },
-            { name: "хорошее настроение", pay: "0р" },
-          ],
+            { name: "лазертаг будни", pay: "13р./чел." },
+            { name: "лазертаг вых.", pay: "15р./чел." }
+          ]
         },
       ],
     },
