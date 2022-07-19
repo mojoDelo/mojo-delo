@@ -518,6 +518,26 @@ body .main__container .container .mainPages .icon .icon__info:hover {
   background: #3b1f0b;
 }
 
+body .main__container .container #oblasts {
+  margin: 0 auto;
+  width: 280px;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+body .main__container .container #cities {
+  display: none;
+  height: 20px;
+}
+
+body .main__container .container #cities.active {
+  display: block;
+  margin: 0 auto;
+  height: 30px;
+  width: 280px;
+  margin-bottom: 30px;
+}
+
 body .main__container .container #map {
   width: 90%;
   height: 600px;
@@ -532,6 +552,7 @@ body .main__container .container #map {
 
 body .main__container .container #map section {
   width: 100%;
+  max-width: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -546,12 +567,6 @@ body .main__container .container #map section {
       -ms-flex-align: center;
           align-items: center;
   background-color: #ece7e2;
-}
-
-@media screen and (max-width: 530px) {
-  body .main__container .container #map section {
-    max-height: 160px;
-  }
 }
 
 body .main__container .container #map section .pop__into {
