@@ -245,7 +245,6 @@ const coordinates = [
           "img/build/otdelka/aleksandr/8.jpg",
           "img/build/otdelka/aleksandr/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "отделочные работы",
       }
     ]),
@@ -267,7 +266,6 @@ const coordinates = [
           "img/build/special/electric/sergey/8.jpg",
           "img/build/special/electric/sergey/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "электромонтаж",
       },
       {
@@ -287,7 +285,6 @@ const coordinates = [
           "img/build/special/pechnik/minsk-aleksandr/8.jpg",
           "img/build/special/pechnik/minsk-aleksandr/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "ремонт печей и каминов",
       }
     ]),
@@ -309,7 +306,6 @@ const coordinates = [
           "img/build/obshestroy/montazh/belitsa/8.jpg",
           "img/build/obshestroy/montazh/belitsa/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "сайдинг, кровля, заборы",
       },
       {
@@ -329,7 +325,6 @@ const coordinates = [
           "img/build/obshestroy/svarka/Yura/8.jpg",
           "img/build/obshestroy/svarka/Yura/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "изделия из металла",
       },
       {
@@ -349,7 +344,6 @@ const coordinates = [
           "img/build/obshestroy/demont/Shinkevich/8.jpg",
           "img/build/obshestroy/demont/Shinkevich/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "демонтаж, электромонтаж",
       },
       {
@@ -369,8 +363,26 @@ const coordinates = [
           "img/build/obshestroy/stolyarnie/srub-alex-rog/8.jpg",
           "img/build/obshestroy/stolyarnie/srub-alex-rog/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: " Шлифовка, конопатка, покрытие пропиткой, гермитизация швов, cпил деревьев, уборка участка.",
+      },
+      {
+        id: "132",
+        name: "Дмитрий",
+        tel: "+375(25)629-78-55",
+        icon: { icon: goldIcon },
+        cord: [52.413031, 31.323378],
+        photos: [
+          "img/build/obshestroy/stolyarnie/wood-dobrush/1.jpg",
+          "img/build/obshestroy/stolyarnie/wood-dobrush/2.jpg",
+          "img/build/obshestroy/stolyarnie/wood-dobrush/3.jpg",
+          "img/build/obshestroy/stolyarnie/wood-dobrush/4.jpg",
+          "img/build/obshestroy/stolyarnie/wood-dobrush/5.jpg",
+          "img/build/obshestroy/stolyarnie/wood-dobrush/6.jpg",
+          "img/build/obshestroy/stolyarnie/wood-dobrush/7.jpg",
+          "img/build/obshestroy/stolyarnie/wood-dobrush/8.jpg",
+          "img/build/obshestroy/stolyarnie/wood-dobrush/9.jpg",
+        ],
+        text: "деревянные конструкции, кровельные работы",
       }
     ]),
     (other = [
@@ -391,7 +403,6 @@ const coordinates = [
           "img/arenda/belitsa/arenda.jpg",
           "img/arenda/belitsa/arendaa.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "аренда эл. инструмента, сад. техники",
       },
     ]),
@@ -415,7 +426,6 @@ const coordinates = [
           "img/auto/sto/m-drive/8.jpg",
           "img/auto/sto/m-drive/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "СТО",
       }
     ]),
@@ -437,7 +447,6 @@ const coordinates = [
           "img/auto/shinomontaz/18/8.jpg",
           "img/auto/shinomontaz/18/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "шиномонтаж",
       },
     ]),
@@ -464,7 +473,6 @@ const coordinates = [
           "img/beauty/resnizi/snega/8.jpg",
           "img/beauty/resnizi/snega/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "ресницы, брови",
       },
     ]),
@@ -490,8 +498,26 @@ const coordinates = [
           "img/leisure/nature/horses/gomel/8.jpg",
           "img/leisure/nature/horses/gomel/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "конные прогулки"
+      },
+      {
+        id: "172",
+        name: "Татьяна",
+        tel: "+375(33)321-06-60",
+        icon: { icon: goldIcon },
+        cord: [52.421589, 31.296086],
+        photos: [
+          "img/leisure/nature/horses/dobrush/1.jpg",
+          "img/leisure/nature/horses/dobrush/2.jpg",
+          "img/leisure/nature/horses/dobrush/3.jpg",
+          "img/leisure/nature/horses/dobrush/4.jpg",
+          "img/leisure/nature/horses/dobrush/5.jpg",
+          "img/leisure/nature/horses/dobrush/6.jpg",
+          "img/leisure/nature/horses/dobrush/7.jpg",
+          "img/leisure/nature/horses/dobrush/8.jpg",
+          "img/leisure/nature/horses/dobrush/9.jpg",
+        ],
+        text: "агроусадьба и конный двор"
       }
     ]),
     (art = [
@@ -512,7 +538,6 @@ const coordinates = [
           "img/leisure/art/CupOfPeace/8.jpg",
           "img/leisure/art/CupOfPeace/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "Арт-Салон",
       }
     ]),
@@ -534,7 +559,6 @@ const coordinates = [
           "img/leisure/fun/lasertag/gomel/8.jpg",
           "img/leisure/fun/lasertag/gomel/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "лазертаг, квест, икс-бокс",
       },
     ]),
@@ -559,7 +583,6 @@ const coordinates = [
           "img/other/technic/remont/oleg/8.jpg",
           "img/other/technic/remont/oleg/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "ремонт оргтехники",
       },
     ]),
@@ -582,7 +605,6 @@ const coordinates = [
           "img/other/handMade/soap/jenn/8.jpg",
           "img/other/handMade/soap/jenn/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "Мыло ручной работы",
       },
       {
@@ -602,8 +624,26 @@ const coordinates = [
           "img/other/handMade/decore/flowers/8.jpg",
           "img/other/handMade/decore/flowers/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "Декор",
+      },
+      {
+        id: "144",
+        name: "Дмитрий @remeslo_kovka",
+        tel: "+375(29)616-55-86",
+        icon: { icon: greenIcon },
+        cord: [52.413571, 31.315598],
+        photos: [
+          "img/other/handMade/metall/dobrush/1.jpg",
+          "img/other/handMade/metall/dobrush/2.jpg",
+          "img/other/handMade/metall/dobrush/3.jpg",
+          "img/other/handMade/metall/dobrush/4.jpg",
+          "img/other/handMade/metall/dobrush/5.jpg",
+          "img/other/handMade/metall/dobrush/6.jpg",
+          "img/other/handMade/metall/dobrush/7.jpg",
+          "img/other/handMade/metall/dobrush/8.jpg",
+          "img/other/handMade/metall/dobrush/9.jpg",
+        ],
+        text: "изделия из металла, ковка",
       }
     ]),
     (other = [
@@ -624,7 +664,6 @@ const coordinates = [
           "img/other/other/pets/eremino/8.jpg",
           "img/other/other/pets/eremino/9.jpg",
         ],
-        img: "img/img/gomel.jpg",
         text: "ГОСТИНИЦА, СТРИЖКА для кошек и собак",
       } 
     ]),
@@ -976,6 +1015,13 @@ const pagesContent = [
             { name: "букеты", pay: "от 15р." }
           ],
         },
+        {
+          name: "изделия из металла",
+          color: "green",
+          coast: [
+            { name: "изделие", pay: "от 30р." }
+          ],
+        }
       ],
     },
     {
