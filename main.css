@@ -249,7 +249,7 @@ body .main__container .container .header .header__nav {
     background-color: #292929;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    gap: 20px;
+    gap: 18px;
   }
   body .main__container .container .header .header__nav.active {
     right: 0;
@@ -519,9 +519,8 @@ body .main__container .container .mainPages .icon .icon__info:hover {
 }
 
 body .main__container .container #oblasts {
-  margin: 0 auto;
+  margin: 20px auto 10px auto;
   width: 280px;
-  margin-bottom: 10px;
   height: 30px;
 }
 
@@ -535,7 +534,7 @@ body .main__container .container #cities.active {
   margin: 0 auto;
   height: 30px;
   width: 280px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 body .main__container .container #map {
