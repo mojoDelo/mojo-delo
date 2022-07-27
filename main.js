@@ -405,6 +405,25 @@ const coordinates = [
         ],
         text: "аренда эл. инструмента, сад. техники",
       },
+      {
+        id: "171",
+        name: "Никита",
+        tel: "+375(25)686-77-25",
+        icon: { icon: blueIcon },
+        cord: [52.913237, 30.037207],
+        photos: [
+          "img/build/other/plitka/zhlobin/1.jpg",
+          "img/build/other/plitka/zhlobin/2.jpg",
+          "img/build/other/plitka/zhlobin/3.jpg",
+          "img/build/other/plitka/zhlobin/4.jpg",
+          "img/build/other/plitka/zhlobin/5.jpg",
+          "img/build/other/plitka/zhlobin/6.jpg",
+          "img/build/other/plitka/zhlobin/7.jpg",
+          "img/build/other/plitka/zhlobin/8.jpg",
+          "img/build/other/plitka/zhlobin/9.jpg",
+        ],
+        text: "ПЛИТКА",
+      }
     ]),
   ]),
   (Car = [
@@ -780,6 +799,13 @@ const pagesContent = [
             { name: "перфоратор", pay: "от 15" }
           ],
         },
+        {
+          name: "ПЛИТКА",
+          color: "blue",
+          coast: [
+            { name: "изделие", pay: "от 10р" }
+          ],
+        }
       ],
     },
   ]),
