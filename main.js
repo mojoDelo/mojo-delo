@@ -405,6 +405,25 @@ const coordinates = [
         ],
         text: "аренда эл. инструмента, сад. техники",
       },
+      {
+        id: "171",
+        name: "Никита",
+        tel: "+375(25)686-77-25",
+        icon: { icon: blueIcon },
+        cord: [52.913237, 30.037207],
+        photos: [
+          "img/build/other/plitka/zhlobin/1.jpg",
+          "img/build/other/plitka/zhlobin/2.jpg",
+          "img/build/other/plitka/zhlobin/3.jpg",
+          "img/build/other/plitka/zhlobin/4.jpg",
+          "img/build/other/plitka/zhlobin/5.jpg",
+          "img/build/other/plitka/zhlobin/6.jpg",
+          "img/build/other/plitka/zhlobin/7.jpg",
+          "img/build/other/plitka/zhlobin/8.jpg",
+          "img/build/other/plitka/zhlobin/9.jpg",
+        ],
+        text: "ПЛИТКА",
+      }
     ]),
   ]),
   (Car = [
@@ -508,14 +527,14 @@ const coordinates = [
         cord: [52.421589, 31.296086],
         photos: [
           "img/leisure/nature/horses/dobrush/1.jpg",
-          "img/leisure/nature/horses/dobrush/2.jpg",
+          "img/leisure/nature/horses/dobrush/2.webp",
           "img/leisure/nature/horses/dobrush/3.jpg",
           "img/leisure/nature/horses/dobrush/4.jpg",
           "img/leisure/nature/horses/dobrush/5.jpg",
           "img/leisure/nature/horses/dobrush/6.jpg",
           "img/leisure/nature/horses/dobrush/7.jpg",
           "img/leisure/nature/horses/dobrush/8.jpg",
-          "img/leisure/nature/horses/dobrush/9.jpg",
+          "img/leisure/nature/horses/dobrush/9.webp",
         ],
         text: "агроусадьба и конный двор"
       }
@@ -586,7 +605,27 @@ const coordinates = [
         text: "ремонт оргтехники",
       },
     ]),
-    (economic = []),
+    (economic = [
+      {
+        id: "84",
+        name: "Смирнова Дарья",
+        tel: "+375(33)904-33-67",
+        icon: { icon: greenIcon },
+        cord: [54.305498, 26.859116],
+        photos: [
+          "img/other/economy/loyer/molodechno/1.jpg",
+          "img/other/economy/loyer/molodechno/2.jpg",
+          "img/other/economy/loyer/molodechno/3.jpg",
+          "img/other/economy/loyer/molodechno/4.jpg",
+          "img/other/economy/loyer/molodechno/5.jpg",
+          "img/other/economy/loyer/molodechno/6.jpg",
+          "img/other/economy/loyer/molodechno/7.jpg",
+          "img/other/economy/loyer/molodechno/8.jpg",
+          "img/other/economy/loyer/molodechno/9.jpg",
+        ],
+        text: "юридические услуги",
+      }
+    ]),
     (handMade = [
       {
         id: "4",
@@ -760,6 +799,13 @@ const pagesContent = [
             { name: "перфоратор", pay: "от 15" }
           ],
         },
+        {
+          name: "ПЛИТКА",
+          color: "blue",
+          coast: [
+            { name: "изделие", pay: "от 10р" }
+          ],
+        }
       ],
     },
   ]),
@@ -987,12 +1033,10 @@ const pagesContent = [
       name: "ЭКОНОМИКА",
       categories: [
         {
-          name: "ремонт орг техники",
+          name: "юридические услуги",
           color: "green",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "консультация", pay: "0 р." }
           ],
         },
       ],
@@ -1038,7 +1082,6 @@ const pagesContent = [
     },
   ]),
 ];
-// 52.4345, 30.9754
 const center = [53.899994, 27.558725];
 
 const map = L.map("map").setView(center, 6);
