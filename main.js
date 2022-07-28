@@ -7,8 +7,8 @@ const header__links = document.getElementsByClassName("header__link"),
   cost = document.getElementById("cost"),
   mainPages = document.querySelector(".mainPages"),
   sub__link = document.getElementsByClassName("sub__link");
-  const oblasts = document.getElementById('oblasts');
-  const cities = document.getElementById('cities');
+const oblasts = document.getElementById("oblasts");
+const cities = document.getElementById("cities");
 
 const greenIcon = new L.Icon({
   iconUrl:
@@ -51,180 +51,154 @@ const redIcon = new L.Icon({
   shadowSize: [41, 41],
 });
 const locat = [
-  {name: "Брестская",
-  coord: [52.485050, 25.448294],
-  state: [
-    {name: "Барановичи",
-    state: [53.125912, 26.001739]},
-    {name: "Белоозёрск",
-    state: [52.473119, 25.170113]},
-    {name: "Берёза",
-    state: [52.537732, 24.976350]},
-    {name: "Брест",
-    state: [52.095362, 23.702886]},
-    {name: "Высокое",
-    state: [52.366738, 23.377221]},
-    {name: "Ганцевичи",
-    state: [52.751551, 26.433281]},
-    {name: "Давид_Городок",
-    state: [52.055420, 27.222845]},
-    {name: "Дрогичин",
-    state: [52.189749, 25.148374]},
-    {name: "Жабинка",
-    state: [52.198537, 24.013101]},
-    {name: "Иваново",
-    state: [52.144323, 25.537325]},
-    {name: "Ивацевичи",
-    state: [52.712431, 25.335902]},
-    {name: "Каменец",
-    state: [52.401143, 23.820719]},
-    {name: "Кобрин",
-    state: [52.213516, 24.355177]},
-    {name: "Коссово",
-    state: [52.754096, 25.153391]},
-    {name: "Лунинец",
-    state: [52.253489, 26.808524]},
-    {name: "Ляховичи",
-    state: [53.036307, 26.260057]},
-    {name: "Малорита",
-    state: [51.792360, 24.077949]},
-    {name: "Микашевичи",
-    state: [52.221314, 27.477745]},
-    {name: "Пинск",
-    state: [52.128083, 26.060853]},
-    {name: "Пружаны",
-    state: [52.557500, 24.457456]},
-    {name: "Столин",
-    state: [51.889434, 26.839979]}
-  ]},
-  {name: "Витебская",
-  coord: [55.335697, 28.823301],
-  state: [
-    {name: "Барань", state: [54.480455, 30.312264]},
-    {name: "Браслав", state: [55.644011, 27.048643]},
-    {name: "Верхнедвинск", state: [55.776535, 27.936972]},
-    {name: "Витебск", state: [55.190431, 30.184936]},
-    {name: "Глубокое", state: [55.141599, 27.687489]},
-    {name: "Городок", state: [55.462317, 29.992388]},
-    {name: "Дисна", state: [55.563000, 28.207627]},
-    {name: "Докшицы", state: [54.892863, 27.762296]},
-    {name: "Дубровно", state: [54.573630, 30.691223]},
-    {name: "Лепель", state: [54.884253, 28.695971]},
-    {name: "Миоры", state: [55.624285, 27.628768]},
-    {name: "Речица", state: [54.652493, 29.138989]},
-    {name: "Новополоцк", state: [55.522120, 28.651504]},
-    {name: "Орша", state: [54.514621, 30.417209]},
-    {name: "Полоцк", state: [55.489807, 28.793647]},
-    {name: "Поставы", state: [55.116409, 26.848254]},
-    {name: "Сенно", state: [54.813397, 29.700288]},
-    {name: "Толочин", state: [54.409000, 29.701192]},
-    {name: "Чашники", state: [54.851175, 29.172927]}
-  ]},
-  {name: "Гомельская",
-  coord: [52.241915, 29.605418],
-  state: [
-    {name: "Буда_кошелёва",
-    state: [52.719640, 30.569284]},
-    {name: "Василевичи",
-    state: [52.246253, 29.832104]},
-    {name: "Ветка",
-    state: [52.556889, 31.179020]},
-    {name: "Гомель",
-    state: [52.4345, 30.9754]},
-    {name: "Добруш",
-    state: [52.404354, 31.322995]},
-    {name: "Ельск",
-    state: [51.816057, 29.158818]},
-    {name: "Житковичи",
-    state: [52.214200, 27.857251]},
-    {name: "Жлобин",
-    state: [52.892339, 30.021372]},
-    {name: "Мозырь",
-    state: [52.045973, 29.239626]},
-    {name: "Наровля",
-    state: [51.798390, 29.501248]},
-    {name: "Петриков",
-    state: [52.127790, 28.498297]},
-    {name: "Речица",
-    state: [52.361348, 30.384679]},
-    {name: "Рогачёв",
-    state: [53.085796, 30.042937]},
-    {name: "Светлогорск",
-    state: [52.625467, 29.744157]},
-    {name: "Туров",
-    state: [52.066479, 27.738760]},
-    {name: "Хойники",
-    state: [51.902528, 29.971432]},
-    {name: "Чечерск",
-    state: [52.914133, 30.914392]},
-  ]},
-  {name: "Гродненская",
-  coord: [53.776578, 25.223481],
-  state: [
-    {name: "Берёзовка", state: [53.723340, 25.499145]},
-    {name: "Волковыск", state: [53.152323, 24.450650]},
-    {name: "Гродно", state: [53.676563, 23.836430]},
-    {name: "Дятлово", state: [53.464888, 25.406774]},
-    {name: "Ивье", state: [53.933215, 25.773828]},
-    {name: "Лида", state: [53.901587, 25.287401]},
-    {name: "Мосты", state: [53.413873, 24.538016]},
-    {name: "Новогрудок", state: [53.595949, 25.819326]},
-    {name: "Островец", state: [54.614087, 25.960998]},
-    {name: "Ошмяны", state: [54.426044, 25.940465]},
-    {name: "Свислочь", state: [53.035663, 24.098010]},
-    {name: "Скидель", state: [53.582717, 24.230188]},
-    {name: "Слоним", state: [53.090746, 25.329101]},
-    {name: "Сморгонь", state: [54.478148, 26.397550]},
-    {name: "Щучин", state: [53.601671, 24.740591]}
-  ]},
-  {name: "Могилёвская",
-  coord: [53.665298, 30.527704],
-  state: [
-    {name: "Белыничи", state: [53.999162, 29.714489]},
-    {name: "Бобруйск", state: [53.144499, 29.214652]},
-    {name: "Быхов", state: [53.523513, 30.235535]},
-    {name: "Горки", state: [54.281446, 30.988632]},
-    {name: "Кировск", state: [53.274596, 29.475370]},
-    {name: "Климовичи", state: [53.607727, 31.953863]},
-    {name: "Кличев", state: [53.492895, 29.334374]},
-    {name: "Костюковичи", state: [53.353442, 32.055950]},
-    {name: "Кричев", state: [53.723008, 31.713871]},
-    {name: "Круглое", state: [54.251390, 29.794411]},
-    {name: "Могилёв", state: [53.907390, 30.332898]},
-    {name: "Мстиславль", state: [54.018725, 31.728053]},
-    {name: "Осиповичи", state: [53.306400, 28.636374]},
-    {name: "Славгород", state: [53.441702, 31.000699]},
-    {name: "Чаусы", state: [53.802511, 30.963796]},
-    {name: "Чериков", state: [53.568845, 31.387067]},
-    {name: "Шклов", state: [54.214855, 30.288656]}
-  ]},
-  {name: "Минская",
-  coord: [53.682553, 27.619394],
-  state: [
-    {name: "Березино", state: [53.838261, 28.989078]},
-    {name: "Борисов", state: [54.220898, 28.504980]},
-    {name: "Вилейка", state: [54.501144, 26.925333]},
-    {name: "Воложин", state: [54.087334, 26.526355]},
-    {name: "Дзержинск", state: [53.687587, 27.130304]},
-    {name: "Жодино", state: [54.101190, 28.336268]},
-    {name: "Заславль", state: [54.002647, 27.277645]},
-    {name: "Клецк", state: [53.066072, 26.640376]},
-    {name: "Копыль", state: [53.154653, 27.083765]},
-    {name: "Крупки", state: [54.321864, 29.136111]},
-    {name: "Логойск", state: [54.201050, 27.853174]},
-    {name: "Любань", state: [52.800757, 27.995070]},
-    {name: "Марьина Горка", state: [53.509904, 28.148648]},
-    {name: "Молодечно", state: [54.307647, 26.856885]},
-    {name: "Мядель", state: [54.881954, 26.933576]},
-    {name: "Несвиж", state: [53.219358, 26.673812]},
-    {name: "Слуцк", state: [53.021302, 27.550098]},
-    {name: "Смолевичи", state: [54.029308, 28.078442]},
-    {name: "Старые_Дороги", state: [53.041174, 28.262837]},
-    {name: "Столбцы", state: [53.480884, 26.742217]},
-    {name: "Фаниполь", state: [53.741324, 27.330726]},
-    {name: "Червень", state: [53.708872, 28.424341]}
-  ]},
-]
+  {
+    name: "Брестская",
+    coord: [52.48505, 25.448294],
+    state: [
+      { name: "Барановичи", state: [53.125912, 26.001739] },
+      { name: "Белоозёрск", state: [52.473119, 25.170113] },
+      { name: "Берёза", state: [52.537732, 24.97635] },
+      { name: "Брест", state: [52.095362, 23.702886] },
+      { name: "Высокое", state: [52.366738, 23.377221] },
+      { name: "Ганцевичи", state: [52.751551, 26.433281] },
+      { name: "Давид_Городок", state: [52.05542, 27.222845] },
+      { name: "Дрогичин", state: [52.189749, 25.148374] },
+      { name: "Жабинка", state: [52.198537, 24.013101] },
+      { name: "Иваново", state: [52.144323, 25.537325] },
+      { name: "Ивацевичи", state: [52.712431, 25.335902] },
+      { name: "Каменец", state: [52.401143, 23.820719] },
+      { name: "Кобрин", state: [52.213516, 24.355177] },
+      { name: "Коссово", state: [52.754096, 25.153391] },
+      { name: "Лунинец", state: [52.253489, 26.808524] },
+      { name: "Ляховичи", state: [53.036307, 26.260057] },
+      { name: "Малорита", state: [51.79236, 24.077949] },
+      { name: "Микашевичи", state: [52.221314, 27.477745] },
+      { name: "Пинск", state: [52.128083, 26.060853] },
+      { name: "Пружаны", state: [52.5575, 24.457456] },
+      { name: "Столин", state: [51.889434, 26.839979] },
+    ],
+  },
+  {
+    name: "Витебская",
+    coord: [55.335697, 28.823301],
+    state: [
+      { name: "Барань", state: [54.480455, 30.312264] },
+      { name: "Браслав", state: [55.644011, 27.048643] },
+      { name: "Верхнедвинск", state: [55.776535, 27.936972] },
+      { name: "Витебск", state: [55.190431, 30.184936] },
+      { name: "Глубокое", state: [55.141599, 27.687489] },
+      { name: "Городок", state: [55.462317, 29.992388] },
+      { name: "Дисна", state: [55.563, 28.207627] },
+      { name: "Докшицы", state: [54.892863, 27.762296] },
+      { name: "Дубровно", state: [54.57363, 30.691223] },
+      { name: "Лепель", state: [54.884253, 28.695971] },
+      { name: "Миоры", state: [55.624285, 27.628768] },
+      { name: "Речица", state: [54.652493, 29.138989] },
+      { name: "Новополоцк", state: [55.52212, 28.651504] },
+      { name: "Орша", state: [54.514621, 30.417209] },
+      { name: "Полоцк", state: [55.489807, 28.793647] },
+      { name: "Поставы", state: [55.116409, 26.848254] },
+      { name: "Сенно", state: [54.813397, 29.700288] },
+      { name: "Толочин", state: [54.409, 29.701192] },
+      { name: "Чашники", state: [54.851175, 29.172927] },
+    ],
+  },
+  {
+    name: "Гомельская",
+    coord: [52.241915, 29.605418],
+    state: [
+      { name: "Буда_кошелёва", state: [52.71964, 30.569284] },
+      { name: "Василевичи", state: [52.246253, 29.832104] },
+      { name: "Ветка", state: [52.556889, 31.17902] },
+      { name: "Гомель", state: [52.4345, 30.9754] },
+      { name: "Добруш", state: [52.404354, 31.322995] },
+      { name: "Ельск", state: [51.816057, 29.158818] },
+      { name: "Житковичи", state: [52.2142, 27.857251] },
+      { name: "Жлобин", state: [52.892339, 30.021372] },
+      { name: "Мозырь", state: [52.045973, 29.239626] },
+      { name: "Наровля", state: [51.79839, 29.501248] },
+      { name: "Петриков", state: [52.12779, 28.498297] },
+      { name: "Речица", state: [52.361348, 30.384679] },
+      { name: "Рогачёв", state: [53.085796, 30.042937] },
+      { name: "Светлогорск", state: [52.625467, 29.744157] },
+      { name: "Туров", state: [52.066479, 27.73876] },
+      { name: "Хойники", state: [51.902528, 29.971432] },
+      { name: "Чечерск", state: [52.914133, 30.914392] },
+    ],
+  },
+  {
+    name: "Гродненская",
+    coord: [53.776578, 25.223481],
+    state: [
+      { name: "Берёзовка", state: [53.72334, 25.499145] },
+      { name: "Волковыск", state: [53.152323, 24.45065] },
+      { name: "Гродно", state: [53.676563, 23.83643] },
+      { name: "Дятлово", state: [53.464888, 25.406774] },
+      { name: "Ивье", state: [53.933215, 25.773828] },
+      { name: "Лида", state: [53.901587, 25.287401] },
+      { name: "Мосты", state: [53.413873, 24.538016] },
+      { name: "Новогрудок", state: [53.595949, 25.819326] },
+      { name: "Островец", state: [54.614087, 25.960998] },
+      { name: "Ошмяны", state: [54.426044, 25.940465] },
+      { name: "Свислочь", state: [53.035663, 24.09801] },
+      { name: "Скидель", state: [53.582717, 24.230188] },
+      { name: "Слоним", state: [53.090746, 25.329101] },
+      { name: "Сморгонь", state: [54.478148, 26.39755] },
+      { name: "Щучин", state: [53.601671, 24.740591] },
+    ],
+  },
+  {
+    name: "Могилёвская",
+    coord: [53.665298, 30.527704],
+    state: [
+      { name: "Белыничи", state: [53.999162, 29.714489] },
+      { name: "Бобруйск", state: [53.144499, 29.214652] },
+      { name: "Быхов", state: [53.523513, 30.235535] },
+      { name: "Горки", state: [54.281446, 30.988632] },
+      { name: "Кировск", state: [53.274596, 29.47537] },
+      { name: "Климовичи", state: [53.607727, 31.953863] },
+      { name: "Кличев", state: [53.492895, 29.334374] },
+      { name: "Костюковичи", state: [53.353442, 32.05595] },
+      { name: "Кричев", state: [53.723008, 31.713871] },
+      { name: "Круглое", state: [54.25139, 29.794411] },
+      { name: "Могилёв", state: [53.90739, 30.332898] },
+      { name: "Мстиславль", state: [54.018725, 31.728053] },
+      { name: "Осиповичи", state: [53.3064, 28.636374] },
+      { name: "Славгород", state: [53.441702, 31.000699] },
+      { name: "Чаусы", state: [53.802511, 30.963796] },
+      { name: "Чериков", state: [53.568845, 31.387067] },
+      { name: "Шклов", state: [54.214855, 30.288656] },
+    ],
+  },
+  {
+    name: "Минская",
+    coord: [53.682553, 27.619394],
+    state: [
+      { name: "Березино", state: [53.838261, 28.989078] },
+      { name: "Борисов", state: [54.220898, 28.50498] },
+      { name: "Вилейка", state: [54.501144, 26.925333] },
+      { name: "Воложин", state: [54.087334, 26.526355] },
+      { name: "Дзержинск", state: [53.687587, 27.130304] },
+      { name: "Жодино", state: [54.10119, 28.336268] },
+      { name: "Заславль", state: [54.002647, 27.277645] },
+      { name: "Клецк", state: [53.066072, 26.640376] },
+      { name: "Копыль", state: [53.154653, 27.083765] },
+      { name: "Крупки", state: [54.321864, 29.136111] },
+      { name: "Логойск", state: [54.20105, 27.853174] },
+      { name: "Любань", state: [52.800757, 27.99507] },
+      { name: "Марьина Горка", state: [53.509904, 28.148648] },
+      { name: "Молодечно", state: [54.307647, 26.856885] },
+      { name: "Мядель", state: [54.881954, 26.933576] },
+      { name: "Несвиж", state: [53.219358, 26.673812] },
+      { name: "Слуцк", state: [53.021302, 27.550098] },
+      { name: "Смолевичи", state: [54.029308, 28.078442] },
+      { name: "Старые_Дороги", state: [53.041174, 28.262837] },
+      { name: "Столбцы", state: [53.480884, 26.742217] },
+      { name: "Фаниполь", state: [53.741324, 27.330726] },
+      { name: "Червень", state: [53.708872, 28.424341] },
+    ],
+  },
+];
 const coordinates = [
   (Build = [
     (finishing = [
@@ -246,7 +220,7 @@ const coordinates = [
           "img/build/otdelka/aleksandr/9.jpg",
         ],
         text: "отделочные работы",
-      }
+      },
     ]),
     (special = [
       {
@@ -273,7 +247,7 @@ const coordinates = [
         name: "Александр",
         tel: "+375(29)364-69-25",
         icon: { icon: goldIcon },
-        cord: [53.877950, 27.555663],
+        cord: [53.87795, 27.555663],
         photos: [
           "img/build/special/pechnik/minsk-aleksandr/1.jpg",
           "img/build/special/pechnik/minsk-aleksandr/2.jpg",
@@ -286,7 +260,7 @@ const coordinates = [
           "img/build/special/pechnik/minsk-aleksandr/9.jpg",
         ],
         text: "ремонт печей и каминов",
-      }
+      },
     ]),
     (general = [
       {
@@ -351,7 +325,7 @@ const coordinates = [
         name: "Александр",
         tel: "+375(33)6020498",
         icon: { icon: goldIcon },
-        cord: [53.072710, 30.045182],
+        cord: [53.07271, 30.045182],
         photos: [
           "img/build/obshestroy/stolyarnie/srub-alex-rog/1.jpg",
           "img/build/obshestroy/stolyarnie/srub-alex-rog/2.jpg",
@@ -364,6 +338,25 @@ const coordinates = [
           "img/build/obshestroy/stolyarnie/srub-alex-rog/9.jpg",
         ],
         text: " Шлифовка, конопатка, покрытие пропиткой, гермитизация швов, cпил деревьев, уборка участка.",
+      },
+      {
+        id: "113",
+        name: "Металловар",
+        tel: "+375(29)984-42-23",
+        icon: { icon: redIcon },
+        cord: [52.444790, 30.974722],
+        photos: [
+          "img/build/obshestroy/svarka/metallovar/1.jpg",
+          "img/build/obshestroy/svarka/metallovar/2.jpg",
+          "img/build/obshestroy/svarka/metallovar/3.jpg",
+          "img/build/obshestroy/svarka/metallovar/4.jpg",
+          "img/build/obshestroy/svarka/metallovar/5.jpg",
+          "img/build/obshestroy/svarka/metallovar/6.jpg",
+          "img/build/obshestroy/svarka/metallovar/7.jpg",
+          "img/build/obshestroy/svarka/metallovar/8.jpg",
+          "img/build/obshestroy/svarka/metallovar/9.jpg",
+        ],
+        text: "изделия из металла и нержавеющей стали",
       },
       {
         id: "132",
@@ -383,7 +376,7 @@ const coordinates = [
           "img/build/obshestroy/stolyarnie/wood-dobrush/9.jpg",
         ],
         text: "деревянные конструкции, кровельные работы",
-      }
+      },
     ]),
     (other = [
       {
@@ -423,7 +416,7 @@ const coordinates = [
           "img/build/other/plitka/zhlobin/9.jpg",
         ],
         text: "ПЛИТКА",
-      }
+      },
     ]),
   ]),
   (Car = [
@@ -446,7 +439,7 @@ const coordinates = [
           "img/auto/sto/m-drive/9.jpg",
         ],
         text: "СТО",
-      }
+      },
     ]),
     (service = [
       {
@@ -517,7 +510,7 @@ const coordinates = [
           "img/leisure/nature/horses/gomel/8.jpg",
           "img/leisure/nature/horses/gomel/9.jpg",
         ],
-        text: "конные прогулки"
+        text: "конные прогулки",
       },
       {
         id: "172",
@@ -536,8 +529,8 @@ const coordinates = [
           "img/leisure/nature/horses/dobrush/8.jpg",
           "img/leisure/nature/horses/dobrush/9.webp",
         ],
-        text: "агроусадьба и конный двор"
-      }
+        text: "агроусадьба и конный двор",
+      },
     ]),
     (art = [
       {
@@ -558,6 +551,25 @@ const coordinates = [
           "img/leisure/art/CupOfPeace/9.jpg",
         ],
         text: "Арт-Салон",
+      },
+      {
+        id: "406",
+        name: "Илья",
+        tel: "@ilysha701",
+        icon: { icon: goldIcon },
+        cord: [52.470023, 31.043540],
+        photos: [
+          "img/leisure/art/photo/ilya_gomel/1.jpg",
+          "img/leisure/art/photo/ilya_gomel/2.jpg",
+          "img/leisure/art/photo/ilya_gomel/3.jpg",
+          "img/leisure/art/photo/ilya_gomel/4.jpg",
+          "img/leisure/art/photo/ilya_gomel/5.jpg",
+          "img/leisure/art/photo/ilya_gomel/6.jpg",
+          "img/leisure/art/photo/ilya_gomel/7.jpg",
+          "img/leisure/art/photo/ilya_gomel/8.jpg",
+          "img/leisure/art/photo/ilya_gomel/9.jpg",
+        ],
+        text: "Фотограф",
       }
     ]),
     (fun = [
@@ -624,7 +636,7 @@ const coordinates = [
           "img/other/economy/loyer/molodechno/9.jpg",
         ],
         text: "юридические услуги",
-      }
+      },
     ]),
     (handMade = [
       {
@@ -683,7 +695,7 @@ const coordinates = [
           "img/other/handMade/metall/zhlobin/9.jpg",
         ],
         text: "изделия из металла, ковка",
-      }
+      },
     ]),
     (other = [
       {
@@ -704,7 +716,7 @@ const coordinates = [
           "img/other/other/pets/eremino/9.jpg",
         ],
         text: "ГОСТИНИЦА, СТРИЖКА для кошек и собак",
-      } 
+      },
     ]),
   ]),
 ];
@@ -741,10 +753,8 @@ const pagesContent = [
         {
           name: "ремонт печей и каминов",
           color: "gold",
-          coast: [
-            { name: "ремонт печи", pay: "от 50р" }
-          ],
-        }
+          coast: [{ name: "ремонт печи", pay: "от 50р" }],
+        },
       ],
     },
     {
@@ -774,17 +784,13 @@ const pagesContent = [
         {
           name: "сварочные работы",
           color: "red",
-          coast: [
-            { name: "изделие", pay: "от 50р" }
-          ],          
+          coast: [{ name: "изделие", pay: "от 50р" }],
         },
         {
           name: "столярные",
           color: "gold",
-          coast: [
-            { name: "изделие", pay: "от 50р" }
-          ],          
-        }
+          coast: [{ name: "изделие", pay: "от 50р" }],
+        },
       ],
     },
     {
@@ -796,16 +802,14 @@ const pagesContent = [
           color: "red",
           coast: [
             { name: "болгарка", pay: "от 9" },
-            { name: "перфоратор", pay: "от 15" }
+            { name: "перфоратор", pay: "от 15" },
           ],
         },
         {
           name: "ПЛИТКА",
           color: "blue",
-          coast: [
-            { name: "изделие", pay: "от 10р" }
-          ],
-        }
+          coast: [{ name: "изделие", pay: "от 10р" }],
+        },
       ],
     },
   ]),
@@ -839,9 +843,7 @@ const pagesContent = [
         {
           name: "шиномонтаж",
           color: "green",
-          coast: [
-            { name: "сняти - установка колеса", pay: "4р" }
-          ],
+          coast: [{ name: "сняти - установка колеса", pay: "4р" }],
         },
         {
           name: "Тех. обслуживание",
@@ -853,7 +855,7 @@ const pagesContent = [
             { name: "Замена масла в двигателе", pay: "от 15р" },
             { name: "Замена топливного фильтра", pay: "от 10р" },
           ],
-        }
+        },
       ],
     },
     {
@@ -913,7 +915,6 @@ const pagesContent = [
           coast: [
             { name: "наращивание ресниц", pay: "от 25р." },
             { name: "брови", pay: "от 20р" },
-
           ],
         },
       ],
@@ -962,7 +963,7 @@ const pagesContent = [
             { name: "с сопровождением (2 минуты)", pay: "3р" },
             { name: "фото- или видеосъёмок (до 30 мин)", pay: "22р" },
             { name: "фото- или видеосъёмок (до 10 мин)", pay: "9р" },
-            { name: "Стрельба из лука (6 выстрелов) (дети)", pay: "2р" }
+            { name: "Стрельба из лука (6 выстрелов) (дети)", pay: "2р" },
           ],
         },
       ],
@@ -980,6 +981,13 @@ const pagesContent = [
             { name: "хорошее настроение", pay: "0р" },
           ],
         },
+        {
+          name: "фотограф",
+          color: "gold",
+          coast: [
+            { name: "консультация", pay: "0р" }
+          ],
+        }
       ],
     },
     {
@@ -991,8 +999,8 @@ const pagesContent = [
           color: "red",
           coast: [
             { name: "лазертаг будни", pay: "13р./чел." },
-            { name: "лазертаг вых.", pay: "15р./чел." }
-          ]
+            { name: "лазертаг вых.", pay: "15р./чел." },
+          ],
         },
       ],
     },
@@ -1035,9 +1043,7 @@ const pagesContent = [
         {
           name: "юридические услуги",
           color: "green",
-          coast: [
-            { name: "консультация", pay: "0 р." }
-          ],
+          coast: [{ name: "консультация", pay: "0 р." }],
         },
       ],
     },
@@ -1048,24 +1054,18 @@ const pagesContent = [
         {
           name: "Мыло ручной работы",
           color: "red",
-          coast: [
-            { name: "Мыло ручной работы", pay: "от 10р." }
-          ],
+          coast: [{ name: "Мыло ручной работы", pay: "от 10р." }],
         },
         {
           name: "Декор",
           color: "blue",
-          coast: [
-            { name: "букеты", pay: "от 15р." }
-          ],
+          coast: [{ name: "букеты", pay: "от 15р." }],
         },
         {
           name: "изделия из металла",
           color: "green",
-          coast: [
-            { name: "изделие", pay: "от 30р." }
-          ],
-        }
+          coast: [{ name: "изделие", pay: "от 30р." }],
+        },
       ],
     },
     {
@@ -1074,9 +1074,7 @@ const pagesContent = [
       categories: [
         {
           name: "домашние питомцы",
-          coast: [
-            { name: "стрижка", pay: "от 30р" }
-          ],
+          coast: [{ name: "стрижка", pay: "от 30р" }],
         },
       ],
     },
@@ -1094,13 +1092,10 @@ const markerGroup = L.layerGroup().addTo(map);
 const addMarkers = () => {
   let num = 0;
   for (element of coordinates) {
-   
     for (mark of element) {
       if (mark == []) {
-       
       } else
         for (mar of mark) {
-          
           L.marker(mar.cord, mar.icon)
             .addTo(markerGroup)
             .bindPopup(
@@ -1183,13 +1178,12 @@ const changePage = (numb) => {
       changeSubClass(num, link.target.id)
     );
   }
-
 };
 
 const changeClass = (el) => {
   markerGroup.clearLayers();
   cost.classList.remove("active");
-  person.classList.remove('active');
+  person.classList.remove("active");
   categories.classList.remove("active");
   let num = el.target.id;
   if (num == 0) {
@@ -1209,27 +1203,25 @@ const changeClass = (el) => {
     header__links[num].classList.add("active");
 
     changePage(num);
-    
+
     for (mark of coordinates[num - 1]) {
-        if (mark == []) {
-         
-        } else
-          for (mar of mark) {
-            
-            L.marker(mar.cord, mar.icon)
-              .addTo(markerGroup)
-              .bindPopup(
-                `<section id="${mar.id}" class="${num - 1}"> 
+      if (mark == []) {
+      } else
+        for (mar of mark) {
+          L.marker(mar.cord, mar.icon)
+            .addTo(markerGroup)
+            .bindPopup(
+              `<section id="${mar.id}" class="${num - 1}"> 
                 <p class="pop__into">${mar.name}</p>
                 <p>${mar.text}</p>
                 <a href="tel:${mar.tel}">${mar.tel}</a>
                 </section>`
-              );
-              
-            console.log(mar.id);
-            console.log(num);
-          }
-      }
+            );
+
+          console.log(mar.id);
+          console.log(num);
+        }
+    }
   }
   console.log(markerGroup);
 };
@@ -1239,41 +1231,43 @@ for (link of header__links) {
 }
 
 const changeOblast = () => {
-  if(oblasts.value == "все области") {
-    map.setView(new L.LatLng(53.899994, 27.558725), 6)
-    cities.classList.remove('active')
-  } else{
-  let oblastCities =["<option value='все города'>все города</option>"];
-  let obl = locat.find(city => city.name === oblasts.value);  
-  obl.state.forEach(element => {
-    oblastCities.push(`<option value="${element.name}" id="${element.state}">${element.name}</option>`)
-      console.log (element)      
-    }
-  );
-  cities.innerHTML = oblastCities.join("");
-  cities.classList.add('active')
-  map.setView(new L.LatLng(obl.coord[0], obl.coord[1]), 8)
-}
-  
+  if (oblasts.value == "все области") {
+    map.setView(new L.LatLng(53.899994, 27.558725), 6);
+    cities.classList.remove("active");
+  } else {
+    let oblastCities = ["<option value='все города'>все города</option>"];
+    let obl = locat.find((city) => city.name === oblasts.value);
+    obl.state.forEach((element) => {
+      oblastCities.push(
+        `<option value="${element.name}" id="${element.state}">${element.name}</option>`
+      );
+      console.log(element);
+    });
+    cities.innerHTML = oblastCities.join("");
+    cities.classList.add("active");
+    map.setView(new L.LatLng(obl.coord[0], obl.coord[1]), 8);
+  }
 };
 
 oblasts.addEventListener("change", (event) => {
-  console.log (event.target.value)
-  changeOblast();  
+  console.log(event.target.value);
+  changeOblast();
 });
 
 const changeCity = () => {
-  if(cities.value == "все города") {
-    let obl = locat.find(city => city.name === oblasts.value);
-    map.setView(new L.LatLng(obl.coord[0], obl.coord[1]), 8)
-  } else{
-  console.log (oblasts.value)
-  let cit = locat.find(ob => ob.name === oblasts.value).state.find(city => city.name === cities.value);
-  map.setView(new L.LatLng(cit.state[0], cit.state[1]), 11)
-}
+  if (cities.value == "все города") {
+    let obl = locat.find((city) => city.name === oblasts.value);
+    map.setView(new L.LatLng(obl.coord[0], obl.coord[1]), 8);
+  } else {
+    console.log(oblasts.value);
+    let cit = locat
+      .find((ob) => ob.name === oblasts.value)
+      .state.find((city) => city.name === cities.value);
+    map.setView(new L.LatLng(cit.state[0], cit.state[1]), 11);
+  }
 };
 
 cities.addEventListener("change", (event) => {
-  console.log (event.target.value)
-  changeCity();  
+  console.log(event.target.value);
+  changeCity();
 });
