@@ -463,7 +463,27 @@ const coordinates = [
       },
     ]),
     (parts = []),
-    (other = []),
+    (other = [
+      {
+        id: "111",
+        name: "Экстра Автомойка",
+        tel: "+375(44) 553-72-73",
+        icon: { icon: redIcon },
+        cord: [53.155590, 29.177890],
+        photos: [
+          "img/auto/other/moika/bobruisk/1.jpg",
+          "img/auto/other/moika/bobruisk/2.jpg",
+          "img/auto/other/moika/bobruisk/3.jpg",
+          "img/auto/other/moika/bobruisk/4.jpg",
+          "img/auto/other/moika/bobruisk/5.jpg",
+          "img/auto/other/moika/bobruisk/6.jpg",
+          "img/auto/other/moika/bobruisk/7.jpg",
+          "img/auto/other/moika/bobruisk/8.jpg",
+          "img/auto/other/moika/bobruisk/9.jpg",
+        ],
+        text: "мойка, химчистка",
+      }
+    ]),
   ]),
   (Beauty = [
     (medecine = []),
@@ -531,6 +551,44 @@ const coordinates = [
         ],
         text: "агроусадьба и конный двор",
       },
+      {
+        id: "112",
+        name: "«Купалiнка»",
+        tel: "+375(29) 222-23-60",
+        icon: { icon: greenIcon },
+        cord: [52.236039, 24.303318],
+        photos: [
+          "img/leisure/nature/agrousadba/kobrin/1.jpg",
+          "img/leisure/nature/agrousadba/kobrin/2.jpg",
+          "img/leisure/nature/agrousadba/kobrin/3.jpg",
+          "img/leisure/nature/agrousadba/kobrin/4.jpg",
+          "img/leisure/nature/agrousadba/kobrin/5.jpg",
+          "img/leisure/nature/agrousadba/kobrin/6.jpg",
+          "img/leisure/nature/agrousadba/kobrin/7.jpg",
+          "img/leisure/nature/agrousadba/kobrin/8.jpg",
+          "img/leisure/nature/agrousadba/kobrin/9.jpg",
+        ],
+        text: "агроусадьба",
+      },
+      {
+        id: "183",
+        name: "«Как же здесь хорошо!»",
+        tel: "+375(29) 594-08-77",
+        icon: { icon: greenIcon },
+        cord: [55.396933, 28.814194],
+        photos: [
+          "img/leisure/nature/agrousadba/polotsk/1.jpg",
+          "img/leisure/nature/agrousadba/polotsk/2.jpg",
+          "img/leisure/nature/agrousadba/polotsk/3.jpg",
+          "img/leisure/nature/agrousadba/polotsk/4.jpg",
+          "img/leisure/nature/agrousadba/polotsk/5.jpg",
+          "img/leisure/nature/agrousadba/polotsk/6.jpg",
+          "img/leisure/nature/agrousadba/polotsk/7.jpg",
+          "img/leisure/nature/agrousadba/polotsk/8.jpg",
+          "img/leisure/nature/agrousadba/polotsk/9.jpg",
+        ],
+        text: "агроусадьба",
+      }
     ]),
     (art = [
       {
@@ -878,12 +936,10 @@ const pagesContent = [
       name: "ДРУГОЕ",
       categories: [
         {
-          name: "под ключ",
-          color: "blue",
+          name: "мойка",
+          color: "red",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "химчистка", pay: "от 15р." }
           ],
         },
       ],
@@ -966,6 +1022,13 @@ const pagesContent = [
             { name: "Стрельба из лука (6 выстрелов) (дети)", pay: "2р" },
           ],
         },
+        {
+          name: "агроусадьба",
+          color: "green",
+          coast: [
+            { name: "сутки", pay: "от 30р. чел" }
+          ],
+        }
       ],
     },
     {
