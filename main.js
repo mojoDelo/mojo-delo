@@ -440,6 +440,25 @@ const coordinates = [
         ],
         text: "СТО",
       },
+      {
+        id: "133",
+        name: "Авто Респект",
+        tel: "375(33) 353-35-11",
+        icon: { icon: blueIcon },
+        cord: [53.913814, 25.281080],
+        photos: [
+          "img/auto/sto/respect-avto/1.jpg",
+          "img/auto/sto/respect-avto/2.jpg",
+          "img/auto/sto/respect-avto/3.jpg",
+          "img/auto/sto/respect-avto/4.jpg",
+          "img/auto/sto/respect-avto/5.jpg",
+          "img/auto/sto/respect-avto/6.jpg",
+          "img/auto/sto/respect-avto/7.jpg",
+          "img/auto/sto/respect-avto/8.jpg",
+          "img/auto/sto/respect-avto/9.jpg",
+        ],
+        text: "СТО",
+      }
     ]),
     (service = [
       {
@@ -586,6 +605,25 @@ const coordinates = [
           "img/leisure/nature/agrousadba/polotsk/7.jpg",
           "img/leisure/nature/agrousadba/polotsk/8.jpg",
           "img/leisure/nature/agrousadba/polotsk/9.jpg",
+        ],
+        text: "агроусадьба",
+      },
+      {
+        id: "185",
+        name: "Усадьба «Черника»",
+        tel: "+375(29) 855-50-77",
+        icon: { icon: greenIcon },
+        cord: [54.977291, 28.010135],
+        photos: [
+          "img/leisure/nature/agrousadba/chernika/1.jpg",
+          "img/leisure/nature/agrousadba/chernika/2.jpg",
+          "img/leisure/nature/agrousadba/chernika/3.jpg",
+          "img/leisure/nature/agrousadba/chernika/4.jpg",
+          "img/leisure/nature/agrousadba/chernika/5.jpg",
+          "img/leisure/nature/agrousadba/chernika/6.jpg",
+          "img/leisure/nature/agrousadba/chernika/7.jpg",
+          "img/leisure/nature/agrousadba/chernika/8.jpg",
+          "img/leisure/nature/agrousadba/chernika/9.jpg",
         ],
         text: "агроусадьба",
       }
