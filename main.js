@@ -813,6 +813,25 @@ const coordinates = [
         ],
         text: "ГОСТИНИЦА, СТРИЖКА для кошек и собак",
       },
+      {
+        id: "149",
+        name: "Татьяна",
+        tel: "+375(29) 787-89-30",
+        icon: { icon: goldIcon },
+        cord: [53.706305, 23.645250],
+        photos: [
+          "img/other/other/food/honey-grodno/1.jpg",
+          "img/other/other/food/honey-grodno/2.jpg",
+          "img/other/other/food/honey-grodno/3.jpg",
+          "img/other/other/food/honey-grodno/4.jpg",
+          "img/other/other/food/honey-grodno/5.jpg",
+          "img/other/other/food/honey-grodno/6.jpg",
+          "img/other/other/food/honey-grodno/7.jpg",
+          "img/other/other/food/honey-grodno/8.jpg",
+          "img/other/other/food/honey-grodno/9.jpg",
+        ],
+        text: "Молочные продукты, мёд",
+      }
     ]),
   ]),
 ];
@@ -1175,8 +1194,14 @@ const pagesContent = [
       categories: [
         {
           name: "домашние питомцы",
+          color: "green",
           coast: [{ name: "стрижка", pay: "от 30р" }],
         },
+        {
+          name: "мёд",
+          color: "gold",
+          coast: [{ name: "цветочный", pay: "от 10р" }],
+        }
       ],
     },
   ]),
