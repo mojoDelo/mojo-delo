@@ -261,6 +261,25 @@ const coordinates = [
         ],
         text: "ремонт печей и каминов",
       },
+      {
+        id: "186",
+        name: "Евгений",
+        tel: "+375(25)941-46-19",
+        icon: { icon: redIcon },
+        cord: [52.352697, 31.047337],
+        photos: [
+          "img/build/special/potolok/evgeni-gomel/1.jpg",
+          "img/build/special/potolok/evgeni-gomel/2.jpg",
+          "img/build/special/potolok/evgeni-gomel/3.jpg",
+          "img/build/special/potolok/evgeni-gomel/4.jpg",
+          "img/build/special/potolok/evgeni-gomel/5.jpg",
+          "img/build/special/potolok/evgeni-gomel/6.jpg",
+          "img/build/special/potolok/evgeni-gomel/7.jpg",
+          "img/build/special/potolok/evgeni-gomel/8.jpg",
+          "img/build/special/potolok/evgeni-gomel/9.jpg",
+        ],
+        text: "натяжной потолок",
+      }
     ]),
     (general = [
       {
@@ -870,6 +889,11 @@ const pagesContent = [
           color: "gold",
           coast: [{ name: "ремонт печи", pay: "от 50р" }],
         },
+        {
+          name: "натяжной потолок",
+          color: "red",
+          coast: [{ name: "потолок", pay: "от 150р" }],
+        }
       ],
     },
     {
