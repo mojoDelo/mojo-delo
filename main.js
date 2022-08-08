@@ -668,6 +668,25 @@ const coordinates = [
         text: "Арт-Салон",
       },
       {
+        id: "246",
+        name: "Музей",
+        tel: "80(235)37-53-75",
+        icon: { icon: redIcon },
+        cord: [52.067357, 27.731477],
+        photos: [
+          "img/leisure/art/turov-museum/1.jpg",
+          "img/leisure/art/turov-museum/2.jpg",
+          "img/leisure/art/turov-museum/3.jpg",
+          "img/leisure/art/turov-museum/4.jpg",
+          "img/leisure/art/turov-museum/5.jpg",
+          "img/leisure/art/turov-museum/6.jpg",
+          "img/leisure/art/turov-museum/7.jpg",
+          "img/leisure/art/turov-museum/8.jpg",
+          "img/leisure/art/turov-museum/9.jpg",
+        ],
+        text: "краеведческий",
+      },
+      {
         id: "406",
         name: "Илья",
         tel: "@ilysha701",
@@ -811,6 +830,25 @@ const coordinates = [
         ],
         text: "изделия из металла, ковка",
       },
+      {
+        id: "194",
+        name: "Андрей",
+        tel: "+375(29)786-83-95",
+        icon: { icon: goldIcon },
+        cord: [53.769094, 27.579137],
+        photos: [
+          "img/other/handMade/mebel/sadovaya-andrew/1.jpg",
+          "img/other/handMade/mebel/sadovaya-andrew/2.jpg",
+          "img/other/handMade/mebel/sadovaya-andrew/3.jpg",
+          "img/other/handMade/mebel/sadovaya-andrew/4.jpg",
+          "img/other/handMade/mebel/sadovaya-andrew/5.jpg",
+          "img/other/handMade/mebel/sadovaya-andrew/6.jpg",
+          "img/other/handMade/mebel/sadovaya-andrew/7.jpg",
+          "img/other/handMade/mebel/sadovaya-andrew/8.jpg",
+          "img/other/handMade/mebel/sadovaya-andrew/9.jpg",
+        ],
+        text: "мебель садовая",
+      }
     ]),
     (other = [
       {
@@ -1126,6 +1164,13 @@ const pagesContent = [
           ],
         },
         {
+          name: "музей",
+          color: "red",
+          coast: [
+            { name: "посещение", pay: "5р" }
+          ],
+        },
+        {
           name: "фотограф",
           color: "gold",
           coast: [
@@ -1210,6 +1255,11 @@ const pagesContent = [
           color: "green",
           coast: [{ name: "изделие", pay: "от 30р." }],
         },
+        {
+          name: "изделия из дерева",
+          color: "gold",
+          coast: [{ name: "изделие", pay: "от 30р." }],
+        }
       ],
     },
     {
