@@ -50,6 +50,36 @@ const redIcon = new L.Icon({
   popupAnchor: [1, -34],
   shadowSize: [41, 41],
 });
+const orangeIcon = new L.Icon({
+  iconUrl:
+    "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png",
+  shadowUrl:
+    "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41],
+});
+const violetIcon = new L.Icon({
+  iconUrl:
+    "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png",
+  shadowUrl:
+    "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41],
+});
+const blackIcon = new L.Icon({
+  iconUrl:
+    "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-black.png",
+  shadowUrl:
+    "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41],
+});
 const locat = [
   {
     name: "Брестская",
@@ -396,6 +426,25 @@ const coordinates = [
         ],
         text: "деревянные конструкции, кровельные работы",
       },
+      {
+        id: "232",
+        name: "Иван",
+        tel: " +375(29)507-98-17",
+        icon: { icon: violetIcon },
+        cord: [52.781370, 27.525809],
+        photos: [
+          "img/build/obshestroy/komplex/siligorsk/1.jpg",
+          "img/build/obshestroy/komplex/siligorsk/2.jpg",
+          "img/build/obshestroy/komplex/siligorsk/3.jpg",
+          "img/build/obshestroy/komplex/siligorsk/4.jpg",
+          "img/build/obshestroy/komplex/siligorsk/5.jpg",
+          "img/build/obshestroy/komplex/siligorsk/6.jpg",
+          "img/build/obshestroy/komplex/siligorsk/7.jpg",
+          "img/build/obshestroy/komplex/siligorsk/8.jpg",
+          "img/build/obshestroy/komplex/siligorsk/9.jpg",
+        ],
+        text: "комплексное строительство",
+      }
     ]),
     (other = [
       {
@@ -771,6 +820,25 @@ const coordinates = [
         ],
         text: "юридические услуги",
       },
+      {
+        id: "184",
+        name: "Орлов Алексей",
+        tel: "+375(29)328-12-18",
+        icon: { icon: greenIcon },
+        cord: [52.403596, 31.027539],
+        photos: [
+          "img/other/economy/loyer/gomel/1.jpg",
+          "img/other/economy/loyer/gomel/2.jpg",
+          "img/other/economy/loyer/gomel/3.jpg",
+          "img/other/economy/loyer/gomel/4.jpg",
+          "img/other/economy/loyer/gomel/5.jpg",
+          "img/other/economy/loyer/gomel/6.jpg",
+          "img/other/economy/loyer/gomel/7.jpg",
+          "img/other/economy/loyer/gomel/8.jpg",
+          "img/other/economy/loyer/gomel/9.jpg",
+        ],
+        text: "юридические услуги",
+      }
     ]),
     (handMade = [
       {
@@ -848,6 +916,25 @@ const coordinates = [
           "img/other/handMade/mebel/sadovaya-andrew/9.jpg",
         ],
         text: "мебель садовая",
+      },
+      {
+        id: "294",
+        name: "салон Вангелия",
+        tel: "+375(29)786-83-95",
+        icon: { icon: violetIcon },
+        cord: [52.784461, 27.520761],
+        photos: [
+          "img/other/handMade/decore/svadba/soligorsk/1.jpg",
+          "img/other/handMade/decore/svadba/soligorsk/2.jpg",
+          "img/other/handMade/decore/svadba/soligorsk/3.jpg",
+          "img/other/handMade/decore/svadba/soligorsk/4.jpg",
+          "img/other/handMade/decore/svadba/soligorsk/5.jpg",
+          "img/other/handMade/decore/svadba/soligorsk/6.jpg",
+          "img/other/handMade/decore/svadba/soligorsk/7.jpg",
+          "img/other/handMade/decore/svadba/soligorsk/8.jpg",
+          "img/other/handMade/decore/svadba/soligorsk/9.jpg",
+        ],
+        text: "свадебное оформнение",
       }
     ]),
     (other = [
@@ -968,6 +1055,11 @@ const pagesContent = [
           color: "gold",
           coast: [{ name: "изделие", pay: "от 50р" }],
         },
+        {
+          name: "комплексное строительство",
+          color: "violet",
+          coast: [{ name: "кладка", pay: "от 15р" }],
+        }
       ],
     },
     {
@@ -1259,6 +1351,11 @@ const pagesContent = [
           name: "изделия из дерева",
           color: "gold",
           coast: [{ name: "изделие", pay: "от 30р." }],
+        },
+        {
+          name: "свадебное оформнение",
+          color: "violet",
+          coast: [{ name: "украшение", pay: "от 30р." }],
         }
       ],
     },
