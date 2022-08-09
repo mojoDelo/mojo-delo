@@ -485,6 +485,25 @@ const coordinates = [
         ],
         text: "ПЛИТКА",
       },
+      {
+        id: "271",
+        name: "Ольга",
+        tel: "+375(29)781-87-29",
+        icon: { icon: violetIcon },
+        cord: [53.639040, 23.804377],
+        photos: [
+          "img/build/other/kraska/1.jpg",
+          "img/build/other/kraska/2.jpg",
+          "img/build/other/kraska/3.jpg",
+          "img/build/other/kraska/4.jpg",
+          "img/build/other/kraska/5.jpg",
+          "img/build/other/kraska/6.jpg",
+          "img/build/other/kraska/7.jpg",
+          "img/build/other/kraska/8.jpg",
+          "img/build/other/kraska/9.jpg",
+        ],
+        text: "Краска",
+      }
     ]),
   ]),
   (Car = [
@@ -1079,6 +1098,13 @@ const pagesContent = [
           color: "blue",
           coast: [{ name: "изделие", pay: "от 10р" }],
         },
+        {
+          name: "краска",
+          color: "violet",
+          coast: [
+            { name: "краска", pay: "от 15р" }
+          ],
+        }
       ],
     },
   ]),
