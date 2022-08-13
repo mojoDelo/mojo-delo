@@ -592,7 +592,27 @@ const coordinates = [
     ]),
   ]),
   (Beauty = [
-    (medecine = []),
+    (medecine = [
+      {
+        id: "202",
+        name: "Криваль Екатерина",
+        tel: "+375(33)331-51-17",
+        icon: { icon: orangeIcon },
+        cord: [52.701195, 25.334571],
+        photos: [
+          "img/beauty/cosmetology/ivazevichi/1.jpg",
+          "img/beauty/cosmetology/ivazevichi/2.jpg",
+          "img/beauty/cosmetology/ivazevichi/3.jpg",
+          "img/beauty/cosmetology/ivazevichi/4.jpg",
+          "img/beauty/cosmetology/ivazevichi/5.jpg",
+          "img/beauty/cosmetology/ivazevichi/6.jpg",
+          "img/beauty/cosmetology/ivazevichi/7.jpg",
+          "img/beauty/cosmetology/ivazevichi/8.jpg",
+          "img/beauty/cosmetology/ivazevichi/9.jpg",
+        ],
+        text: "Косметология",
+      }
+    ]),
     (cosmetic = [
       {
         id: "42",
@@ -615,7 +635,27 @@ const coordinates = [
       },
     ]),
     (sport = []),
-    (other = []),
+    (other = [
+      {
+        id: "242",
+        name: "Вангелия",
+        tel: "+375(29)139-78-77",
+        icon: { icon: violetIcon },
+        cord: [52.784349, 27.519771],
+        photos: [
+          "img/beauty/other/ukrashenie/svadba/1.jpg",
+          "img/beauty/other/ukrashenie/svadba/2.jpg",
+          "img/beauty/other/ukrashenie/svadba/3.jpg",
+          "img/beauty/other/ukrashenie/svadba/4.jpg",
+          "img/beauty/other/ukrashenie/svadba/5.jpg",
+          "img/beauty/other/ukrashenie/svadba/6.jpg",
+          "img/beauty/other/ukrashenie/svadba/7.jpg",
+          "img/beauty/other/ukrashenie/svadba/8.jpg",
+          "img/beauty/other/ukrashenie/svadba/9.jpg",
+        ],
+        text: "Свадебный салон",
+      }
+    ]),
   ]),
   (Leisure = [
     (nature = [
@@ -713,6 +753,25 @@ const coordinates = [
           "img/leisure/nature/agrousadba/chernika/9.jpg",
         ],
         text: "агроусадьба",
+      },
+      {
+        id: "385",
+        name: "Екатерина",
+        tel: "+375(44)775-07-46",
+        icon: { icon: blackIcon },
+        cord: [54.323240, 29.149184],
+        photos: [
+          "img/leisure/nature/supboard/krupki/1.jpg",
+          "img/leisure/nature/supboard/krupki/2.jpg",
+          "img/leisure/nature/supboard/krupki/3.jpg",
+          "img/leisure/nature/supboard/krupki/4.jpg",
+          "img/leisure/nature/supboard/krupki/5.jpg",
+          "img/leisure/nature/supboard/krupki/6.jpg",
+          "img/leisure/nature/supboard/krupki/7.jpg",
+          "img/leisure/nature/supboard/krupki/8.jpg",
+          "img/leisure/nature/supboard/krupki/9.jpg",
+        ],
+        text: "Прокат и прогулки на Supboard",
       }
     ]),
     (art = [
@@ -994,6 +1053,25 @@ const coordinates = [
           "img/other/other/food/honey-grodno/9.jpg",
         ],
         text: "Молочные продукты, мёд",
+      },
+      {
+        id: "349",
+        name: "Богданов Игорь",
+        tel: "+375(29)710-81-70",
+        icon: { icon: goldIcon },
+        cord: [55.180103, 30.223278],
+        photos: [
+          "img/other/other/food/honey-vitebsk/1.jpg",
+          "img/other/other/food/honey-vitebsk/2.jpg",
+          "img/other/other/food/honey-vitebsk/3.jpg",
+          "img/other/other/food/honey-vitebsk/4.jpg",
+          "img/other/other/food/honey-vitebsk/5.jpg",
+          "img/other/other/food/honey-vitebsk/6.jpg",
+          "img/other/other/food/honey-vitebsk/7.jpg",
+          "img/other/other/food/honey-vitebsk/8.jpg",
+          "img/other/other/food/honey-vitebsk/9.jpg",
+        ],
+        text: "Мед и продукты пчеловодства",
       }
     ]),
   ]),
@@ -1188,12 +1266,10 @@ const pagesContent = [
       name: "МЕДИЦИНА",
       categories: [
         {
-          name: "под ключ",
-          color: "green",
+          name: "косметология",
+          color: "orange",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "консультация", pay: "0р." }
           ],
         },
       ],
@@ -1232,12 +1308,10 @@ const pagesContent = [
       name: "ДРУГОЕ",
       categories: [
         {
-          name: "под ключ",
-          color: "green",
+          name: "свадебный салон",
+          color: "violet",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "консультация", pay: "0 р." }
           ],
         },
       ],
@@ -1264,6 +1338,14 @@ const pagesContent = [
           color: "green",
           coast: [
             { name: "сутки", pay: "от 30р. чел" }
+          ],
+        },
+        {
+          name: "прогулка по реке",
+          color: "black",
+          coast: [
+            { name: "Supboard 30 мин", pay: "10 р." },
+            { name: "Supboard сутки", pay: "45 р." }
           ],
         }
       ],
