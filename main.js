@@ -545,6 +545,25 @@ const coordinates = [
           "img/auto/sto/respect-avto/9.jpg",
         ],
         text: "СТО",
+      },
+      {
+        id: "333",
+        name: "ИП Юсевич",
+        tel: "375(29)589-27-20",
+        icon: { icon: orangeIcon },
+        cord: [53.687330, 23.875248],
+        photos: [
+          "img/auto/avtosteklo/grodno/1.jpg",
+          "img/auto/avtosteklo/grodno/2.jpg",
+          "img/auto/avtosteklo/grodno/3.jpg",
+          "img/auto/avtosteklo/grodno/4.jpg",
+          "img/auto/avtosteklo/grodno/5.jpg",
+          "img/auto/avtosteklo/grodno/6.jpg",
+          "img/auto/avtosteklo/grodno/7.jpg",
+          "img/auto/avtosteklo/grodno/8.jpg",
+          "img/auto/avtosteklo/grodno/9.jpg",
+        ],
+        text: "автостёкла",
       }
     ]),
     (service = [
@@ -1192,7 +1211,7 @@ const pagesContent = [
       name: "РЕМОНТ",
       categories: [
         {
-          name: "подвеска +",
+          name: "ходовая",
           color: "blue",
           coast: [
             { name: "ТОРМОЗНАЯ СИСТЕМА", pay: "" },
@@ -1207,6 +1226,13 @@ const pagesContent = [
             { name: "Регулировка ручного тормоза", pay: "от 40р" },
           ],
         },
+        {
+          name: "автостёкла",
+          color: "orange",
+          coast: [
+            { name: "консультация", pay: "0 р." }
+          ],
+        }
       ],
     },
     {

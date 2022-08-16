@@ -7,8 +7,10 @@ const prev = document.getElementById('btn-prev'),
     dots = document.querySelectorAll('.dot');
 
 let number = 0;
+let index = 0;
 
 const activeDot = el => {
+    index = 0;
     console.log(el.target.id)
     for(dot of dots) {
         dot.classList.remove('active');
@@ -26,7 +28,7 @@ const activeDot = el => {
 for (dot of dots) {
     dot.addEventListener('click', dot => activeDot(dot))
 };
-let index = 0;
+
 
 const activeSlide = n => {
 
