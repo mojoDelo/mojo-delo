@@ -59,9 +59,9 @@ p {
   font-weight: 400;
 }
 
-$main-color: #f1cdb3;
-$second-color: #fddcc4;
-$active-color: rgb(99, 55, 47);
+$main-color: #5f5d5b;
+$second-color: #000000;
+$active-color: rgb(188, 238, 234);
 
 @mixin flexColumn {
   display: flex;
@@ -452,6 +452,7 @@ body {
           .icon__logo {
             width: 80px;
             height: auto;
+            margin-left: 30px;
 
             @media screen and (max-width: 1000px) {
               width: 70px;
@@ -461,7 +462,19 @@ body {
           .icon__inner {
             display: none;
             &.active {
-              display: block;
+              display: flex;
+              flex-direction: column;
+              width: 90%;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .insta {
+              margin-left: 10%;
+              text-decoration: none;
+              color: rgb(159, 204, 204);
+              &:hover {
+                color: #5cf0cb;
+              }
             }
           }
           .icon__info {
@@ -475,8 +488,8 @@ body {
             border: none;
             &:hover {
               border: none;
-              box-shadow: 0 4px 1px #9b7363;
-              background: #3b1f0b;
+              box-shadow: 0 4px 1px #d7ecec;
+              background: #5cf0cb;
             }
           }
         }

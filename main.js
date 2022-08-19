@@ -1032,6 +1032,25 @@ const coordinates = [
           "img/other/handMade/decore/svadba/soligorsk/9.jpg",
         ],
         text: "свадебное оформнение",
+      },
+      {
+        id: "195",
+        name: "Денис",
+        tel: "+375(29)119-27-08",
+        icon: { icon: goldIcon },
+        cord: [53.571990, 31.372363],
+        photos: [
+          "img/other/handMade/mebel/cherikov-stolyar/1.jpg",
+          "img/other/handMade/mebel/cherikov-stolyar/2.jpg",
+          "img/other/handMade/mebel/cherikov-stolyar/3.jpg",
+          "img/other/handMade/mebel/cherikov-stolyar/4.jpg",
+          "img/other/handMade/mebel/cherikov-stolyar/5.jpg",
+          "img/other/handMade/mebel/cherikov-stolyar/6.jpg",
+          "img/other/handMade/mebel/cherikov-stolyar/7.jpg",
+          "img/other/handMade/mebel/cherikov-stolyar/8.jpg",
+          "img/other/handMade/mebel/cherikov-stolyar/9.jpg",
+        ],
+        text: "Столярное дело",
       }
     ]),
     (other = [
