@@ -257,7 +257,7 @@ const coordinates = [
         id: "19",
         name: "Сергей",
         tel: "+375(25)655-62-12",
-        icon: { icon: blueIcon },
+        icon: { icon: greenIcon },
         cord: [52.436143, 31.012995],
         photos: [
           "img/build/special/electric/sergey/1.jpg",
@@ -309,6 +309,25 @@ const coordinates = [
           "img/build/special/potolok/evgeni-gomel/9.jpg",
         ],
         text: "натяжной потолок",
+      },
+      {
+        id: "119",
+        name: 'ООО "ТРАЙЭНГЛ"',
+        tel: "+375(44)717-78-78",
+        icon: { icon: blueIcon },
+        cord: [55.208861, 30.219889],
+        photos: [
+          "img/build/special/voda/vitebsk/1.jpg",
+          "img/build/special/voda/vitebsk/2.jpg",
+          "img/build/special/voda/vitebsk/3.jpg",
+          "img/build/special/voda/vitebsk/4.jpg",
+          "img/build/special/voda/vitebsk/5.jpg",
+          "img/build/special/voda/vitebsk/6.jpg",
+          "img/build/special/voda/vitebsk/7.jpg",
+          "img/build/special/voda/vitebsk/8.jpg",
+          "img/build/special/voda/vitebsk/9.jpg",
+        ],
+        text: "водопровод, отопление, канализация",
       }
     ]),
     (general = [
@@ -503,6 +522,25 @@ const coordinates = [
           "img/build/other/kraska/9.jpg",
         ],
         text: "Краска",
+      },
+      {
+        id: "221",
+        name: "ТОПДВЕРИ",
+        tel: "+375(29)90-55-111",
+        icon: { icon: blackIcon },
+        cord: [53.583997, 25.804937],
+        photos: [
+          "img/build/other/doors/Novogrudok/1.jpg",
+          "img/build/other/doors/Novogrudok/2.jpg",
+          "img/build/other/doors/Novogrudok/3.jpg",
+          "img/build/other/doors/Novogrudok/4.jpg",
+          "img/build/other/doors/Novogrudok/5.jpg",
+          "img/build/other/doors/Novogrudok/6.jpg",
+          "img/build/other/doors/Novogrudok/7.jpg",
+          "img/build/other/doors/Novogrudok/8.jpg",
+          "img/build/other/doors/Novogrudok/9.jpg",
+        ],
+        text: "Салон дверей",
       }
     ]),
   ]),
@@ -1110,6 +1148,25 @@ const coordinates = [
           "img/other/other/food/honey-vitebsk/9.jpg",
         ],
         text: "Мед и продукты пчеловодства",
+      },
+      {
+        id: "249",
+        name: "Татьяна",
+        tel: "+375(29)716-22-90",
+        icon: { icon: blueIcon },
+        cord: [55.297087, 30.313330],
+        photos: [
+          "img/other/other/education/logoped/vitebsk/1.jpg",
+          "img/other/other/education/logoped/vitebsk/2.jpg",
+          "img/other/other/education/logoped/vitebsk/3.jpg",
+          "img/other/other/education/logoped/vitebsk/4.jpg",
+          "img/other/other/education/logoped/vitebsk/5.jpg",
+          "img/other/other/education/logoped/vitebsk/6.jpg",
+          "img/other/other/education/logoped/vitebsk/7.jpg",
+          "img/other/other/education/logoped/vitebsk/8.jpg",
+          "img/other/other/education/logoped/vitebsk/9.jpg",
+        ],
+        text: "Логопед",
       }
     ]),
   ]),
@@ -1137,7 +1194,7 @@ const pagesContent = [
       categories: [
         {
           name: "электромонтаж",
-          color: "blue",
+          color: "green",
           coast: [
             { name: "точка", pay: "12" },
             { name: "расп. коробка", pay: "10" },
@@ -1153,6 +1210,13 @@ const pagesContent = [
           name: "натяжной потолок",
           color: "red",
           coast: [{ name: "потолок", pay: "от 150р" }],
+        },
+        {
+          name: "одопровод, отопление, канализация",
+          color: "blue",
+          coast: [
+            { name: "консультация", pay: "0р" }
+          ],
         }
       ],
     },
@@ -1219,6 +1283,13 @@ const pagesContent = [
           color: "violet",
           coast: [
             { name: "краска", pay: "от 15р" }
+          ],
+        },
+        {
+          name: "двери",
+          color: "black",
+          coast: [
+            { name: "консультация", pay: "0р" }
           ],
         }
       ],
@@ -1524,6 +1595,11 @@ const pagesContent = [
         {
           name: "мёд",
           color: "gold",
+          coast: [{ name: "цветочный", pay: "от 10р" }],
+        },
+        {
+          name: "логопед",
+          color: "blue",
           coast: [{ name: "цветочный", pay: "от 10р" }],
         }
       ],
