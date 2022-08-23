@@ -328,6 +328,25 @@ const coordinates = [
           "img/build/special/voda/vitebsk/9.jpg",
         ],
         text: "водопровод, отопление, канализация",
+      },
+      {
+        id: "149",
+        name: 'Алексей"',
+        tel: "+375(29)284-79-95",
+        icon: { icon: blackIcon },
+        cord: [52.744692, 26.441177],
+        photos: [
+          "img/build/special/peskostrui/gantsevichi/1.jpg",
+          "img/build/special/peskostrui/gantsevichi/2.jpg",
+          "img/build/special/peskostrui/gantsevichi/3.jpg",
+          "img/build/special/peskostrui/gantsevichi/4.jpg",
+          "img/build/special/peskostrui/gantsevichi/5.jpg",
+          "img/build/special/peskostrui/gantsevichi/6.jpg",
+          "img/build/special/peskostrui/gantsevichi/7.jpg",
+          "img/build/special/peskostrui/gantsevichi/8.jpg",
+          "img/build/special/peskostrui/gantsevichi/9.jpg",
+        ],
+        text: "пескоструйная обработка",
       }
     ]),
     (general = [
@@ -649,7 +668,47 @@ const coordinates = [
     ]),
   ]),
   (Beauty = [
-    (medecine = [
+    (medecine = [      
+    ]),
+    (cosmetic = [
+      {
+        id: "42",
+        name: "Снежана",
+        tel: "+375(25)740-18-37",
+        icon: { icon: greenIcon },
+        cord: [52.402814, 30.923759],
+        photos: [
+          "img/beauty/cosmetology/resnizi/snega/1.jpg",
+          "img/beauty/cosmetology/resnizi/snega/2.jpg",
+          "img/beauty/cosmetology/resnizi/snega/3.jpg",
+          "img/beauty/cosmetology/resnizi/snega/4.jpg",
+          "img/beauty/cosmetology/resnizi/snega/5.jpg",
+          "img/beauty/cosmetology/resnizi/snega/6.jpg",
+          "img/beauty/cosmetology/resnizi/snega/7.jpg",
+          "img/beauty/cosmetology/resnizi/snega/8.jpg",
+          "img/beauty/cosmetology/resnizi/snega/9.jpg",
+        ],
+        text: "ресницы, брови",
+      },
+      {
+        id: "243",
+        name: "Олеся",
+        tel: "+375(29)284-79-95",
+        icon: { icon: violetIcon },
+        cord: [54.421592, 27.842937],
+        photos: [
+          "img/beauty/cosmetology/tatu/pleshency/1.jpg",
+          "img/beauty/cosmetology/tatu/pleshency/2.jpg",
+          "img/beauty/cosmetology/tatu/pleshency/3.jpg",
+          "img/beauty/cosmetology/tatu/pleshency/4.jpg",
+          "img/beauty/cosmetology/tatu/pleshency/5.jpg",
+          "img/beauty/cosmetology/tatu/pleshency/6.jpg",
+          "img/beauty/cosmetology/tatu/pleshency/7.jpg",
+          "img/beauty/cosmetology/tatu/pleshency/8.jpg",
+          "img/beauty/cosmetology/tatu/pleshency/9.jpg",
+        ],
+        text: "тату и перманент бровей",
+      },
       {
         id: "202",
         name: "Криваль Екатерина",
@@ -669,27 +728,6 @@ const coordinates = [
         ],
         text: "Косметология",
       }
-    ]),
-    (cosmetic = [
-      {
-        id: "42",
-        name: "Снежана",
-        tel: "+375(25)740-18-37",
-        icon: { icon: greenIcon },
-        cord: [52.402814, 30.923759],
-        photos: [
-          "img/beauty/resnizi/snega/1.jpg",
-          "img/beauty/resnizi/snega/2.jpg",
-          "img/beauty/resnizi/snega/3.jpg",
-          "img/beauty/resnizi/snega/4.jpg",
-          "img/beauty/resnizi/snega/5.jpg",
-          "img/beauty/resnizi/snega/6.jpg",
-          "img/beauty/resnizi/snega/7.jpg",
-          "img/beauty/resnizi/snega/8.jpg",
-          "img/beauty/resnizi/snega/9.jpg",
-        ],
-        text: "ресницы, брови",
-      },
     ]),
     (sport = []),
     (other = [
@@ -1217,6 +1255,13 @@ const pagesContent = [
           coast: [
             { name: "консультация", pay: "0р" }
           ],
+        },
+        {
+          name: "пескоструйная обработка",
+          color: "black",
+          coast: [
+            { name: "консультация", pay: "0р" }
+          ],
         }
       ],
     },
@@ -1381,13 +1426,6 @@ const pagesContent = [
       id: "1",
       name: "МЕДИЦИНА",
       categories: [
-        {
-          name: "косметология",
-          color: "orange",
-          coast: [
-            { name: "консультация", pay: "0р." }
-          ],
-        },
       ],
     },
     {
@@ -1402,6 +1440,20 @@ const pagesContent = [
             { name: "брови", pay: "от 20р" },
           ],
         },
+        {
+          name: "тату и перманент",
+          color: "violet",
+          coast: [
+            { name: "консультация", pay: "0р." }
+          ],
+        },
+        {
+          name: "косметология",
+          color: "orange",
+          coast: [
+            { name: "консультация", pay: "0р." }
+          ],
+        }
       ],
     },
     {
