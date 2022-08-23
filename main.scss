@@ -688,17 +688,19 @@ body {
           &.active {            
             display: block;
             .column1 {
-              border: 1px solid black;
+              border: 1px solid rgb(106, 181, 194);
               font-family: "Mulish", sans-serif;
               padding: 3px;
               width: 80%;
+              color: rgb(106, 181, 194);
             }
             .column2 {
               font-size: 16px;
-              border: 1px solid black;
+              border: 1px solid rgb(106, 181, 194);
               font-family: "Mulish", sans-serif;
               padding: 3px;
               width: 20%;
+              color: rgb(106, 181, 194);
             }
           }
         }
