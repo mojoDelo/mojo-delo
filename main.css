@@ -199,7 +199,7 @@ body .main__container .container .header .header__burger {
   }
   body .main__container .container .header .header__burger span {
     margin-right: 13px;
-    background-color: #545454;
+    background-color: #c1ddcf;
     position: absolute;
     width: 100%;
     height: 2px;
@@ -211,7 +211,7 @@ body .main__container .container .header .header__burger {
   body .main__container .container .header .header__burger:before, body .main__container .container .header .header__burger:after {
     content: "";
     margin-right: 13px;
-    background-color: #545454;
+    background-color: #c1ddcf;
     position: absolute;
     width: 100%;
     height: 2px;
@@ -427,7 +427,7 @@ body .main__container .container .mainPages .intro__titles {
 
 @media screen and (max-width: 1000px) {
   body .main__container .container .mainPages .intro__titles {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
@@ -721,7 +721,7 @@ body .main__container .container .person .dots-wrapper {
 }
 
 body .main__container .container .person .dot.active {
-  background-color: #000000;
+  background-color: #3b5d5f;
 }
 
 body .main__container .container .person span {
@@ -766,7 +766,7 @@ body .main__container .container .prices .categories.active {
 }
 
 body .main__container .container .prices .categories .category {
-  background-color: #bceeea;
+  background-color: #0e4147;
   border-radius: 100px;
   padding: 3px;
 }
