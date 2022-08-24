@@ -2,6 +2,7 @@ const header__links = document.getElementsByClassName("header__link"),
   pop__btn = document.getElementsByClassName("pop__btn"),
   person__data = document.getElementsByClassName("person__data"),
   header__subtitle = document.getElementById("header__subtitle"),
+  header__title = document.getElementById("header__title"),
   person = document.getElementById("person"),
   categories = document.getElementById("categories"),
   cost = document.getElementById("cost"),
@@ -867,6 +868,25 @@ const coordinates = [
           "img/leisure/nature/supboard/krupki/9.jpg",
         ],
         text: "Прокат и прогулки на Supboard",
+      },
+      {
+        id: "282",
+        name: "Надежда",
+        tel: "+375(29)608-53-22",
+        icon: { icon: greenIcon },
+        cord: [53.213558, 26.675966],
+        photos: [
+          "img/leisure/nature/agrousadba/nesvig/1.jpg",
+          "img/leisure/nature/agrousadba/nesvig/2.jpg",
+          "img/leisure/nature/agrousadba/nesvig/3.jpg",
+          "img/leisure/nature/agrousadba/nesvig/4.jpg",
+          "img/leisure/nature/agrousadba/nesvig/5.jpg",
+          "img/leisure/nature/agrousadba/nesvig/6.jpg",
+          "img/leisure/nature/agrousadba/nesvig/7.jpg",
+          "img/leisure/nature/agrousadba/nesvig/8.jpg",
+          "img/leisure/nature/agrousadba/nesvig/9.jpg",
+        ],
+        text: "агроусадьба",
       }
     ]),
     (art = [
@@ -1744,6 +1764,8 @@ const changeSubClass = (num, link) => {
 };
 
 const changePage = (numb) => {
+  header__title.removeChild(header__subtitle);
+  header__title.insertBefore(header__subtitle, header__links[numb].nextSibling);
   header__subtitle.classList.add("active");
   let num = numb - 1;
   let n = 0;
