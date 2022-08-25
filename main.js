@@ -332,7 +332,7 @@ const coordinates = [
       },
       {
         id: "149",
-        name: 'Алексей"',
+        name: 'Алексей',
         tel: "+375(29)284-79-95",
         icon: { icon: blackIcon },
         cord: [52.744692, 26.441177],
@@ -348,6 +348,25 @@ const coordinates = [
           "img/build/special/peskostrui/gantsevichi/9.jpg",
         ],
         text: "пескоструйная обработка",
+      },
+      {
+        id: "238",
+        name: 'Михаил',
+        tel: "+375(33)624-62-05",
+        icon: { icon: orangeIcon },
+        cord: [53.891180, 30.334429],
+        photos: [
+          "img/build/special/alpinizm/mogilev/1.jpg",
+          "img/build/special/alpinizm/mogilev/2.jpg",
+          "img/build/special/alpinizm/mogilev/3.jpg",
+          "img/build/special/alpinizm/mogilev/4.jpg",
+          "img/build/special/alpinizm/mogilev/5.jpg",
+          "img/build/special/alpinizm/mogilev/6.jpg",
+          "img/build/special/alpinizm/mogilev/7.jpg",
+          "img/build/special/alpinizm/mogilev/8.jpg",
+          "img/build/special/palpinizm/mogilev/9.jpg",
+        ],
+        text: "Промышленный альпинист",
       }
     ]),
     (general = [
@@ -561,6 +580,25 @@ const coordinates = [
           "img/build/other/doors/Novogrudok/9.jpg",
         ],
         text: "Салон дверей",
+      },
+      {
+        id: "271",
+        name: "Кэмпионе",
+        tel: "+375(29)700-35-43",
+        icon: { icon: greenIcon },
+        cord: [52.472673, 30.992419],
+        photos: [
+          "img/build/other/vorota/gomel/1.jpg",
+          "img/build/other/vorota/gomel/2.jpg",
+          "img/build/other/vorota/gomel/3.jpg",
+          "img/build/other/vorota/gomel/4.jpg",
+          "img/build/other/vorota/gomel/5.jpg",
+          "img/build/other/vorota/gomel/6.jpg",
+          "img/build/other/vorota/gomel/7.jpg",
+          "img/build/other/vorota/gomel/8.jpg",
+          "img/build/other/vorota/gomel/9.jpg",
+        ],
+        text: "автоматика для вворот",
       }
     ]),
   ]),
@@ -885,6 +923,25 @@ const coordinates = [
           "img/leisure/nature/agrousadba/nesvig/7.jpg",
           "img/leisure/nature/agrousadba/nesvig/8.jpg",
           "img/leisure/nature/agrousadba/nesvig/9.jpg",
+        ],
+        text: "агроусадьба",
+      },
+      {
+        id: "382",
+        name: "Алёна",
+        tel: " +375(29)865-67-86",
+        icon: { icon: greenIcon },
+        cord: [53.216127, 26.675751],
+        photos: [
+          "img/leisure/nature/agrousadba/nesvig2/1.jpg",
+          "img/leisure/nature/agrousadba/nesvig2/2.jpg",
+          "img/leisure/nature/agrousadba/nesvig2/3.jpg",
+          "img/leisure/nature/agrousadba/nesvig2/4.jpg",
+          "img/leisure/nature/agrousadba/nesvig2/5.jpg",
+          "img/leisure/nature/agrousadba/nesvig2/6.jpg",
+          "img/leisure/nature/agrousadba/nesvig2/7.jpg",
+          "img/leisure/nature/agrousadba/nesvig2/8.jpg",
+          "img/leisure/nature/agrousadba/nesvig2/9.jpg",
         ],
         text: "агроусадьба",
       }
@@ -1282,6 +1339,13 @@ const pagesContent = [
           coast: [
             { name: "консультация", pay: "0р" }
           ],
+        },
+        {
+          name: "Промышленный альпинист",
+          color: "orange",
+          coast: [
+            { name: "консультация", pay: "0р" }
+          ],
         }
       ],
     },
@@ -1353,6 +1417,13 @@ const pagesContent = [
         {
           name: "двери",
           color: "black",
+          coast: [
+            { name: "консультация", pay: "0р" }
+          ],
+        },
+        {
+          name: "автоматика для вворот",
+          color: "green",
           coast: [
             { name: "консультация", pay: "0р" }
           ],
