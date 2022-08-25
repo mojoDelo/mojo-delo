@@ -1304,7 +1304,7 @@ const coordinates = [
       },
       {
         id: "349",
-        name: "Богданов Игорь",
+        name: "Светлана",
         tel: "+375(29)213-81-75",
         icon: { icon: violetIcon },
         cord: [55.113856, 26.843104],
