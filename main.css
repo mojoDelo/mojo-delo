@@ -620,8 +620,8 @@ body .main__container .container .person .person__info {
   padding: 15px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: #f1cdb3;
-  color: #545454;
+  background-color: #5f5d5b;
+  color: #bceeea;
 }
 
 @media screen and (max-width: 768px) {
@@ -635,7 +635,7 @@ body .main__container .container .person .person__info {
 }
 
 body .main__container .container .person .person__info .person__data {
-  background-color: bisque;
+  background-color: #524343;
   padding: 3px;
   border-radius: 10px;
   text-decoration: none;
