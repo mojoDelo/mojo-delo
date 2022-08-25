@@ -1003,6 +1003,25 @@ const coordinates = [
           "img/leisure/art/photo/ilya_gomel/9.jpg",
         ],
         text: "Фотограф",
+      },
+      {
+        id: "446",
+        name: "Анастасия",
+        tel: "@ph.krasovskaya",
+        icon: { icon: goldIcon },
+        cord: [55.145033, 27.687318],
+        photos: [
+          "img/leisure/art/photo/glubokoe/1.jpg",
+          "img/leisure/art/photo/glubokoe/2.jpg",
+          "img/leisure/art/photo/glubokoe/3.jpg",
+          "img/leisure/art/photo/glubokoe/4.jpg",
+          "img/leisure/art/photo/glubokoe/5.jpg",
+          "img/leisure/art/photo/glubokoe/6.jpg",
+          "img/leisure/art/photo/glubokoe/7.jpg",
+          "img/leisure/art/photo/glubokoe/8.jpg",
+          "img/leisure/art/photo/glubokoe/9.jpg",
+        ],
+        text: "Фотограф",
       }
     ]),
     (fun = [
@@ -1282,6 +1301,25 @@ const coordinates = [
           "img/other/other/education/logoped/vitebsk/9.jpg",
         ],
         text: "Логопед",
+      },
+      {
+        id: "349",
+        name: "Богданов Игорь",
+        tel: "+375(29)213-81-75",
+        icon: { icon: violetIcon },
+        cord: [55.113856, 26.843104],
+        photos: [
+          "img/other/other/food/desert-postavi/1.jpg",
+          "img/other/other/food/desert-postavi/2.jpg",
+          "img/other/other/food/desert-postavi/3.jpg",
+          "img/other/other/food/desert-postavi/4.jpg",
+          "img/other/other/food/desert-postavi/5.jpg",
+          "img/other/other/food/desert-postavi/6.jpg",
+          "img/other/other/food/desert-postavi/7.jpg",
+          "img/other/other/food/desert-postavi/8.jpg",
+          "img/other/other/food/desert-postavi/9.jpg",
+        ],
+        text: "Мастерская десертов @masterskaja_decertov",
       }
     ]),
   ]),
@@ -1744,6 +1782,12 @@ const pagesContent = [
           name: "логопед",
           color: "blue",
           coast: [{ name: "цветочный", pay: "от 10р" }],
+        }
+        ,
+        {
+          name: "десерты",
+          color: "violet",
+          coast: [{ name: "десерт", pay: "от 10р" }],
         }
       ],
     },
