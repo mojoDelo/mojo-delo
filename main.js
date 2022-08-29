@@ -683,7 +683,27 @@ const coordinates = [
         text: "шиномонтаж",
       },
     ]),
-    (parts = []),
+    (transport = [
+      {
+        id: "311",
+        name: "Алексей",
+        tel: "+375(29)882-47-52",
+        icon: { icon: blueIcon },
+        cord: [53.926725, 27.425775],
+        photos: [
+          "img/auto/transport/gruz-kamgorka/1.jpg",
+          "img/auto/transport/gruz-kamgorka/2.jpg",
+          "img/auto/transport/gruz-kamgorka/3.jpg",
+          "img/auto/transport/gruz-kamgorka/4.jpg",
+          "img/auto/transport/gruz-kamgorka/5.jpg",
+          "img/auto/transport/gruz-kamgorka/6.jpg",
+          "img/auto/transport/gruz-kamgorka/7.jpg",
+          "img/auto/transport/gruz-kamgorka/8.jpg",
+          "img/auto/transport/gruz-kamgorka/9.jpg",
+        ],
+        text: "грузоперевозки Минск, Каменная горка",
+      }
+    ]),
     (other = [
       {
         id: "111",
@@ -1223,6 +1243,25 @@ const coordinates = [
           "img/other/handMade/mebel/cherikov-stolyar/9.jpg",
         ],
         text: "Столярное дело",
+      },
+      {
+        id: "395",
+        name: "Елена",
+        tel: "+375(44)704-92-31",
+        icon: { icon: blueIcon },
+        cord: [54.231364, 28.510962],
+        photos: [
+          "img/other/handMade/decore/gips-borisov/1.jpg",
+          "img/other/handMade/decore/gips-borisov/2.jpg",
+          "img/other/handMade/decore/gips-borisov/3.jpg",
+          "img/other/handMade/decore/gips-borisov/4.jpg",
+          "img/other/handMade/decore/gips-borisov/5.jpg",
+          "img/other/handMade/decore/gips-borisov/6.jpg",
+          "img/other/handMade/decore/gips-borisov/7.jpg",
+          "img/other/handMade/decore/gips-borisov/8.jpg",
+          "img/other/handMade/decore/gips-borisov/9.jpg",
+        ],
+        text: "Декоративные изделия из гипса",
       }
     ]),
     (other = [
@@ -1523,15 +1562,13 @@ const pagesContent = [
     },
     {
       id: "3",
-      name: "ЗАПЧАСТИ",
+      name: "ПЕРЕВОЗКИ",
       categories: [
         {
-          name: "под ключ",
+          name: "грузоперевозки",
           color: "blue",
           coast: [
-            { name: "шпатлёвка под обои", pay: "3" },
-            { name: "шпатлёвка под покраску", pay: "6" },
-            { name: "штукатурка по маякам", pay: "4" },
+            { name: "консультация", pay: "от 0р." }
           ],
         },
       ],
@@ -1745,7 +1782,9 @@ const pagesContent = [
         {
           name: "Декор",
           color: "blue",
-          coast: [{ name: "букеты", pay: "от 15р." }],
+          coast: [{ name: "букеты", pay: "от 15р." },
+                  { name: "изделия из гипса", pay: "от 15р." }
+                ]
         },
         {
           name: "изделия из металла",
