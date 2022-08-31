@@ -1042,6 +1042,25 @@ const coordinates = [
           "img/leisure/art/photo/glubokoe/9.jpg",
         ],
         text: "Фотограф",
+      },
+      {
+        id: "476",
+        name: "Татьяна",
+        tel: "@cherven_foto_minsk",
+        icon: { icon: goldIcon },
+        cord: [53.714457, 28.417560],
+        photos: [
+          "img/leisure/art/photo/cherven/1.jpg",
+          "img/leisure/art/photo/cherven/2.jpg",
+          "img/leisure/art/photo/cherven/3.jpg",
+          "img/leisure/art/photo/cherven/4.jpg",
+          "img/leisure/art/photo/cherven/5.jpg",
+          "img/leisure/art/photo/cherven/6.jpg",
+          "img/leisure/art/photo/cherven/7.jpg",
+          "img/leisure/art/photo/cherven/8.jpg",
+          "img/leisure/art/photo/cherven/9.jpg",
+        ],
+        text: "Фотограф",
       }
     ]),
     (fun = [
@@ -1088,6 +1107,25 @@ const coordinates = [
         ],
         text: "ремонт оргтехники",
       },
+      {
+        id: "334",
+        name: "Ремцентр-сервис",
+        tel: "+375(33)990-30-38",
+        icon: { icon: greenIcon },
+        cord: [52.424734, 31.001228],
+        photos: [
+          "img/other/technic/remont/remcenter-gomel/1.jpg",
+          "img/other/technic/remont/remcenter-gomel/2.jpg",
+          "img/other/technic/remont/remcenter-gomel/3.jpg",
+          "img/other/technic/remont/remcenter-gomel/4.jpg",
+          "img/other/technic/remont/remcenter-gomel/5.jpg",
+          "img/other/technic/remont/remcenter-gomel/6.jpg",
+          "img/other/technic/remont/remcenter-gomel/7.jpg",
+          "img/other/technic/remont/remcenter-gomel/8.jpg",
+          "img/other/technic/remont/remcenter-gomel/9.jpg",
+        ],
+        text: "ремонт техники",
+      }
     ]),
     (economic = [
       {
