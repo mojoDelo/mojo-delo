@@ -786,6 +786,25 @@ const coordinates = [
           "img/beauty/cosmetology/ivazevichi/9.jpg",
         ],
         text: "Косметология",
+      },
+      {
+        id: "302",
+        name: "Криваль Екатерина",
+        tel: "+375(29)224-49-61",
+        icon: { icon: redIcon },
+        cord: [52.557809, 24.465867],
+        photos: [
+          "img/beauty/cosmetology/pruzhani-style/1.jpg",
+          "img/beauty/cosmetology/pruzhani-style/2.jpg",
+          "img/beauty/cosmetology/pruzhani-style/3.jpg",
+          "img/beauty/cosmetology/pruzhani-style/4.jpg",
+          "img/beauty/cosmetology/pruzhani-style/5.jpg",
+          "img/beauty/cosmetology/pruzhani-style/6.jpg",
+          "img/beauty/cosmetology/pruzhani-style/7.jpg",
+          "img/beauty/cosmetology/pruzhani-style/8.jpg",
+          "img/beauty/cosmetology/pruzhani-style/9.jpg",
+        ],
+        text: "визажист, стилист по причёскам",
       }
     ]),
     (sport = []),
@@ -1656,6 +1675,16 @@ const pagesContent = [
           color: "orange",
           coast: [
             { name: "консультация", pay: "0р." }
+          ],
+        },
+        {
+          name: "стиль",
+          color: "red",
+          coast: [
+            { name: "причёски", pay: "" },
+            { name: "консультация", pay: "0р." },
+            { name: "визажист", pay: "" },
+            { name: "консультация", pay: "0р." },
           ],
         }
       ],
