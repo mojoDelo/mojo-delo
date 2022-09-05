@@ -318,12 +318,12 @@ body {
 
           .header__subtitle {
             height: 40%;
-            width: 100%;
+            width: 70%;
             background-color: $active-color;
             display: none;
             border-radius: 10px;
 
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: px) {
               width: 100%;
               height: auto;
               background-color: #292929;
@@ -335,11 +335,21 @@ body {
             &.active {
               display: flex;
               justify-content: center;
-              align-items: center;
+              position: absolute;
+              bottom: 0;
               gap: 15px;
+              
 
-              @media screen and (max-width: 1030px) {
+              @media screen and (max-width: 768px) {
+                position:sticky;
+                bottom: 0;
+
+                flex-direction: column;
+                align-items: center;                
+                            
                 gap: 10px;
+                background-color: #080808;
+                
               }
 
               // @media screen and (max-width: 480px) {
@@ -352,6 +362,7 @@ body {
               padding: 2px;
               opacity: 0.6;
               color: $second-color;
+              font-size: 19px;
 
               @media screen and (max-width: 1030px) {
                 font-size: 15px;

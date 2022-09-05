@@ -234,7 +234,7 @@ const coordinates = [
   (Build = [
     (finishing = [
       {
-        id: "191",
+        id: "1111",
         name: "Александр",
         tel: "+375(29)106-26-19",
         icon: { icon: blueIcon },
@@ -255,7 +255,7 @@ const coordinates = [
     ]),
     (special = [
       {
-        id: "19",
+        id: "1211",
         name: "Сергей",
         tel: "+375(25)655-62-12",
         icon: { icon: greenIcon },
@@ -274,7 +274,7 @@ const coordinates = [
         text: "электромонтаж",
       },
       {
-        id: "86",
+        id: "1221",
         name: "Александр",
         tel: "+375(29)364-69-25",
         icon: { icon: goldIcon },
@@ -293,7 +293,7 @@ const coordinates = [
         text: "ремонт печей и каминов",
       },
       {
-        id: "186",
+        id: "1231",
         name: "Евгений",
         tel: "+375(25)941-46-19",
         icon: { icon: redIcon },
@@ -312,7 +312,7 @@ const coordinates = [
         text: "натяжной потолок",
       },
       {
-        id: "119",
+        id: "1241",
         name: 'ООО "ТРАЙЭНГЛ"',
         tel: "+375(44)717-78-78",
         icon: { icon: blueIcon },
@@ -331,8 +331,8 @@ const coordinates = [
         text: "водопровод, отопление, канализация",
       },
       {
-        id: "149",
-        name: 'Алексей',
+        id: "1251",
+        name: "Алексей",
         tel: "+375(29)284-79-95",
         icon: { icon: blackIcon },
         cord: [52.744692, 26.441177],
@@ -350,11 +350,11 @@ const coordinates = [
         text: "пескоструйная обработка",
       },
       {
-        id: "238",
-        name: 'Михаил',
+        id: "1261",
+        name: "Михаил",
         tel: "+375(33)624-62-05",
         icon: { icon: orangeIcon },
-        cord: [53.891180, 30.334429],
+        cord: [53.89118, 30.334429],
         photos: [
           "img/build/special/alpinizm/mogilev/1.jpg",
           "img/build/special/alpinizm/mogilev/2.jpg",
@@ -367,11 +367,11 @@ const coordinates = [
           "img/build/special/palpinizm/mogilev/9.jpg",
         ],
         text: "Промышленный альпинист",
-      }
+      },
     ]),
     (general = [
       {
-        id: "52",
+        id: "1321",
         name: "Евгений Л.Н.",
         tel: "+375(29)363-28-30 ",
         icon: { icon: greenIcon },
@@ -390,7 +390,7 @@ const coordinates = [
         text: "сайдинг, кровля, заборы",
       },
       {
-        id: "13",
+        id: "1331",
         name: "Юрий",
         tel: "+375(44)577-54-20",
         icon: { icon: redIcon },
@@ -409,7 +409,7 @@ const coordinates = [
         text: "изделия из металла",
       },
       {
-        id: "16",
+        id: "1311",
         name: "Шинкевич В.В",
         tel: "+375(29)209-08-88",
         icon: { icon: blueIcon },
@@ -428,7 +428,7 @@ const coordinates = [
         text: "демонтаж, электромонтаж",
       },
       {
-        id: "162",
+        id: "1341",
         name: "Александр",
         tel: "+375(33)6020498",
         icon: { icon: goldIcon },
@@ -447,11 +447,11 @@ const coordinates = [
         text: " Шлифовка, конопатка, покрытие пропиткой, гермитизация швов, cпил деревьев, уборка участка.",
       },
       {
-        id: "113",
+        id: "1332",
         name: "Металловар",
         tel: "+375(29)984-42-23",
         icon: { icon: redIcon },
-        cord: [52.444790, 30.974722],
+        cord: [52.44479, 30.974722],
         photos: [
           "img/build/obshestroy/svarka/metallovar/1.jpg",
           "img/build/obshestroy/svarka/metallovar/2.jpg",
@@ -466,7 +466,7 @@ const coordinates = [
         text: "изделия из металла и нержавеющей стали",
       },
       {
-        id: "132",
+        id: "1341",
         name: "Дмитрий",
         tel: "+375(25)629-78-55",
         icon: { icon: goldIcon },
@@ -485,11 +485,11 @@ const coordinates = [
         text: "деревянные конструкции, кровельные работы",
       },
       {
-        id: "232",
+        id: "1351",
         name: "Иван",
         tel: " +375(29)507-98-17",
         icon: { icon: violetIcon },
-        cord: [52.781370, 27.525809],
+        cord: [52.78137, 27.525809],
         photos: [
           "img/build/obshestroy/komplex/siligorsk/1.jpg",
           "img/build/obshestroy/komplex/siligorsk/2.jpg",
@@ -502,30 +502,30 @@ const coordinates = [
           "img/build/obshestroy/komplex/siligorsk/9.jpg",
         ],
         text: "комплексное строительство",
-      }
+      },
     ]),
     (other = [
       {
-        id: "2",
+        id: "1411",
         name: "Александр",
         tel: "+375(44)750-22-11",
         icon: { icon: redIcon },
         cord: [52.363671, 31.012887],
         photos: [
-          "img/arenda/belitsa/a.jpg",
-          "img/arenda/belitsa/arendaa.jpg",
-          "img/arenda/belitsa/are.jpg",
-          "img/arenda/belitsa/arenda.jpg",
-          "img/arenda/belitsa/aren.jpg",
-          "img/arenda/belitsa/arend.jpg",
-          "img/arenda/belitsa/az.jpg",
-          "img/arenda/belitsa/arenda.jpg",
-          "img/arenda/belitsa/arendaa.jpg",
+          "img/build/other/arenda/belitsa/1.jpg",
+          "img/build/other/arenda/belitsa/2.jpg",
+          "img/build/other/arenda/belitsa/3.jpg",
+          "img/build/other/arenda/belitsa/4.jpg",
+          "img/build/other/arenda/belitsa/5.jpg",
+          "img/build/other/arenda/belitsa/6.jpg",
+          "img/build/other/arenda/belitsa/7.jpg",
+          "img/build/other/arenda/belitsa/8.jpg",
+          "img/build/other/arenda/belitsa/9.jpg",
         ],
         text: "аренда эл. инструмента, сад. техники",
       },
       {
-        id: "171",
+        id: "1421",
         name: "Никита",
         tel: "+375(25)686-77-25",
         icon: { icon: blueIcon },
@@ -544,11 +544,11 @@ const coordinates = [
         text: "ПЛИТКА",
       },
       {
-        id: "271",
+        id: "1431",
         name: "Ольга",
         tel: "+375(29)781-87-29",
         icon: { icon: violetIcon },
-        cord: [53.639040, 23.804377],
+        cord: [53.63904, 23.804377],
         photos: [
           "img/build/other/kraska/1.jpg",
           "img/build/other/kraska/2.jpg",
@@ -563,7 +563,7 @@ const coordinates = [
         text: "Краска",
       },
       {
-        id: "221",
+        id: "1441",
         name: "ТОПДВЕРИ",
         tel: "+375(29)90-55-111",
         icon: { icon: blackIcon },
@@ -582,7 +582,7 @@ const coordinates = [
         text: "Салон дверей",
       },
       {
-        id: "271",
+        id: "1451",
         name: "Кэмпионе",
         tel: "+375(29)700-35-43",
         icon: { icon: greenIcon },
@@ -599,13 +599,13 @@ const coordinates = [
           "img/build/other/vorota/gomel/9.jpg",
         ],
         text: "автоматика для вворот",
-      }
+      },
     ]),
   ]),
   (Car = [
     (repair = [
       {
-        id: "51",
+        id: "2111",
         name: "М-ДРАЙВ",
         tel: "+375 (29) 142-74-68",
         icon: { icon: blueIcon },
@@ -624,11 +624,11 @@ const coordinates = [
         text: "СТО",
       },
       {
-        id: "133",
+        id: "2112",
         name: "Авто Респект",
         tel: "375(33) 353-35-11",
         icon: { icon: blueIcon },
-        cord: [53.913814, 25.281080],
+        cord: [53.913814, 25.28108],
         photos: [
           "img/auto/sto/respect-avto/1.jpg",
           "img/auto/sto/respect-avto/2.jpg",
@@ -643,11 +643,11 @@ const coordinates = [
         text: "СТО",
       },
       {
-        id: "333",
+        id: "2121",
         name: "ИП Юсевич",
         tel: "375(29)589-27-20",
         icon: { icon: orangeIcon },
-        cord: [53.687330, 23.875248],
+        cord: [53.68733, 23.875248],
         photos: [
           "img/auto/avtosteklo/grodno/1.jpg",
           "img/auto/avtosteklo/grodno/2.jpg",
@@ -660,11 +660,11 @@ const coordinates = [
           "img/auto/avtosteklo/grodno/9.jpg",
         ],
         text: "автостёкла",
-      }
+      },
     ]),
     (service = [
       {
-        id: "41",
+        id: "2211",
         name: "18... Шиномонтаж",
         tel: "+375(25)777-77-02",
         icon: { icon: greenIcon },
@@ -685,7 +685,7 @@ const coordinates = [
     ]),
     (transport = [
       {
-        id: "311",
+        id: "2311",
         name: "Алексей",
         tel: "+375(29)882-47-52",
         icon: { icon: blueIcon },
@@ -702,15 +702,15 @@ const coordinates = [
           "img/auto/transport/gruz-kamgorka/9.jpg",
         ],
         text: "грузоперевозки Минск, Каменная горка",
-      }
+      },
     ]),
     (other = [
       {
-        id: "111",
+        id: "2411",
         name: "Экстра Автомойка",
         tel: "+375(44) 553-72-73",
         icon: { icon: redIcon },
-        cord: [53.155590, 29.177890],
+        cord: [53.15559, 29.17789],
         photos: [
           "img/auto/other/moika/bobruisk/1.jpg",
           "img/auto/other/moika/bobruisk/2.jpg",
@@ -723,15 +723,14 @@ const coordinates = [
           "img/auto/other/moika/bobruisk/9.jpg",
         ],
         text: "мойка, химчистка",
-      }
+      },
     ]),
   ]),
   (Beauty = [
-    (medecine = [      
-    ]),
+    (medecine = []),
     (cosmetic = [
       {
-        id: "42",
+        id: "3211",
         name: "Снежана",
         tel: "+375(25)740-18-37",
         icon: { icon: greenIcon },
@@ -750,7 +749,7 @@ const coordinates = [
         text: "ресницы, брови",
       },
       {
-        id: "243",
+        id: "3221",
         name: "Олеся",
         tel: "+375(29)284-79-95",
         icon: { icon: violetIcon },
@@ -769,7 +768,7 @@ const coordinates = [
         text: "тату и перманент бровей",
       },
       {
-        id: "202",
+        id: "3231",
         name: "Криваль Екатерина",
         tel: "+375(33)331-51-17",
         icon: { icon: orangeIcon },
@@ -788,7 +787,7 @@ const coordinates = [
         text: "Косметология",
       },
       {
-        id: "302",
+        id: "3241",
         name: "Криваль Екатерина",
         tel: "+375(29)224-49-61",
         icon: { icon: redIcon },
@@ -805,12 +804,12 @@ const coordinates = [
           "img/beauty/cosmetology/pruzhani-style/9.jpg",
         ],
         text: "визажист, стилист по причёскам",
-      }
+      },
     ]),
     (sport = []),
     (other = [
       {
-        id: "242",
+        id: "3411",
         name: "Вангелия",
         tel: "+375(29)139-78-77",
         icon: { icon: violetIcon },
@@ -827,13 +826,13 @@ const coordinates = [
           "img/beauty/other/ukrashenie/svadba/9.jpg",
         ],
         text: "Свадебный салон",
-      }
+      },
     ]),
   ]),
   (Leisure = [
     (nature = [
       {
-        id: "72",
+        id: "4111",
         name: "конный манеж",
         tel: "8 0232 60-99-14",
         icon: { icon: goldIcon },
@@ -852,7 +851,7 @@ const coordinates = [
         text: "конные прогулки",
       },
       {
-        id: "172",
+        id: "4112",
         name: "Татьяна",
         tel: "+375(33)321-06-60",
         icon: { icon: goldIcon },
@@ -871,7 +870,7 @@ const coordinates = [
         text: "агроусадьба и конный двор",
       },
       {
-        id: "112",
+        id: "4121",
         name: "«Купалiнка»",
         tel: "+375(29) 222-23-60",
         icon: { icon: greenIcon },
@@ -890,7 +889,7 @@ const coordinates = [
         text: "агроусадьба",
       },
       {
-        id: "183",
+        id: "4122",
         name: "«Как же здесь хорошо!»",
         tel: "+375(29) 594-08-77",
         icon: { icon: greenIcon },
@@ -909,7 +908,7 @@ const coordinates = [
         text: "агроусадьба",
       },
       {
-        id: "185",
+        id: "4123",
         name: "Усадьба «Черника»",
         tel: "+375(29) 855-50-77",
         icon: { icon: greenIcon },
@@ -928,11 +927,11 @@ const coordinates = [
         text: "агроусадьба",
       },
       {
-        id: "385",
+        id: "4131",
         name: "Екатерина",
         tel: "+375(44)775-07-46",
         icon: { icon: blackIcon },
-        cord: [54.323240, 29.149184],
+        cord: [54.32324, 29.149184],
         photos: [
           "img/leisure/nature/supboard/krupki/1.jpg",
           "img/leisure/nature/supboard/krupki/2.jpg",
@@ -947,7 +946,7 @@ const coordinates = [
         text: "Прокат и прогулки на Supboard",
       },
       {
-        id: "282",
+        id: "4124",
         name: "Надежда",
         tel: "+375(29)608-53-22",
         icon: { icon: greenIcon },
@@ -966,7 +965,7 @@ const coordinates = [
         text: "агроусадьба",
       },
       {
-        id: "382",
+        id: "4125",
         name: "Алёна",
         tel: " +375(29)865-67-86",
         icon: { icon: greenIcon },
@@ -983,11 +982,11 @@ const coordinates = [
           "img/leisure/nature/agrousadba/nesvig2/9.jpg",
         ],
         text: "агроусадьба",
-      }
+      },
     ]),
     (art = [
       {
-        id: "46",
+        id: "4211",
         name: "Чаша Мира",
         tel: "",
         icon: { icon: greenIcon },
@@ -1006,7 +1005,7 @@ const coordinates = [
         text: "Арт-Салон",
       },
       {
-        id: "246",
+        id: "4221",
         name: "Музей",
         tel: "80(235)37-53-75",
         icon: { icon: redIcon },
@@ -1025,11 +1024,11 @@ const coordinates = [
         text: "краеведческий",
       },
       {
-        id: "406",
+        id: "4231",
         name: "Илья",
         tel: "@ilysha701",
         icon: { icon: goldIcon },
-        cord: [52.470023, 31.043540],
+        cord: [52.470023, 31.04354],
         photos: [
           "img/leisure/art/photo/ilya_gomel/1.jpg",
           "img/leisure/art/photo/ilya_gomel/2.jpg",
@@ -1044,7 +1043,7 @@ const coordinates = [
         text: "Фотограф",
       },
       {
-        id: "446",
+        id: "4232",
         name: "Анастасия",
         tel: "@ph.krasovskaya",
         icon: { icon: goldIcon },
@@ -1063,11 +1062,11 @@ const coordinates = [
         text: "Фотограф",
       },
       {
-        id: "476",
+        id: "4233",
         name: "Татьяна",
         tel: "@cherven_foto_minsk",
         icon: { icon: goldIcon },
-        cord: [53.714457, 28.417560],
+        cord: [53.714457, 28.41756],
         photos: [
           "img/leisure/art/photo/cherven/1.jpg",
           "img/leisure/art/photo/cherven/2.jpg",
@@ -1080,11 +1079,11 @@ const coordinates = [
           "img/leisure/art/photo/cherven/9.jpg",
         ],
         text: "Фотограф",
-      }
+      },
     ]),
     (fun = [
       {
-        id: "146",
+        id: "4311",
         name: "лазертаг, квест, икс-бокс",
         tel: "+375 (29) 116-17-52",
         icon: { icon: redIcon },
@@ -1103,12 +1102,220 @@ const coordinates = [
         text: "лазертаг, квест, икс-бокс",
       },
     ]),
-    (other = []),
+    (other = [])
+  ]),
+  (Food = [
+    (fermer = [
+      {
+        id: "5111",
+        name: "Татьяна",
+        tel: "+375(29) 787-89-30",
+        icon: { icon: goldIcon },
+        cord: [53.706305, 23.64525],
+        photos: [
+          "img/other/other/food/honey-grodno/1.jpg",
+          "img/other/other/food/honey-grodno/2.jpg",
+          "img/other/other/food/honey-grodno/3.jpg",
+          "img/other/other/food/honey-grodno/4.jpg",
+          "img/other/other/food/honey-grodno/5.jpg",
+          "img/other/other/food/honey-grodno/6.jpg",
+          "img/other/other/food/honey-grodno/7.jpg",
+          "img/other/other/food/honey-grodno/8.jpg",
+          "img/other/other/food/honey-grodno/9.jpg",
+        ],
+        text: "Молочные продукты, мёд",
+      },
+      {
+        id: "5112",
+        name: "Богданов Игорь",
+        tel: "+375(29)710-81-70",
+        icon: { icon: goldIcon },
+        cord: [55.180103, 30.223278],
+        photos: [
+          "img/other/other/food/honey-vitebsk/1.jpg",
+          "img/other/other/food/honey-vitebsk/2.jpg",
+          "img/other/other/food/honey-vitebsk/3.jpg",
+          "img/other/other/food/honey-vitebsk/4.jpg",
+          "img/other/other/food/honey-vitebsk/5.jpg",
+          "img/other/other/food/honey-vitebsk/6.jpg",
+          "img/other/other/food/honey-vitebsk/7.jpg",
+          "img/other/other/food/honey-vitebsk/8.jpg",
+          "img/other/other/food/honey-vitebsk/9.jpg",
+        ],
+        text: "Мед и продукты пчеловодства",
+      }     
+    ]),
+    (horica = []),
+    (kulinaria = [
+      {
+        id: "5311",
+        name: "Светлана",
+        tel: "+375(29)213-81-75",
+        icon: { icon: violetIcon },
+        cord: [55.113856, 26.843104],
+        photos: [
+          "img/other/other/food/desert-postavi/1.jpg",
+          "img/other/other/food/desert-postavi/2.jpg",
+          "img/other/other/food/desert-postavi/3.jpg",
+          "img/other/other/food/desert-postavi/4.jpg",
+          "img/other/other/food/desert-postavi/5.jpg",
+          "img/other/other/food/desert-postavi/6.jpg",
+          "img/other/other/food/desert-postavi/7.jpg",
+          "img/other/other/food/desert-postavi/8.jpg",
+          "img/other/other/food/desert-postavi/9.jpg",
+        ],
+        text: "Мастерская десертов @masterskaja_decertov",
+      }  
+    ]),
+    (other = [])
+  ]),
+  (handMade = [
+    (decore = [
+      {
+        id: "6111",
+        name: "Евгения",
+        tel: "+375 (44) 561-63-25",
+        icon: { icon: blueIcon },
+        cord: [52.454815, 30.977372],
+        photos: [
+          "img/handMade/decore/flowers/1.jpg",
+          "img/handMade/decore/flowers/2.jpg",
+          "img/handMade/decore/flowers/3.jpg",
+          "img/handMade/decore/flowers/4.jpg",
+          "img/handMade/decore/flowers/5.jpg",
+          "img/handMade/decore/flowers/6.jpg",
+          "img/handMade/decore/flowers/7.jpg",
+          "img/handMade/decore/flowers/8.jpg",
+          "img/handMade/decore/flowers/9.jpg",
+        ],
+        text: "Декор",
+      },
+      {
+        id: "6112",
+        name: "Елена",
+        tel: "+375(44)704-92-31",
+        icon: { icon: blueIcon },
+        cord: [54.231364, 28.510962],
+        photos: [
+          "img/handMade/decore/gips-borisov/1.jpg",
+          "img/handMade/decore/gips-borisov/2.jpg",
+          "img/handMade/decore/gips-borisov/3.jpg",
+          "img/handMade/decore/gips-borisov/4.jpg",
+          "img/handMade/decore/gips-borisov/5.jpg",
+          "img/handMade/decore/gips-borisov/6.jpg",
+          "img/handMade/decore/gips-borisov/7.jpg",
+          "img/handMade/decore/gips-borisov/8.jpg",
+          "img/handMade/decore/gips-borisov/9.jpg",
+        ],
+        text: "Декоративные изделия из гипса",
+      },
+    ]),
+    (holiday = [
+      {
+        id: "6211",
+        name: "салон Вангелия",
+        tel: "+375(29)786-83-95",
+        icon: { icon: violetIcon },
+        cord: [52.784461, 27.520761],
+        photos: [
+          "img/handMade/decore/svadba/soligorsk/1.jpg",
+          "img/handMade/decore/svadba/soligorsk/2.jpg",
+          "img/handMade/decore/svadba/soligorsk/3.jpg",
+          "img/handMade/decore/svadba/soligorsk/4.jpg",
+          "img/handMade/decore/svadba/soligorsk/5.jpg",
+          "img/handMade/decore/svadba/soligorsk/6.jpg",
+          "img/handMade/decore/svadba/soligorsk/7.jpg",
+          "img/handMade/decore/svadba/soligorsk/8.jpg",
+          "img/handMade/decore/svadba/soligorsk/9.jpg",
+        ],
+        text: "свадебное оформнение",
+      },
+    ]),
+    (furniture = [
+      {
+        id: "6311",
+        name: "Дмитрий @remeslo_kovka",
+        tel: "+375(29)616-55-86",
+        icon: { icon: greenIcon },
+        cord: [52.897545, 30.028856],
+        photos: [
+          "img/handMade/metall/zhlobin/1.jpg",
+          "img/handMade/metall/zhlobin/2.jpg",
+          "img/handMade/metall/zhlobin/3.jpg",
+          "img/handMade/metall/zhlobin/4.jpg",
+          "img/handMade/metall/zhlobin/5.jpg",
+          "img/handMade/metall/zhlobin/6.jpg",
+          "img/handMade/metall/zhlobin/7.jpg",
+          "img/handMade/metall/zhlobin/8.jpg",
+          "img/handMade/metall/zhlobin/9.jpg",
+        ],
+        text: "изделия из металла, ковка",
+      },
+      {
+        id: "6321",
+        name: "Андрей",
+        tel: "+375(29)786-83-95",
+        icon: { icon: goldIcon },
+        cord: [53.769094, 27.579137],
+        photos: [
+          "img/handMade/mebel/sadovaya-andrew/1.jpg",
+          "img/handMade/mebel/sadovaya-andrew/2.jpg",
+          "img/handMade/mebel/sadovaya-andrew/3.jpg",
+          "img/handMade/mebel/sadovaya-andrew/4.jpg",
+          "img/handMade/mebel/sadovaya-andrew/5.jpg",
+          "img/handMade/mebel/sadovaya-andrew/6.jpg",
+          "img/handMade/mebel/sadovaya-andrew/7.jpg",
+          "img/handMade/mebel/sadovaya-andrew/8.jpg",
+          "img/handMade/mebel/sadovaya-andrew/9.jpg",
+        ],
+        text: "мебель садовая",
+      },
+      {
+        id: "6322",
+        name: "Денис",
+        tel: "+375(29)119-27-08",
+        icon: { icon: goldIcon },
+        cord: [53.57199, 31.372363],
+        photos: [
+          "img/handMade/mebel/cherikov-stolyar/1.jpg",
+          "img/handMade/mebel/cherikov-stolyar/2.jpg",
+          "img/handMade/mebel/cherikov-stolyar/3.jpg",
+          "img/handMade/mebel/cherikov-stolyar/4.jpg",
+          "img/handMade/mebel/cherikov-stolyar/5.jpg",
+          "img/handMade/mebel/cherikov-stolyar/6.jpg",
+          "img/handMade/mebel/cherikov-stolyar/7.jpg",
+          "img/handMade/mebel/cherikov-stolyar/8.jpg",
+          "img/handMade/mebel/cherikov-stolyar/9.jpg",
+        ],
+        text: "Столярное дело",
+      },
+    ]),
+    (other = [
+      {
+        id: "6411",
+        name: "Евгения",
+        tel: "+375 (29) 839-57-56",
+        icon: { icon: redIcon },
+        cord: [52.426867, 30.965291],
+        photos: [
+          "img/handMade/soap/jenn/1.jpg",
+          "img/handMade/soap/jenn/2.jpg",
+          "img/handMade/soap/jenn/3.jpg",
+          "img/handMade/soap/jenn/4.jpg",
+          "img/handMade/soap/jenn/5.jpg",
+          "img/handMade/soap/jenn/6.jpg",
+          "img/handMade/soap/jenn/7.jpg",
+          "img/handMade/soap/jenn/8.jpg",
+          "img/handMade/soap/jenn/9.jpg",
+        ],
+        text: "Мыло ручной работы",
+      }      
+    ]),
   ]),
   (Other = [
     (technique = [
       {
-        id: "4",
+        id: "7111",
         name: "Белый Мастер",
         tel: "+375(44)525-52-51",
         icon: { icon: greenIcon },
@@ -1127,7 +1334,7 @@ const coordinates = [
         text: "ремонт оргтехники",
       },
       {
-        id: "334",
+        id: "7112",
         name: "Ремцентр-сервис",
         tel: "+375(33)990-30-38",
         icon: { icon: greenIcon },
@@ -1144,11 +1351,11 @@ const coordinates = [
           "img/other/technic/remont/remcenter-gomel/9.jpg",
         ],
         text: "ремонт техники",
-      }
+      },
     ]),
     (economic = [
       {
-        id: "84",
+        id: "7211",
         name: "Смирнова Дарья",
         tel: "+375(33)904-33-67",
         icon: { icon: greenIcon },
@@ -1167,7 +1374,7 @@ const coordinates = [
         text: "юридические услуги",
       },
       {
-        id: "184",
+        id: "7212",
         name: "Орлов Алексей",
         tel: "+375(29)328-12-18",
         icon: { icon: greenIcon },
@@ -1184,146 +1391,32 @@ const coordinates = [
           "img/other/economy/loyer/gomel/9.jpg",
         ],
         text: "юридические услуги",
-      }
+      },
     ]),
-    (handMade = [
+    (education = [
       {
-        id: "4",
-        name: "Евгения",
-        tel: "+375 (29) 839-57-56",
-        icon: { icon: redIcon },
-        cord: [52.426867, 30.965291],
-        photos: [
-          "img/other/handMade/soap/jenn/1.jpg",
-          "img/other/handMade/soap/jenn/2.jpg",
-          "img/other/handMade/soap/jenn/3.jpg",
-          "img/other/handMade/soap/jenn/4.jpg",
-          "img/other/handMade/soap/jenn/5.jpg",
-          "img/other/handMade/soap/jenn/6.jpg",
-          "img/other/handMade/soap/jenn/7.jpg",
-          "img/other/handMade/soap/jenn/8.jpg",
-          "img/other/handMade/soap/jenn/9.jpg",
-        ],
-        text: "Мыло ручной работы",
-      },
-      {
-        id: "104",
-        name: "Евгения",
-        tel: "+375 (44) 561-63-25",
+        id: "7311",
+        name: "Татьяна",
+        tel: "+375(29)716-22-90",
         icon: { icon: blueIcon },
-        cord: [52.454815, 30.977372],
+        cord: [55.297087, 30.31333],
         photos: [
-          "img/other/handMade/decore/flowers/1.jpg",
-          "img/other/handMade/decore/flowers/2.jpg",
-          "img/other/handMade/decore/flowers/3.jpg",
-          "img/other/handMade/decore/flowers/4.jpg",
-          "img/other/handMade/decore/flowers/5.jpg",
-          "img/other/handMade/decore/flowers/6.jpg",
-          "img/other/handMade/decore/flowers/7.jpg",
-          "img/other/handMade/decore/flowers/8.jpg",
-          "img/other/handMade/decore/flowers/9.jpg",
+          "img/other/other/education/logoped/vitebsk/1.jpg",
+          "img/other/other/education/logoped/vitebsk/2.jpg",
+          "img/other/other/education/logoped/vitebsk/3.jpg",
+          "img/other/other/education/logoped/vitebsk/4.jpg",
+          "img/other/other/education/logoped/vitebsk/5.jpg",
+          "img/other/other/education/logoped/vitebsk/6.jpg",
+          "img/other/other/education/logoped/vitebsk/7.jpg",
+          "img/other/other/education/logoped/vitebsk/8.jpg",
+          "img/other/other/education/logoped/vitebsk/9.jpg",
         ],
-        text: "Декор",
-      },
-      {
-        id: "144",
-        name: "Дмитрий @remeslo_kovka",
-        tel: "+375(29)616-55-86",
-        icon: { icon: greenIcon },
-        cord: [52.897545, 30.028856],
-        photos: [
-          "img/other/handMade/metall/zhlobin/1.jpg",
-          "img/other/handMade/metall/zhlobin/2.jpg",
-          "img/other/handMade/metall/zhlobin/3.jpg",
-          "img/other/handMade/metall/zhlobin/4.jpg",
-          "img/other/handMade/metall/zhlobin/5.jpg",
-          "img/other/handMade/metall/zhlobin/6.jpg",
-          "img/other/handMade/metall/zhlobin/7.jpg",
-          "img/other/handMade/metall/zhlobin/8.jpg",
-          "img/other/handMade/metall/zhlobin/9.jpg",
-        ],
-        text: "изделия из металла, ковка",
-      },
-      {
-        id: "194",
-        name: "Андрей",
-        tel: "+375(29)786-83-95",
-        icon: { icon: goldIcon },
-        cord: [53.769094, 27.579137],
-        photos: [
-          "img/other/handMade/mebel/sadovaya-andrew/1.jpg",
-          "img/other/handMade/mebel/sadovaya-andrew/2.jpg",
-          "img/other/handMade/mebel/sadovaya-andrew/3.jpg",
-          "img/other/handMade/mebel/sadovaya-andrew/4.jpg",
-          "img/other/handMade/mebel/sadovaya-andrew/5.jpg",
-          "img/other/handMade/mebel/sadovaya-andrew/6.jpg",
-          "img/other/handMade/mebel/sadovaya-andrew/7.jpg",
-          "img/other/handMade/mebel/sadovaya-andrew/8.jpg",
-          "img/other/handMade/mebel/sadovaya-andrew/9.jpg",
-        ],
-        text: "мебель садовая",
-      },
-      {
-        id: "294",
-        name: "салон Вангелия",
-        tel: "+375(29)786-83-95",
-        icon: { icon: violetIcon },
-        cord: [52.784461, 27.520761],
-        photos: [
-          "img/other/handMade/decore/svadba/soligorsk/1.jpg",
-          "img/other/handMade/decore/svadba/soligorsk/2.jpg",
-          "img/other/handMade/decore/svadba/soligorsk/3.jpg",
-          "img/other/handMade/decore/svadba/soligorsk/4.jpg",
-          "img/other/handMade/decore/svadba/soligorsk/5.jpg",
-          "img/other/handMade/decore/svadba/soligorsk/6.jpg",
-          "img/other/handMade/decore/svadba/soligorsk/7.jpg",
-          "img/other/handMade/decore/svadba/soligorsk/8.jpg",
-          "img/other/handMade/decore/svadba/soligorsk/9.jpg",
-        ],
-        text: "свадебное оформнение",
-      },
-      {
-        id: "195",
-        name: "Денис",
-        tel: "+375(29)119-27-08",
-        icon: { icon: goldIcon },
-        cord: [53.571990, 31.372363],
-        photos: [
-          "img/other/handMade/mebel/cherikov-stolyar/1.jpg",
-          "img/other/handMade/mebel/cherikov-stolyar/2.jpg",
-          "img/other/handMade/mebel/cherikov-stolyar/3.jpg",
-          "img/other/handMade/mebel/cherikov-stolyar/4.jpg",
-          "img/other/handMade/mebel/cherikov-stolyar/5.jpg",
-          "img/other/handMade/mebel/cherikov-stolyar/6.jpg",
-          "img/other/handMade/mebel/cherikov-stolyar/7.jpg",
-          "img/other/handMade/mebel/cherikov-stolyar/8.jpg",
-          "img/other/handMade/mebel/cherikov-stolyar/9.jpg",
-        ],
-        text: "Столярное дело",
-      },
-      {
-        id: "395",
-        name: "Елена",
-        tel: "+375(44)704-92-31",
-        icon: { icon: blueIcon },
-        cord: [54.231364, 28.510962],
-        photos: [
-          "img/other/handMade/decore/gips-borisov/1.jpg",
-          "img/other/handMade/decore/gips-borisov/2.jpg",
-          "img/other/handMade/decore/gips-borisov/3.jpg",
-          "img/other/handMade/decore/gips-borisov/4.jpg",
-          "img/other/handMade/decore/gips-borisov/5.jpg",
-          "img/other/handMade/decore/gips-borisov/6.jpg",
-          "img/other/handMade/decore/gips-borisov/7.jpg",
-          "img/other/handMade/decore/gips-borisov/8.jpg",
-          "img/other/handMade/decore/gips-borisov/9.jpg",
-        ],
-        text: "Декоративные изделия из гипса",
+        text: "Логопед",
       }
     ]),
     (other = [
       {
-        id: "49",
+        id: "7411",
         name: "3 кота",
         tel: "+375(29)533-51-60",
         icon: { icon: greenIcon },
@@ -1340,82 +1433,6 @@ const coordinates = [
           "img/other/other/pets/eremino/9.jpg",
         ],
         text: "ГОСТИНИЦА, СТРИЖКА для кошек и собак",
-      },
-      {
-        id: "149",
-        name: "Татьяна",
-        tel: "+375(29) 787-89-30",
-        icon: { icon: goldIcon },
-        cord: [53.706305, 23.645250],
-        photos: [
-          "img/other/other/food/honey-grodno/1.jpg",
-          "img/other/other/food/honey-grodno/2.jpg",
-          "img/other/other/food/honey-grodno/3.jpg",
-          "img/other/other/food/honey-grodno/4.jpg",
-          "img/other/other/food/honey-grodno/5.jpg",
-          "img/other/other/food/honey-grodno/6.jpg",
-          "img/other/other/food/honey-grodno/7.jpg",
-          "img/other/other/food/honey-grodno/8.jpg",
-          "img/other/other/food/honey-grodno/9.jpg",
-        ],
-        text: "Молочные продукты, мёд",
-      },
-      {
-        id: "349",
-        name: "Богданов Игорь",
-        tel: "+375(29)710-81-70",
-        icon: { icon: goldIcon },
-        cord: [55.180103, 30.223278],
-        photos: [
-          "img/other/other/food/honey-vitebsk/1.jpg",
-          "img/other/other/food/honey-vitebsk/2.jpg",
-          "img/other/other/food/honey-vitebsk/3.jpg",
-          "img/other/other/food/honey-vitebsk/4.jpg",
-          "img/other/other/food/honey-vitebsk/5.jpg",
-          "img/other/other/food/honey-vitebsk/6.jpg",
-          "img/other/other/food/honey-vitebsk/7.jpg",
-          "img/other/other/food/honey-vitebsk/8.jpg",
-          "img/other/other/food/honey-vitebsk/9.jpg",
-        ],
-        text: "Мед и продукты пчеловодства",
-      },
-      {
-        id: "249",
-        name: "Татьяна",
-        tel: "+375(29)716-22-90",
-        icon: { icon: blueIcon },
-        cord: [55.297087, 30.313330],
-        photos: [
-          "img/other/other/education/logoped/vitebsk/1.jpg",
-          "img/other/other/education/logoped/vitebsk/2.jpg",
-          "img/other/other/education/logoped/vitebsk/3.jpg",
-          "img/other/other/education/logoped/vitebsk/4.jpg",
-          "img/other/other/education/logoped/vitebsk/5.jpg",
-          "img/other/other/education/logoped/vitebsk/6.jpg",
-          "img/other/other/education/logoped/vitebsk/7.jpg",
-          "img/other/other/education/logoped/vitebsk/8.jpg",
-          "img/other/other/education/logoped/vitebsk/9.jpg",
-        ],
-        text: "Логопед",
-      },
-      {
-        id: "349",
-        name: "Светлана",
-        tel: "+375(29)213-81-75",
-        icon: { icon: violetIcon },
-        cord: [55.113856, 26.843104],
-        photos: [
-          "img/other/other/food/desert-postavi/1.jpg",
-          "img/other/other/food/desert-postavi/2.jpg",
-          "img/other/other/food/desert-postavi/3.jpg",
-          "img/other/other/food/desert-postavi/4.jpg",
-          "img/other/other/food/desert-postavi/5.jpg",
-          "img/other/other/food/desert-postavi/6.jpg",
-          "img/other/other/food/desert-postavi/7.jpg",
-          "img/other/other/food/desert-postavi/8.jpg",
-          "img/other/other/food/desert-postavi/9.jpg",
-        ],
-        text: "Мастерская десертов @masterskaja_decertov",
       }
     ]),
   ]),
@@ -1463,24 +1480,18 @@ const pagesContent = [
         {
           name: "одопровод, отопление, канализация",
           color: "blue",
-          coast: [
-            { name: "консультация", pay: "0р" }
-          ],
+          coast: [{ name: "консультация", pay: "0р" }],
         },
         {
           name: "пескоструйная обработка",
           color: "black",
-          coast: [
-            { name: "консультация", pay: "0р" }
-          ],
+          coast: [{ name: "консультация", pay: "0р" }],
         },
         {
           name: "Промышленный альпинист",
           color: "orange",
-          coast: [
-            { name: "консультация", pay: "0р" }
-          ],
-        }
+          coast: [{ name: "консультация", pay: "0р" }],
+        },
       ],
     },
     {
@@ -1521,7 +1532,7 @@ const pagesContent = [
           name: "комплексное строительство",
           color: "violet",
           coast: [{ name: "кладка", pay: "от 15р" }],
-        }
+        },
       ],
     },
     {
@@ -1544,24 +1555,18 @@ const pagesContent = [
         {
           name: "краска",
           color: "violet",
-          coast: [
-            { name: "краска", pay: "от 15р" }
-          ],
+          coast: [{ name: "краска", pay: "от 15р" }],
         },
         {
           name: "двери",
           color: "black",
-          coast: [
-            { name: "консультация", pay: "0р" }
-          ],
+          coast: [{ name: "консультация", pay: "0р" }],
         },
         {
           name: "автоматика для вворот",
           color: "green",
-          coast: [
-            { name: "консультация", pay: "0р" }
-          ],
-        }
+          coast: [{ name: "консультация", pay: "0р" }],
+        },
       ],
     },
   ]),
@@ -1589,10 +1594,8 @@ const pagesContent = [
         {
           name: "автостёкла",
           color: "orange",
-          coast: [
-            { name: "консультация", pay: "0 р." }
-          ],
-        }
+          coast: [{ name: "консультация", pay: "0 р." }],
+        },
       ],
     },
     {
@@ -1624,9 +1627,7 @@ const pagesContent = [
         {
           name: "грузоперевозки",
           color: "blue",
-          coast: [
-            { name: "консультация", pay: "от 0р." }
-          ],
+          coast: [{ name: "консультация", pay: "от 0р." }],
         },
       ],
     },
@@ -1637,9 +1638,7 @@ const pagesContent = [
         {
           name: "мойка",
           color: "red",
-          coast: [
-            { name: "химчистка", pay: "от 15р." }
-          ],
+          coast: [{ name: "химчистка", pay: "от 15р." }],
         },
       ],
     },
@@ -1648,8 +1647,7 @@ const pagesContent = [
     {
       id: "1",
       name: "МЕДИЦИНА",
-      categories: [
-      ],
+      categories: [],
     },
     {
       id: "2",
@@ -1666,16 +1664,12 @@ const pagesContent = [
         {
           name: "тату и перманент",
           color: "violet",
-          coast: [
-            { name: "консультация", pay: "0р." }
-          ],
+          coast: [{ name: "консультация", pay: "0р." }],
         },
         {
           name: "косметология",
           color: "orange",
-          coast: [
-            { name: "консультация", pay: "0р." }
-          ],
+          coast: [{ name: "консультация", pay: "0р." }],
         },
         {
           name: "стиль",
@@ -1686,7 +1680,7 @@ const pagesContent = [
             { name: "визажист", pay: "" },
             { name: "консультация", pay: "0р." },
           ],
-        }
+        },
       ],
     },
     {
@@ -1711,9 +1705,7 @@ const pagesContent = [
         {
           name: "свадебный салон",
           color: "violet",
-          coast: [
-            { name: "консультация", pay: "0 р." }
-          ],
+          coast: [{ name: "консультация", pay: "0 р." }],
         },
       ],
     },
@@ -1737,18 +1729,16 @@ const pagesContent = [
         {
           name: "агроусадьба",
           color: "green",
-          coast: [
-            { name: "сутки", pay: "от 30р. чел" }
-          ],
+          coast: [{ name: "сутки", pay: "от 30р. чел" }],
         },
         {
           name: "прогулка по реке",
           color: "black",
           coast: [
             { name: "Supboard 30 мин", pay: "10 р." },
-            { name: "Supboard сутки", pay: "45 р." }
+            { name: "Supboard сутки", pay: "45 р." },
           ],
-        }
+        },
       ],
     },
     {
@@ -1767,17 +1757,13 @@ const pagesContent = [
         {
           name: "музей",
           color: "red",
-          coast: [
-            { name: "посещение", pay: "5р" }
-          ],
+          coast: [{ name: "посещение", pay: "5р" }],
         },
         {
           name: "фотограф",
           color: "gold",
-          coast: [
-            { name: "консультация", pay: "0р" }
-          ],
-        }
+          coast: [{ name: "консультация", pay: "0р" }],
+        },
       ],
     },
     {
@@ -1806,6 +1792,115 @@ const pagesContent = [
             { name: "шпатлёвка под покраску", pay: "6" },
             { name: "штукатурка по маякам", pay: "4" },
           ],
+        },
+      ],
+    },
+  ]),
+  (Food = [
+    {
+      id: "1",
+      name: "ФЕРМЕР",
+      categories: [
+        {
+          name: "мёд",
+          color: "gold",
+          coast: [{ name: "цветочный", pay: "от 10р" }],
+        }
+      ],
+    },
+    {
+      id: "2",
+      name: "ОБЩЕПИТ",
+      categories: [
+        {
+          name: "Декор",
+          color: "blue",
+          coast: [
+            { name: "букеты", pay: "от 15р." },
+            { name: "изделия из гипса", pay: "от 15р." },
+          ],
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "КУЛИНАРИЯ",
+      categories: [
+        {
+          name: "Декор",
+          color: "blue",
+          coast: [
+            { name: "букеты", pay: "от 15р." },
+            { name: "изделия из гипса", pay: "от 15р." },
+          ],
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "ДРУГОЕ",
+      categories: [
+        {
+          name: "Декор",
+          color: "blue",
+          coast: [
+            { name: "букеты", pay: "от 15р." },
+            { name: "изделия из гипса", pay: "от 15р." },
+          ],
+        },
+      ],
+    }        
+  ]),
+  (handMade = [
+    {
+      id: "1",
+      name: "ДЕКОР",
+      categories: [
+        {
+          name: "Декор",
+          color: "blue",
+          coast: [
+            { name: "букеты", pay: "от 15р." },
+            { name: "изделия из гипса", pay: "от 15р." },
+          ],
+        },
+      ],
+    },
+    {
+      id: "2",
+      name: "ПРАЗДНИКИ",
+      categories: [
+        {
+          name: "свадебное оформнение",
+          color: "violet",
+          coast: [{ name: "украшение", pay: "от 30р." }],
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "МЕБЕЛЬ",
+      categories: [
+        {
+          name: "изделия из металла",
+          color: "green",
+          coast: [{ name: "изделие", pay: "от 30р." }],
+        },
+        {
+          name: "изделия из дерева",
+          color: "gold",
+          coast: [{ name: "изделие", pay: "от 30р." }],
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "ДРУГОЕ",
+      categories: [
+        {
+          name: "Мыло ручной работы",
+          color: "red",
+          coast: [{ name: "Мыло ручной работы", pay: "от 10р." }],
         },
       ],
     },
@@ -1839,35 +1934,13 @@ const pagesContent = [
     },
     {
       id: "3",
-      name: "ИЗДЕЛИЯ РУЧКАМИ",
+      name: "ОБРАЗОВАНИЕ",
       categories: [
         {
-          name: "Мыло ручной работы",
-          color: "red",
-          coast: [{ name: "Мыло ручной работы", pay: "от 10р." }],
-        },
-        {
-          name: "Декор",
+          name: "логопед",
           color: "blue",
-          coast: [{ name: "букеты", pay: "от 15р." },
-                  { name: "изделия из гипса", pay: "от 15р." }
-                ]
+          coast: [{ name: "цветочный", pay: "от 10р" }],
         },
-        {
-          name: "изделия из металла",
-          color: "green",
-          coast: [{ name: "изделие", pay: "от 30р." }],
-        },
-        {
-          name: "изделия из дерева",
-          color: "gold",
-          coast: [{ name: "изделие", pay: "от 30р." }],
-        },
-        {
-          name: "свадебное оформнение",
-          color: "violet",
-          coast: [{ name: "украшение", pay: "от 30р." }],
-        }
       ],
     },
     {
@@ -1878,22 +1951,6 @@ const pagesContent = [
           name: "домашние питомцы",
           color: "green",
           coast: [{ name: "стрижка", pay: "от 30р" }],
-        },
-        {
-          name: "мёд",
-          color: "gold",
-          coast: [{ name: "цветочный", pay: "от 10р" }],
-        },
-        {
-          name: "логопед",
-          color: "blue",
-          coast: [{ name: "цветочный", pay: "от 10р" }],
-        }
-        ,
-        {
-          name: "десерты",
-          color: "violet",
-          coast: [{ name: "десерт", pay: "от 10р" }],
         }
       ],
     },
@@ -1912,8 +1969,7 @@ const addMarkers = () => {
   let num = 0;
   for (element of coordinates) {
     for (mark of element) {
-      if (mark == []) {
-      } else
+      if (mark !== []) {
         for (mar of mark) {
           L.marker(mar.cord, mar.icon)
             .addTo(markerGroup)
@@ -1925,6 +1981,7 @@ const addMarkers = () => {
                     </section>`
             );
         }
+      }
     }
     num++;
   }
@@ -1933,16 +1990,16 @@ addMarkers();
 
 const changeCost = (num, link, cat) => {
   cost.innerHTML = "";
-  console.log(num);
-  console.log(link);
-  console.log(cat);
+  // console.log(num);
+  // console.log(link);
+  // console.log(cat);
   cost.classList.add("active");
   let tableCost = pagesContent[num][link].categories[cat].coast.map(
     (el) =>
       `<tr class="row"><td class="column1">${el.name}</td><td class="column2">${el.pay}</td></tr>`
   );
   for (price of tableCost) {
-    console.log(price);
+    // console.log(price);
     cost.innerHTML += price;
   }
 };
@@ -1969,7 +2026,7 @@ const changeSubClass = (num, link) => {
       changeCost(num, link, categ.target.id)
     );
   }
-  console.log(categories.children);
+  // console.log(categories.children);
   for (mark of coordinates[num][link]) {
     L.marker(mark.cord, mark.icon)
       .addTo(markerGroup)
@@ -1990,11 +2047,9 @@ const changePage = (numb) => {
   header__subtitle.classList.add("active");
   let num = numb - 1;
   let n = 0;
-  for (page of sub__link) {
-    page.innerHTML = pagesContent[num][n].name;
-    n++;
-  }
   for (link of sub__link) {
+    link.innerHTML = pagesContent[num][n].name;
+    n++;
     link.addEventListener("click", (link) =>
       changeSubClass(num, link.target.id)
     );
@@ -2026,8 +2081,7 @@ const changeClass = (el) => {
     changePage(num);
 
     for (mark of coordinates[num - 1]) {
-      if (mark == []) {
-      } else
+      if (mark !== []) {
         for (mar of mark) {
           L.marker(mar.cord, mar.icon)
             .addTo(markerGroup)
@@ -2039,12 +2093,13 @@ const changeClass = (el) => {
                 </section>`
             );
 
-          console.log(mar.id);
-          console.log(num);
+          // console.log(mar.id);
+          // console.log(num);
         }
+      }
     }
   }
-  console.log(markerGroup);
+  // console.log(markerGroup);
 };
 
 for (link of header__links) {
@@ -2062,7 +2117,7 @@ const changeOblast = () => {
       oblastCities.push(
         `<option value="${element.name}" id="${element.state}">${element.name}</option>`
       );
-      console.log(element);
+      // console.log(element);
     });
     cities.innerHTML = oblastCities.join("");
     cities.classList.add("active");
@@ -2071,7 +2126,7 @@ const changeOblast = () => {
 };
 
 oblasts.addEventListener("change", (event) => {
-  console.log(event.target.value);
+  // console.log(event.target.value);
   changeOblast();
 });
 
@@ -2080,7 +2135,7 @@ const changeCity = () => {
     let obl = locat.find((city) => city.name === oblasts.value);
     map.setView(new L.LatLng(obl.coord[0], obl.coord[1]), 8);
   } else {
-    console.log(oblasts.value);
+    // console.log(oblasts.value);
     let cit = locat
       .find((ob) => ob.name === oblasts.value)
       .state.find((city) => city.name === cities.value);
@@ -2089,6 +2144,6 @@ const changeCity = () => {
 };
 
 cities.addEventListener("change", (event) => {
-  console.log(event.target.value);
+  // console.log(event.target.value);
   changeCity();
 });
