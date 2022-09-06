@@ -544,6 +544,25 @@ const coordinates = [
         text: "ПЛИТКА",
       },
       {
+        id: "1422",
+        name: "производство плитки",
+        tel: "+375(29)389-79-51",
+        icon: { icon: blueIcon },
+        cord: [53.214425, 26.694959],
+        photos: [
+          "img/build/other/plitka/nesvige/1.jpg",
+          "img/build/other/plitka/nesvige/2.jpg",
+          "img/build/other/plitka/nesvige/3.jpg",
+          "img/build/other/plitka/nesvige/4.jpg",
+          "img/build/other/plitka/nesvige/5.jpg",
+          "img/build/other/plitka/nesvige/6.jpg",
+          "img/build/other/plitka/nesvige/7.jpg",
+          "img/build/other/plitka/nesvige/8.jpg",
+          "img/build/other/plitka/nesvige/9.jpg",
+        ],
+        text: "ПЛИТКА",
+      },
+      {
         id: "1431",
         name: "Ольга",
         tel: "+375(29)781-87-29",
@@ -1165,7 +1184,26 @@ const coordinates = [
           "img/food/desert-postavi/9.jpg",
         ],
         text: "Мастерская десертов @masterskaja_decertov",
-      }  
+      },
+      {
+        id: "5312",
+        name: "Ольга",
+        tel: "+375(29)531-98-34",
+        icon: { icon: violetIcon },
+        cord: [55.148130, 27.004941],
+        photos: [
+          "img/food/kulinar/tort-postavi/1.jpg",
+          "img/food/kulinar/tort-postavi/2.jpg",
+          "img/food/kulinar/tort-postavi/3.jpg",
+          "img/food/kulinar/tort-postavi/4.jpg",
+          "img/food/kulinar/tort-postavi/5.jpg",
+          "img/food/kulinar/tort-postavi/6.jpg",
+          "img/food/kulinar/tort-postavi/7.jpg",
+          "img/food/kulinar/tort-postavi/8.jpg",
+          "img/food/kulinar/tort-postavi/9.jpg",
+        ],
+        text: "Изготовление тортов на заказ",
+      } 
     ]),
     (other = [])
   ]),
@@ -1945,7 +1983,7 @@ const pagesContent = [
     },
     {
       id: "4",
-      name: "ДРУГОЕ",
+      name: "ПИТОМЦЫ",
       categories: [
         {
           name: "домашние питомцы",
