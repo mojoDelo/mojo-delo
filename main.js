@@ -746,7 +746,27 @@ const coordinates = [
     ]),
   ]),
   (Beauty = [
-    (medecine = []),
+    (medecine = [
+      {
+        id: "3111",
+        name: "Татьяна",
+        tel: "+375(29)791-14-00",
+        icon: { icon: blueIcon },
+        cord: [53.137754, 25.984640],
+        photos: [
+          "img/beauty/medecine/massage/baranovichi/1.jpg",
+          "img/beauty/medecine/massage/baranovichi/2.jpg",
+          "img/beauty/medecine/massage/baranovichi/3.jpg",
+          "img/beauty/medecine/massage/baranovichi/4.jpg",
+          "img/beauty/medecine/massage/baranovichi/5.jpg",
+          "img/beauty/medecine/massage/baranovichi/6.jpg",
+          "img/beauty/medecine/massage/baranovichi/7.jpg",
+          "img/beauty/medecine/massage/baranovichi/8.jpg",
+          "img/beauty/medecine/massage/baranovichi/9.jpg",
+        ],
+        text: "массаж",
+      }
+    ]),
     (cosmetic = [
       {
         id: "3211",
@@ -783,6 +803,25 @@ const coordinates = [
           "img/beauty/cosmetology/tatu/pleshency/7.jpg",
           "img/beauty/cosmetology/tatu/pleshency/8.jpg",
           "img/beauty/cosmetology/tatu/pleshency/9.jpg",
+        ],
+        text: "тату и перманент бровей",
+      },
+      {
+        id: "3222",
+        name: "Лиза",
+        tel: "+375(29)931-01-71",
+        icon: { icon: violetIcon },
+        cord: [52.222840, 27.486726],
+        photos: [
+          "img/beauty/cosmetology/tatu/mikashevichi/1.jpg",
+          "img/beauty/cosmetology/tatu/mikashevichi/2.jpg",
+          "img/beauty/cosmetology/tatu/mikashevichi/3.jpg",
+          "img/beauty/cosmetology/tatu/mikashevichi/4.jpg",
+          "img/beauty/cosmetology/tatu/mikashevichi/5.jpg",
+          "img/beauty/cosmetology/tatu/mikashevichi/6.jpg",
+          "img/beauty/cosmetology/tatu/mikashevichi/7.jpg",
+          "img/beauty/cosmetology/tatu/mikashevichi/8.jpg",
+          "img/beauty/cosmetology/tatu/mikashevichi/9.jpg",
         ],
         text: "тату и перманент бровей",
       },
@@ -946,25 +985,6 @@ const coordinates = [
         text: "агроусадьба",
       },
       {
-        id: "4131",
-        name: "Екатерина",
-        tel: "+375(44)775-07-46",
-        icon: { icon: blackIcon },
-        cord: [54.32324, 29.149184],
-        photos: [
-          "img/leisure/nature/supboard/krupki/1.jpg",
-          "img/leisure/nature/supboard/krupki/2.jpg",
-          "img/leisure/nature/supboard/krupki/3.jpg",
-          "img/leisure/nature/supboard/krupki/4.jpg",
-          "img/leisure/nature/supboard/krupki/5.jpg",
-          "img/leisure/nature/supboard/krupki/6.jpg",
-          "img/leisure/nature/supboard/krupki/7.jpg",
-          "img/leisure/nature/supboard/krupki/8.jpg",
-          "img/leisure/nature/supboard/krupki/9.jpg",
-        ],
-        text: "Прокат и прогулки на Supboard",
-      },
-      {
         id: "4124",
         name: "Надежда",
         tel: "+375(29)608-53-22",
@@ -1002,6 +1022,44 @@ const coordinates = [
         ],
         text: "агроусадьба",
       },
+      {
+        id: "4126",
+        name: "Валерий",
+        tel: " +375(33)364-70-00",
+        icon: { icon: greenIcon },
+        cord: [53.587044, 24.700690],
+        photos: [
+          "img/leisure/nature/agrousadba/shuchin/1.jpg",
+          "img/leisure/nature/agrousadba/shuchin/2.jpg",
+          "img/leisure/nature/agrousadba/shuchin/3.jpg",
+          "img/leisure/nature/agrousadba/shuchin/4.jpg",
+          "img/leisure/nature/agrousadba/shuchin/5.jpg",
+          "img/leisure/nature/agrousadba/shuchin/6.jpg",
+          "img/leisure/nature/agrousadba/shuchin/7.jpg",
+          "img/leisure/nature/agrousadba/shuchin/8.jpg",
+          "img/leisure/nature/agrousadba/shuchin/9.jpg",
+        ],
+        text: "агроусадьба",
+      },
+      {
+        id: "4131",
+        name: "Екатерина",
+        tel: "+375(44)775-07-46",
+        icon: { icon: blackIcon },
+        cord: [54.32324, 29.149184],
+        photos: [
+          "img/leisure/nature/supboard/krupki/1.jpg",
+          "img/leisure/nature/supboard/krupki/2.jpg",
+          "img/leisure/nature/supboard/krupki/3.jpg",
+          "img/leisure/nature/supboard/krupki/4.jpg",
+          "img/leisure/nature/supboard/krupki/5.jpg",
+          "img/leisure/nature/supboard/krupki/6.jpg",
+          "img/leisure/nature/supboard/krupki/7.jpg",
+          "img/leisure/nature/supboard/krupki/8.jpg",
+          "img/leisure/nature/supboard/krupki/9.jpg",
+        ],
+        text: "Прокат и прогулки на Supboard",
+      }
     ]),
     (art = [
       {
@@ -1450,6 +1508,25 @@ const coordinates = [
           "img/other/education/logoped/vitebsk/9.jpg",
         ],
         text: "Логопед",
+      },
+      {
+        id: "7312",
+        name: "Анжелика",
+        tel: "+375(33)623-43-10",
+        icon: { icon: blueIcon },
+        cord: [53.600728, 24.740848],
+        photos: [
+          "img/other/education/logoped/shuchin/1.jpg",
+          "img/other/education/logoped/shuchin/2.jpg",
+          "img/other/education/logoped/shuchin/3.jpg",
+          "img/other/education/logoped/shuchin/4.jpg",
+          "img/other/education/logoped/shuchin/5.jpg",
+          "img/other/education/logoped/shuchin/6.jpg",
+          "img/other/education/logoped/shuchin/7.jpg",
+          "img/other/education/logoped/shuchin/8.jpg",
+          "img/other/education/logoped/shuchin/9.jpg",
+        ],
+        text: "Логопед",
       }
     ]),
     (other = [
@@ -1685,7 +1762,15 @@ const pagesContent = [
     {
       id: "1",
       name: "МЕДИЦИНА",
-      categories: [],
+      categories: [
+        {
+          name: "массаж",
+          color: "blue",
+          coast: [
+            { name: "консультация", pay: "0р." }
+          ]
+        }
+      ],
     },
     {
       id: "2",
