@@ -23,7 +23,7 @@
     <title>mojo_delo</title>
   </head>
 
-  <body>
+  <body id="body">
     <div class="main__container">
       <div class="container">
         <div class="header">
@@ -53,7 +53,36 @@
           </div>
         </div>
         <div class="mainPages active">
-          <h1 class="intro__titles">Сообщество предпринимателей</h1>
+          <img class="online__ellips" src="./img/Ellipse.png"></img>
+          <h2 class="online__title">уникальное<br />сообщество<br /><span class="online__title_span">предпринимателей</span><br />помогающих<br />друг другу</h2>
+          <a class="online__btn" id="open_info"><h5 class="btn_title">больше информации</h5></a>
+          <div id="wrapper-modal">
+            <div id="overlay"></div>
+            <div id="modal-window">
+              <img id="btn-close" src="./img/X.png" alt="">
+              <p class="modal__cont">
+                Тысячи предпринимателей объединены в сообщество.<br /><br />
+                Поблизости одинаковые услуги не размещаем.<br /><br />
+                Каждому участнику выгоден успех нашего объединения.<br /><br />
+                Объединив усилия продвижение вверх будет проще.
+              </p>
+              <!-- <img id="modal_img" src="../../assets/images/testimonials1.png" alt=""> -->
+              <!-- <div class="content">                            
+                <div class="smallInfo__info">
+                  <img class="smallInfo__info_icon" src="../../assets/icons/ava3.png"></img>
+                  <div class="smallInfo__info_main">
+                    <h5 class="info__main_name">Fredericka Michelin</h5>
+                    <h6 class="info__main_text">Local Austria &#0149 Yesterday</h6>
+                  </div>
+                </div>
+                <h6 class="smallInfo__text">Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
+                  The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
+                </h6>                    
+              </div>                 -->
+            </div>
+          </div>
+        </div>
+          <!-- <h1 class="intro__titles">Сообщество предпринимателей</h1>
           
           <div class="intro__subtitles">
             <p>мы потрудились</p>
@@ -88,10 +117,10 @@
               <p>Ю-туб: в один день с Тик-ток.</p>
             </div>
             </div>
-            <button class="icon__info">ИНФО</button>
+            <button class="icon__info">ИНФО</button> -->
             
-          </div>
-        </div>
+          <!-- </div> -->
+        <!-- </div> -->
         <select id="oblasts">
           <option value="все области">все области</option>
           <option value="Брестская">Брестская</option>
@@ -146,5 +175,6 @@
     <script src="info.js"></script>
     <script src="burger.js"></script>
     <script src="popInfo.js"></script>
+    <script src="madal.js"></script>
   </body>
 </html>

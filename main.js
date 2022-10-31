@@ -5,11 +5,14 @@ const header__links = document.getElementsByClassName("header__link"),
   header__title = document.getElementById("header__title"),
   person = document.getElementById("person"),
   categories = document.getElementById("categories"),
+  body = document.getElementById("body"),
   cost = document.getElementById("cost"),
   mainPages = document.querySelector(".mainPages"),
   sub__link = document.getElementsByClassName("sub__link");
 const oblasts = document.getElementById("oblasts");
 const cities = document.getElementById("cities");
+
+
 
 const greenIcon = new L.Icon({
   iconUrl:
