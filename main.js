@@ -5,6 +5,8 @@ const header__links = document.getElementsByClassName("header__link"),
   header__title = document.getElementById("header__title"),
   person = document.getElementById("person"),
   animals = document.getElementById("animals"),
+  tiktok = document.getElementById("tiktok"),
+  youtube = document.getElementById("youtube"),
   categories = document.getElementById("categories"),
   body = document.getElementById("body"),
   cost = document.getElementById("cost"),
@@ -2475,4 +2477,10 @@ const changeCity = () => {
 cities.addEventListener("change", (event) => {
   // console.log(event.target.value);
   changeCity();
-});
+})
+tiktok.addEventListener("click", () => {
+  alert ("Этот канал начнёт работать с 2023-го года. Присоединяйтесь к Instagram");
+})
+youtube.addEventListener("click", () => {
+  alert ("Этот канал начнёт работать с 2023-го года. Присоединяйтесь к Instagram");
+})
