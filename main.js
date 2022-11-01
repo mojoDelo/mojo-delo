@@ -4,6 +4,7 @@ const header__links = document.getElementsByClassName("header__link"),
   header__subtitle = document.getElementById("header__subtitle"),
   header__title = document.getElementById("header__title"),
   person = document.getElementById("person"),
+  animals = document.getElementById("animals"),
   categories = document.getElementById("categories"),
   body = document.getElementById("body"),
   cost = document.getElementById("cost"),
@@ -239,6 +240,8 @@ const coordinates = [
       {
         id: "1111",
         name: "Александр",
+        loc: "Гомель",
+        ic: "img/icons/build.png",
         tel: "+375(29)106-26-19",
         icon: { icon: blueIcon },
         cord: [52.425323, 31.007795],
@@ -260,6 +263,8 @@ const coordinates = [
       {
         id: "1211",
         name: "Сергей",
+        loc: "Гомель",
+        ic: "img/icons/build.png",
         tel: "+375(25)655-62-12",
         icon: { icon: greenIcon },
         cord: [52.436143, 31.012995],
@@ -279,6 +284,8 @@ const coordinates = [
       {
         id: "1221",
         name: "Александр",
+        loc: "Минск",
+        ic: "img/icons/build.png",
         tel: "+375(29)364-69-25",
         icon: { icon: goldIcon },
         cord: [53.87795, 27.555663],
@@ -298,6 +305,8 @@ const coordinates = [
       {
         id: "1231",
         name: "Евгений",
+        loc: "Гомель",
+        ic: "img/icons/build.png",
         tel: "+375(25)941-46-19",
         icon: { icon: redIcon },
         cord: [52.352697, 31.047337],
@@ -317,6 +326,8 @@ const coordinates = [
       {
         id: "1241",
         name: 'ООО "ТРАЙЭНГЛ"',
+        loc: "Витебск",
+        ic: "img/icons/build.png",
         tel: "+375(44)717-78-78",
         icon: { icon: blueIcon },
         cord: [55.208861, 30.219889],
@@ -336,6 +347,8 @@ const coordinates = [
       {
         id: "1251",
         name: "Алексей",
+        loc: "Ганцевичи",
+        ic: "img/icons/build.png",
         tel: "+375(29)284-79-95",
         icon: { icon: blackIcon },
         cord: [52.744692, 26.441177],
@@ -355,6 +368,8 @@ const coordinates = [
       {
         id: "1261",
         name: "Михаил",
+        loc: "Могилёв",
+        ic: "img/icons/build.png",
         tel: "+375(33)624-62-05",
         icon: { icon: orangeIcon },
         cord: [53.89118, 30.334429],
@@ -376,6 +391,8 @@ const coordinates = [
       {
         id: "1321",
         name: "Евгений Л.Н.",
+        loc: "Гомель",
+        ic: "img/icons/build.png",
         tel: "+375(29)363-28-30 ",
         icon: { icon: greenIcon },
         cord: [52.362955, 31.02533],
@@ -395,6 +412,8 @@ const coordinates = [
       {
         id: "1331",
         name: "Юрий",
+        loc: "Гомель",
+        ic: "img/icons/build.png",
         tel: "+375(44)577-54-20",
         icon: { icon: redIcon },
         cord: [52.400072, 31.120134],
@@ -414,6 +433,8 @@ const coordinates = [
       {
         id: "1311",
         name: "Шинкевич В.В",
+        loc: "Гомель",
+        ic: "img/icons/build.png",
         tel: "+375(29)209-08-88",
         icon: { icon: blueIcon },
         cord: [52.403776, 30.980301],
@@ -433,6 +454,8 @@ const coordinates = [
       {
         id: "1341",
         name: "Александр",
+        loc: "Гомель",
+        ic: "img/icons/build.png",
         tel: "+375(33)6020498",
         icon: { icon: goldIcon },
         cord: [53.07271, 30.045182],
@@ -452,6 +475,8 @@ const coordinates = [
       {
         id: "1332",
         name: "Металловар",
+        loc: "Гомель",
+        ic: "img/icons/build.png",
         tel: "+375(29)984-42-23",
         icon: { icon: redIcon },
         cord: [52.44479, 30.974722],
@@ -471,6 +496,8 @@ const coordinates = [
       {
         id: "1341",
         name: "Дмитрий",
+        loc: "Добруш",
+        ic: "img/icons/build.png",
         tel: "+375(25)629-78-55",
         icon: { icon: goldIcon },
         cord: [52.413031, 31.323378],
@@ -490,6 +517,8 @@ const coordinates = [
       {
         id: "1351",
         name: "Иван",
+        loc: "Солигорск",
+        ic: "img/icons/build.png",
         tel: " +375(29)507-98-17",
         icon: { icon: violetIcon },
         cord: [52.78137, 27.525809],
@@ -511,6 +540,8 @@ const coordinates = [
       {
         id: "1411",
         name: "Александр",
+        loc: "Гомель",
+        ic: "img/icons/build.png",
         tel: "+375(44)750-22-11",
         icon: { icon: redIcon },
         cord: [52.363671, 31.012887],
@@ -530,6 +561,8 @@ const coordinates = [
       {
         id: "1421",
         name: "Никита",
+        loc: "Жлобин",
+        ic: "img/icons/build.png",
         tel: "+375(25)686-77-25",
         icon: { icon: blueIcon },
         cord: [52.913237, 30.037207],
@@ -549,6 +582,8 @@ const coordinates = [
       {
         id: "1422",
         name: "производство плитки",
+        loc: "Несвиж",
+        ic: "img/icons/build.png",
         tel: "+375(29)389-79-51",
         icon: { icon: blueIcon },
         cord: [53.214425, 26.694959],
@@ -568,6 +603,8 @@ const coordinates = [
       {
         id: "1431",
         name: "Ольга",
+        loc: "Гродно",
+        ic: "img/icons/build.png",
         tel: "+375(29)781-87-29",
         icon: { icon: violetIcon },
         cord: [53.63904, 23.804377],
@@ -587,6 +624,8 @@ const coordinates = [
       {
         id: "1441",
         name: "ТОПДВЕРИ",
+        loc: "Новогрудок",
+        ic: "img/icons/build.png",        
         tel: "+375(29)90-55-111",
         icon: { icon: blackIcon },
         cord: [53.583997, 25.804937],
@@ -606,6 +645,8 @@ const coordinates = [
       {
         id: "1451",
         name: "Кэмпионе",
+        loc: "Гомель",
+        ic: "img/icons/build.png",
         tel: "+375(29)700-35-43",
         icon: { icon: greenIcon },
         cord: [52.472673, 30.992419],
@@ -629,6 +670,8 @@ const coordinates = [
       {
         id: "2111",
         name: "М-ДРАЙВ",
+        loc: "Гомель",
+        ic: "img/icons/avto.png",
         tel: "+375 (29) 142-74-68",
         icon: { icon: blueIcon },
         cord: [52.446426, 30.954143],
@@ -648,6 +691,8 @@ const coordinates = [
       {
         id: "2112",
         name: "Авто Респект",
+        loc: "Лида",
+        ic: "img/icons/avto.png",
         tel: "375(33) 353-35-11",
         icon: { icon: blueIcon },
         cord: [53.913814, 25.28108],
@@ -667,6 +712,8 @@ const coordinates = [
       {
         id: "2121",
         name: "ИП Юсевич",
+        loc: "Гродно",
+        ic: "img/icons/avto.png",
         tel: "375(29)589-27-20",
         icon: { icon: orangeIcon },
         cord: [53.68733, 23.875248],
@@ -688,6 +735,8 @@ const coordinates = [
       {
         id: "2211",
         name: "18... Шиномонтаж",
+        loc: "Гомель",
+        ic: "img/icons/avto.png",
         tel: "+375(25)777-77-02",
         icon: { icon: greenIcon },
         cord: [52.407426, 30.960656],
@@ -709,6 +758,8 @@ const coordinates = [
       {
         id: "2311",
         name: "Алексей",
+        loc: "Кам. Горка",
+        ic: "img/icons/avto.png",
         tel: "+375(29)882-47-52",
         icon: { icon: blueIcon },
         cord: [53.926725, 27.425775],
@@ -730,6 +781,8 @@ const coordinates = [
       {
         id: "2411",
         name: "Экстра Автомойка",
+        loc: "Бобруйск",
+        ic: "img/icons/avto.png",
         tel: "+375(44) 553-72-73",
         icon: { icon: redIcon },
         cord: [53.15559, 29.17789],
@@ -753,6 +806,8 @@ const coordinates = [
       {
         id: "3111",
         name: "Татьяна",
+        loc: "Барановичи",
+        ic: "img/icons/beauty.png",
         tel: "+375(29)791-14-00",
         icon: { icon: blueIcon },
         cord: [53.137754, 25.984640],
@@ -774,6 +829,8 @@ const coordinates = [
       {
         id: "3211",
         name: "Снежана",
+        loc: "Гомель",
+        ic: "img/icons/beauty.png",
         tel: "+375(25)740-18-37",
         icon: { icon: greenIcon },
         cord: [52.402814, 30.923759],
@@ -793,6 +850,8 @@ const coordinates = [
       {
         id: "3221",
         name: "Олеся",
+        loc: "Плещенцы",
+        ic: "img/icons/beauty.png",
         tel: "+375(29)284-79-95",
         icon: { icon: violetIcon },
         cord: [54.421592, 27.842937],
@@ -812,6 +871,8 @@ const coordinates = [
       {
         id: "3222",
         name: "Лиза",
+        loc: "Микашевичи",
+        ic: "img/icons/beauty.png",
         tel: "+375(29)931-01-71",
         icon: { icon: violetIcon },
         cord: [52.222840, 27.486726],
@@ -831,6 +892,8 @@ const coordinates = [
       {
         id: "3231",
         name: "Криваль Екатерина",
+        loc: "Ивацевичи",
+        ic: "img/icons/beauty.png",
         tel: "+375(33)331-51-17",
         icon: { icon: orangeIcon },
         cord: [52.701195, 25.334571],
@@ -850,6 +913,8 @@ const coordinates = [
       {
         id: "3241",
         name: "Криваль Екатерина",
+        loc: "Пружаны",
+        ic: "img/icons/beauty.png",
         tel: "+375(29)224-49-61",
         icon: { icon: redIcon },
         cord: [52.557809, 24.465867],
@@ -872,6 +937,8 @@ const coordinates = [
       {
         id: "3411",
         name: "Вангелия",
+        loc: "Солигорск",
+        ic: "img/icons/beauty.png",
         tel: "+375(29)139-78-77",
         icon: { icon: violetIcon },
         cord: [52.784349, 27.519771],
@@ -895,6 +962,8 @@ const coordinates = [
       {
         id: "4111",
         name: "конный манеж",
+        loc: "Гомель",
+        ic: "img/icons/leasure.png",
         tel: "8 0232 60-99-14",
         icon: { icon: goldIcon },
         cord: [52.468915, 31.000178],
@@ -914,6 +983,8 @@ const coordinates = [
       {
         id: "4112",
         name: "Татьяна",
+        loc: "Добруш",
+        ic: "img/icons/leasure.png",
         tel: "+375(33)321-06-60",
         icon: { icon: goldIcon },
         cord: [52.421589, 31.296086],
@@ -933,6 +1004,8 @@ const coordinates = [
       {
         id: "4113",
         name: "Андрей",
+        loc: "Гливин",
+        ic: "img/icons/leasure.png",
         tel: "+375(44)549-09-99",
         icon: { icon: goldIcon },
         cord: [54.164457, 28.599992],
@@ -952,6 +1025,8 @@ const coordinates = [
       {
         id: "4121",
         name: "«Купалiнка»",
+        loc: "Кобрин",
+        ic: "img/icons/leasure.png",
         tel: "+375(29) 222-23-60",
         icon: { icon: greenIcon },
         cord: [52.236039, 24.303318],
@@ -971,6 +1046,8 @@ const coordinates = [
       {
         id: "4122",
         name: "«Как же здесь хорошо!»",
+        loc: "Полоцк",
+        ic: "img/icons/leasure.png",
         tel: "+375(29) 594-08-77",
         icon: { icon: greenIcon },
         cord: [55.396933, 28.814194],
@@ -990,6 +1067,8 @@ const coordinates = [
       {
         id: "4123",
         name: "Усадьба «Черника»",
+        loc: "Докшицы",
+        ic: "img/icons/leasure.png",
         tel: "+375(29) 855-50-77",
         icon: { icon: greenIcon },
         cord: [54.977291, 28.010135],
@@ -1009,6 +1088,8 @@ const coordinates = [
       {
         id: "4124",
         name: "Надежда",
+        loc: "Несвиж",
+        ic: "img/icons/leasure.png",
         tel: "+375(29)608-53-22",
         icon: { icon: greenIcon },
         cord: [53.213558, 26.675966],
@@ -1028,6 +1109,8 @@ const coordinates = [
       {
         id: "4125",
         name: "Алёна",
+        loc: "Несвиж",
+        ic: "img/icons/leasure.png",
         tel: " +375(29)865-67-86",
         icon: { icon: greenIcon },
         cord: [53.216127, 26.675751],
@@ -1047,6 +1130,8 @@ const coordinates = [
       {
         id: "4126",
         name: "Валерий",
+        loc: "Щучин",
+        ic: "img/icons/leasure.png",
         tel: " +375(33)364-70-00",
         icon: { icon: greenIcon },
         cord: [53.587044, 24.700690],
@@ -1066,6 +1151,8 @@ const coordinates = [
       {
         id: "4131",
         name: "Екатерина",
+        loc: "Крупки",
+        ic: "img/icons/leasure.png",
         tel: "+375(44)775-07-46",
         icon: { icon: blackIcon },
         cord: [54.32324, 29.149184],
@@ -1087,6 +1174,8 @@ const coordinates = [
       {
         id: "4211",
         name: "Чаша Мира",
+        loc: "Гомель",
+        ic: "img/icons/leasure.png",
         tel: "",
         icon: { icon: greenIcon },
         cord: [52.425883, 31.015054],
@@ -1106,6 +1195,8 @@ const coordinates = [
       {
         id: "4221",
         name: "Музей",
+        loc: "Туров",
+        ic: "img/icons/leasure.png",
         tel: "80(235)37-53-75",
         icon: { icon: redIcon },
         cord: [52.067357, 27.731477],
@@ -1125,6 +1216,8 @@ const coordinates = [
       {
         id: "4231",
         name: "Илья",
+        loc: "Гомель",
+        ic: "img/icons/leasure.png",
         tel: "@ilysha701",
         icon: { icon: goldIcon },
         cord: [52.470023, 31.04354],
@@ -1144,6 +1237,8 @@ const coordinates = [
       {
         id: "4232",
         name: "Анастасия",
+        loc: "Глубокое",
+        ic: "img/icons/leasure.png",
         tel: "@ph.krasovskaya",
         icon: { icon: goldIcon },
         cord: [55.145033, 27.687318],
@@ -1163,6 +1258,8 @@ const coordinates = [
       {
         id: "4233",
         name: "Татьяна",
+        loc: "Червень",
+        ic: "img/icons/leasure.png",
         tel: "@cherven_foto_minsk",
         icon: { icon: goldIcon },
         cord: [53.714457, 28.41756],
@@ -1184,6 +1281,8 @@ const coordinates = [
       {
         id: "4311",
         name: "лазертаг, квест, икс-бокс",
+        loc: "Гомель",
+        ic: "img/icons/leasure.png",
         tel: "+375 (29) 116-17-52",
         icon: { icon: redIcon },
         cord: [52.412973, 30.953246],
@@ -1208,6 +1307,8 @@ const coordinates = [
       {
         id: "5111",
         name: "Татьяна",
+        loc: "Гродно",
+        ic: "img/icons/food.png",
         tel: "+375(29) 787-89-30",
         icon: { icon: goldIcon },
         cord: [53.706305, 23.64525],
@@ -1227,6 +1328,8 @@ const coordinates = [
       {
         id: "5112",
         name: "Богданов Игорь",
+        loc: "Витебск",
+        ic: "img/icons/food.png",
         tel: "+375(29)710-81-70",
         icon: { icon: goldIcon },
         cord: [55.180103, 30.223278],
@@ -1249,6 +1352,8 @@ const coordinates = [
       {
         id: "5311",
         name: "Светлана",
+        loc: "Поставы",
+        ic: "img/icons/food.png",
         tel: "+375(29)213-81-75",
         icon: { icon: violetIcon },
         cord: [55.113856, 26.843104],
@@ -1268,6 +1373,8 @@ const coordinates = [
       {
         id: "5312",
         name: "Ольга",
+        loc: "Поставы",
+        ic: "img/icons/food.png",
         tel: "+375(29)531-98-34",
         icon: { icon: violetIcon },
         cord: [55.148130, 27.004941],
@@ -1292,6 +1399,8 @@ const coordinates = [
       {
         id: "6111",
         name: "Евгения",
+        loc: "Гомель",
+        ic: "img/icons/handMade.png",
         tel: "+375 (44) 561-63-25",
         icon: { icon: blueIcon },
         cord: [52.454815, 30.977372],
@@ -1311,6 +1420,8 @@ const coordinates = [
       {
         id: "6112",
         name: "Елена",
+        loc: "Борисов",
+        ic: "img/icons/handMade.png",
         tel: "+375(44)704-92-31",
         icon: { icon: blueIcon },
         cord: [54.231364, 28.510962],
@@ -1332,6 +1443,8 @@ const coordinates = [
       {
         id: "6211",
         name: "салон Вангелия",
+        loc: "Солигорск",
+        ic: "img/icons/handMade.png",
         tel: "+375(29)786-83-95",
         icon: { icon: violetIcon },
         cord: [52.784461, 27.520761],
@@ -1353,6 +1466,8 @@ const coordinates = [
       {
         id: "6311",
         name: "Дмитрий @remeslo_kovka",
+        loc: "Жлобин",
+        ic: "img/icons/handMade.png",
         tel: "+375(29)616-55-86",
         icon: { icon: greenIcon },
         cord: [52.897545, 30.028856],
@@ -1372,6 +1487,8 @@ const coordinates = [
       {
         id: "6321",
         name: "Андрей",
+        loc: "Минск",
+        ic: "img/icons/handMade.png",
         tel: "+375(29)786-83-95",
         icon: { icon: goldIcon },
         cord: [53.769094, 27.579137],
@@ -1391,6 +1508,8 @@ const coordinates = [
       {
         id: "6322",
         name: "Денис",
+        loc: "Чериков",
+        ic: "img/icons/handMade.png",
         tel: "+375(29)119-27-08",
         icon: { icon: goldIcon },
         cord: [53.57199, 31.372363],
@@ -1412,6 +1531,8 @@ const coordinates = [
       {
         id: "6411",
         name: "Евгения",
+        loc: "Гомель",
+        ic: "img/icons/handMade.png",
         tel: "+375 (29) 839-57-56",
         icon: { icon: redIcon },
         cord: [52.426867, 30.965291],
@@ -1431,6 +1552,8 @@ const coordinates = [
       {
         id: "6421",
         name: "Анна",
+        loc: "Минск",
+        ic: "img/icons/handMade.png",
         tel: "+375 (29) 723-18-95",
         icon: { icon: violetIcon },
         cord: [52.089433, 23.695412],
@@ -1450,6 +1573,8 @@ const coordinates = [
       {
         id: "6422",
         name: "Анна",
+        loc: "Брест",
+        ic: "img/icons/handMade.png",
         tel: "+375 (29) 723-18-95",
         icon: { icon: violetIcon },
         cord: [53.916737, 27.580907],
@@ -1473,6 +1598,8 @@ const coordinates = [
       {
         id: "7111",
         name: "Белый Мастер",
+        loc: "Гомель",
+        ic: "img/icons/other.png",
         tel: "+375(44)525-52-51",
         icon: { icon: greenIcon },
         cord: [52.42972, 31.009293],
@@ -1492,6 +1619,8 @@ const coordinates = [
       {
         id: "7112",
         name: "Ремцентр-сервис",
+        loc: "Гомель",
+        ic: "img/icons/other.png",
         tel: "+375(33)990-30-38",
         icon: { icon: greenIcon },
         cord: [52.424734, 31.001228],
@@ -1513,6 +1642,8 @@ const coordinates = [
       {
         id: "7211",
         name: "Смирнова Дарья",
+        loc: "Молодечно",
+        ic: "img/icons/other.png",
         tel: "+375(33)904-33-67",
         icon: { icon: greenIcon },
         cord: [54.305498, 26.859116],
@@ -1532,6 +1663,8 @@ const coordinates = [
       {
         id: "7212",
         name: "Орлов Алексей",
+        loc: "Гомель",
+        ic: "img/icons/other.png",
         tel: "+375(29)328-12-18",
         icon: { icon: greenIcon },
         cord: [52.403596, 31.027539],
@@ -1553,6 +1686,8 @@ const coordinates = [
       {
         id: "7311",
         name: "Татьяна",
+        loc: "Витебск",
+        ic: "img/icons/other.png",
         tel: "+375(29)716-22-90",
         icon: { icon: blueIcon },
         cord: [55.297087, 30.31333],
@@ -1572,6 +1707,8 @@ const coordinates = [
       {
         id: "7312",
         name: "Анжелика",
+        loc: "Щучин",
+        ic: "img/icons/other.png",
         tel: "+375(33)623-43-10",
         icon: { icon: blueIcon },
         cord: [53.600728, 24.740848],
@@ -1593,6 +1730,8 @@ const coordinates = [
       {
         id: "7411",
         name: "3 кота",
+        loc: "Гомель",
+        ic: "img/icons/other.png",
         tel: "+375(29)533-51-60",
         icon: { icon: greenIcon },
         cord: [52.519045, 30.933165],
@@ -2248,11 +2387,13 @@ const changeClass = (el) => {
   markerGroup.clearLayers();
   cost.classList.remove("active");
   person.classList.remove("active");
+  animals.classList.remove("active");
   categories.classList.remove("active");
   let num = el.target.id;
   if (num == 0) {
     header__subtitle.classList.remove("active");
     mainPages.classList.add("active");
+    animals.classList.add("active");
     for (link of header__links) {
       link.classList.remove("active");
     }
