@@ -1044,20 +1044,14 @@ body {
         @include flex($align: center, $gap: 80px, $jc: center);
         flex-direction: column;
         margin-top: 40px;
-        padding-bottom: 100px;
         overflow: hidden;
-  
-        @media screen and (max-width: 1500px) {
-          padding-bottom: 140px;
-        }
+
         @media screen and (max-width: 900px) {
-          padding-bottom: 100px;
           gap: 60px;
         }
         @media screen and (max-width: 630px) {
           margin-top: 0px;
           gap: 20px;
-          padding-bottom: 60px;
         }}
         .animal__slider {
           max-width: 941px;
@@ -1072,7 +1066,7 @@ body {
             max-width: 602px;
           }
           @media screen and (max-width: 630px) {
-            height: 1388px;
+            height: 1480px;
             max-width: 285px;
           }
           .carousel {
@@ -1116,7 +1110,9 @@ body {
                 cursor: pointer;
                 &:hover {
                   & .animal__about {
-                    top: 0px;
+                    z-index: 100;
+                    top: -50%;
+                    background-color: rgba(0, 0, 0, 0.7)
                   }
                 }
                 $border: 1px;
@@ -1171,7 +1167,7 @@ body {
                 }
                 .animal__about {
                   position: relative;
-                  top: -60px;
+                  top: 0px;
                   transition: top 0.5s linear;
                   @include flex();
                   gap: 8px;
@@ -1262,7 +1258,7 @@ body {
             top: 50%;
             width: 42px;
             height: 42px;
-            margin-top: 0px;
+            margin-top: -21px;
           }
         }
         #animal__btn_prev {
@@ -1322,6 +1318,65 @@ body {
             height: 71px;
             right: -17px;
             bottom: -4px;
+          }
+        }
+      }
+      .footer {
+        position: relative;
+        z-index: 1;  
+        width: 100%;
+        height: 100px;
+        margin-top: 50px;
+        background-color: $color2Black;
+        @include flex($jc: center, $align: center);
+        @media screen and (max-width: 1500px) {
+        }
+        @media screen and (max-width: 950px) {
+        }
+        @media screen and (max-width: 630px) {
+          height: 234px;
+        }
+        .footer__contacts_links {
+          width: 90%;
+          margin-top: 10px;
+          @include flex($align: left, $jc: space-around);
+
+          @media screen and (max-width: 630px) {
+            flex-direction: column;
+            width: auto;
+            height: 90%;
+          }
+          .contact__link {
+            height: 26px;
+            text-decoration: none;
+            @include flex($align: center, $gap: 12px);
+            color: $colorWhite;
+            &:hover {
+              cursor: pointer;
+              opacity: 0.8;
+            }
+            &:active {
+              color: $colorGreen;
+              & .contact__link_back {
+                background-color: $colorGreen;
+              }
+            }
+            .contact__link_back {
+              width: 26px;
+              height: 26px;
+              border-radius: 100%;
+              background-color: $color5Grey;
+              @include flex($align: center, $jc: center);
+              .contact__link_icon {
+                width: auto;
+                height: 60%;
+              }
+            }
+            .contact__link_title {
+              @include fontRoboto($weight: 400, $size: 16px, $height: 22px);
+              text-align: center;
+              text-decoration: none;
+            }
           }
         }
       }
