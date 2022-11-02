@@ -665,6 +665,27 @@ const coordinates = [
         ],
         text: "автоматика для вворот",
       },
+      {
+        id: "1461",
+        name: "Игорь",
+        loc: "Молодечно",
+        ic: "img/icons/build.png",
+        tel: "+375295015252",
+        icon: { icon: goldIcon },
+        cord: [54.298035, 26.857859],
+        photos: [
+          "img/build/other/zhaluzi/Molodechno/1.jpg",
+          "img/build/other/zhaluzi/Molodechno/2.jpg",
+          "img/build/other/zhaluzi/Molodechno/3.jpg",
+          "img/build/other/zhaluzi/Molodechno/4.jpg",
+          "img/build/other/zhaluzi/Molodechno/5.jpg",
+          "img/build/other/zhaluzi/Molodechno/6.jpg",
+          "img/build/other/zhaluzi/Molodechno/7.jpg",
+          "img/build/other/zhaluzi/Molodechno/8.jpg",
+          "img/build/other/zhaluzi/Molodechno/9.jpg",
+        ],
+        text: "жалюзи",
+      }
     ]),
   ]),
   (Car = [
@@ -778,6 +799,27 @@ const coordinates = [
         ],
         text: "грузоперевозки Минск, Каменная горка",
       },
+      {
+        id: "2312",
+        name: "Михаил",
+        loc: "Пинск",
+        ic: "img/icons/avto.png",
+        tel: "+375293435892",
+        icon: { icon: blueIcon },
+        cord: [52.122165, 26.053812],
+        photos: [
+          "img/auto/transport/gruz-pinsk/1.jpg",
+          "img/auto/transport/gruz-pinsk/2.jpg",
+          "img/auto/transport/gruz-pinsk/3.jpg",
+          "img/auto/transport/gruz-pinsk/4.jpg",
+          "img/auto/transport/gruz-pinsk/5.jpg",
+          "img/auto/transport/gruz-pinsk/6.jpg",
+          "img/auto/transport/gruz-pinsk/7.jpg",
+          "img/auto/transport/gruz-pinsk/8.jpg",
+          "img/auto/transport/gruz-pinsk/9.jpg",
+        ],
+        text: "Грузоперевозки",
+      }
     ]),
     (other = [
       {
@@ -1883,6 +1925,11 @@ const pagesContent = [
           color: "green",
           coast: [{ name: "консультация", pay: "0р" }],
         },
+        {
+          name: "жалюзи",
+          color: "gold",
+          coast: [{ name: "консультация", pay: "0р" }],
+        }
       ],
     },
   ]),
