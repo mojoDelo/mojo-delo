@@ -229,6 +229,7 @@ body {
     }
 
     .container {
+      position: relative;
       margin: 0 auto;
       width: 100%;
       max-width: 1200px;
@@ -826,11 +827,13 @@ body {
       }
 
       #oblasts {
+        position: relative;
         margin: 20px auto 10px auto;
         width: 280px;
         height: 30px;
       }
       #cities {
+        position: relative;
         display: none;
         height: 20px;
         &.active{
@@ -841,14 +844,26 @@ body {
           margin-bottom: 20px;        
         }        
       }
+      .wildness__flowers_min {
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        height: 450px;
+        width: auto;
+        @media screen and (max-width: 630px) {
+          height: 350px;
+        }
+      }
 
       #map {
-        width: 90%;
+        position: relative;
+        width: 80%;
         height: 600px;
-        margin: 0 auto;
+        margin: 0 auto;        
 
         @media screen and (max-width: 530px) {
           height: 450px;
+          width: 70%;
         }
 
         section {
