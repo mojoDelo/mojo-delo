@@ -151,6 +151,7 @@ body .main__container {
 }
 
 body .main__container .container {
+  position: relative;
   margin: 0 auto;
   width: 100%;
   max-width: 1200px;
@@ -723,12 +724,14 @@ body .main__container .container .mainPages .online__btn .btn_title {
 }
 
 body .main__container .container #oblasts {
+  position: relative;
   margin: 20px auto 10px auto;
   width: 280px;
   height: 30px;
 }
 
 body .main__container .container #cities {
+  position: relative;
   display: none;
   height: 20px;
 }
@@ -741,8 +744,23 @@ body .main__container .container #cities.active {
   margin-bottom: 20px;
 }
 
+body .main__container .container .wildness__flowers_min {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  height: 450px;
+  width: auto;
+}
+
+@media screen and (max-width: 630px) {
+  body .main__container .container .wildness__flowers_min {
+    height: 350px;
+  }
+}
+
 body .main__container .container #map {
-  width: 90%;
+  position: relative;
+  width: 80%;
   height: 600px;
   margin: 0 auto;
 }
@@ -750,6 +768,7 @@ body .main__container .container #map {
 @media screen and (max-width: 530px) {
   body .main__container .container #map {
     height: 450px;
+    width: 70%;
   }
 }
 
