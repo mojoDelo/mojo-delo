@@ -15,8 +15,6 @@ const header__links = document.getElementsByClassName("header__link"),
 const oblasts = document.getElementById("oblasts");
 const cities = document.getElementById("cities");
 
-
-
 const greenIcon = new L.Icon({
   iconUrl:
     "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png",
@@ -627,7 +625,7 @@ const coordinates = [
         id: "1441",
         name: "ТОПДВЕРИ",
         loc: "Новогрудок",
-        ic: "img/icons/build.png",        
+        ic: "img/icons/build.png",
         tel: "+375(29)90-55-111",
         icon: { icon: blackIcon },
         cord: [53.583997, 25.804937],
@@ -685,7 +683,28 @@ const coordinates = [
           "img/build/other/zhaluzi/Molodechno/9.jpg",
         ],
         text: "жалюзи",
-      }
+      },
+      {
+        id: "1471",
+        name: "ОКНАГРАД",
+        loc: "Брест",
+        ic: "img/icons/build.png",
+        tel: "+375(29)682-90-00",
+        icon: { icon: orangeIcon },
+        cord: [52.100000, 23.769891],
+        photos: [
+          "img/build/other/window/brest/1.jpg",
+          "img/build/other/window/brest/2.jpg",
+          "img/build/other/window/brest/3.jpg",
+          "img/build/other/window/brest/4.jpg",
+          "img/build/other/window/brest/5.jpg",
+          "img/build/other/window/brest/6.jpg",
+          "img/build/other/window/brest/7.jpg",
+          "img/build/other/window/brest/8.jpg",
+          "img/build/other/window/brest/9.jpg",
+        ],
+        text: "окна",
+      },
     ]),
   ]),
   (Car = [
@@ -731,6 +750,27 @@ const coordinates = [
           "img/auto/sto/respect-avto/9.jpg",
         ],
         text: "СТО",
+      },
+      {
+        id: "2113",
+        name: "Евгений",
+        loc: "Минск",
+        ic: "img/icons/avto.png",
+        tel: "+375(29)398-39-35",
+        icon: { icon: redIcon },
+        cord: [53.924249, 27.430474],
+        photos: [
+          "img/auto/sto/suport-kamGor/1.jpg",
+          "img/auto/sto/suport-kamGor/2.jpg",
+          "img/auto/sto/suport-kamGor/3.jpg",
+          "img/auto/sto/suport-kamGor/4.jpg",
+          "img/auto/sto/suport-kamGor/5.jpg",
+          "img/auto/sto/suport-kamGor/6.jpg",
+          "img/auto/sto/suport-kamGor/7.jpg",
+          "img/auto/sto/suport-kamGor/8.jpg",
+          "img/auto/sto/suport-kamGor/9.jpg",
+        ],
+        text: "Ремонт тормозных суппортов",
       },
       {
         id: "2121",
@@ -819,7 +859,7 @@ const coordinates = [
           "img/auto/transport/gruz-pinsk/9.jpg",
         ],
         text: "Грузоперевозки",
-      }
+      },
     ]),
     (other = [
       {
@@ -854,7 +894,7 @@ const coordinates = [
         ic: "img/icons/beauty.png",
         tel: "+375(29)791-14-00",
         icon: { icon: blueIcon },
-        cord: [53.137754, 25.984640],
+        cord: [53.137754, 25.98464],
         photos: [
           "img/beauty/medecine/massage/baranovichi/1.jpg",
           "img/beauty/medecine/massage/baranovichi/2.jpg",
@@ -867,7 +907,7 @@ const coordinates = [
           "img/beauty/medecine/massage/baranovichi/9.jpg",
         ],
         text: "массаж",
-      }
+      },
     ]),
     (cosmetic = [
       {
@@ -919,7 +959,7 @@ const coordinates = [
         ic: "img/icons/beauty.png",
         tel: "+375(29)931-01-71",
         icon: { icon: violetIcon },
-        cord: [52.222840, 27.486726],
+        cord: [52.22284, 27.486726],
         photos: [
           "img/beauty/cosmetology/tatu/mikashevichi/1.jpg",
           "img/beauty/cosmetology/tatu/mikashevichi/2.jpg",
@@ -1178,7 +1218,7 @@ const coordinates = [
         ic: "img/icons/leasure.png",
         tel: " +375(33)364-70-00",
         icon: { icon: greenIcon },
-        cord: [53.587044, 24.700690],
+        cord: [53.587044, 24.70069],
         photos: [
           "img/leisure/nature/agrousadba/shuchin/1.jpg",
           "img/leisure/nature/agrousadba/shuchin/2.jpg",
@@ -1212,7 +1252,7 @@ const coordinates = [
           "img/leisure/nature/supboard/krupki/9.jpg",
         ],
         text: "Прокат и прогулки на Supboard",
-      }
+      },
     ]),
     (art = [
       {
@@ -1344,7 +1384,7 @@ const coordinates = [
         text: "лазертаг, квест, икс-бокс",
       },
     ]),
-    (other = [])
+    (other = []),
   ]),
   (Food = [
     (fermer = [
@@ -1389,7 +1429,28 @@ const coordinates = [
           "img/food/honey-vitebsk/9.jpg",
         ],
         text: "Мед и продукты пчеловодства",
-      }     
+      },
+      {
+        id: "5121",
+        name: "Степан",
+        loc: "Столин",
+        ic: "img/icons/food.png",
+        tel: "+375(29)729-10-90",
+        icon: { icon: greenIcon },
+        cord: [51.901563, 26.844872],
+        photos: [
+          "img/food/pitomnik-stolin/1.jpg",
+          "img/food/pitomnik-stolin/2.jpg",
+          "img/food/pitomnik-stolin/3.jpg",
+          "img/food/pitomnik-stolin/4.jpg",
+          "img/food/pitomnik-stolin/5.jpg",
+          "img/food/pitomnik-stolin/6.jpg",
+          "img/food/pitomnik-stolin/7.jpg",
+          "img/food/pitomnik-stolin/8.jpg",
+          "img/food/pitomnik-stolin/9.jpg",
+        ],
+        text: "Питомник декоративных растений",
+      },
     ]),
     (horica = []),
     (kulinaria = [
@@ -1421,7 +1482,7 @@ const coordinates = [
         ic: "img/icons/food.png",
         tel: "+375(29)531-98-34",
         icon: { icon: violetIcon },
-        cord: [55.148130, 27.004941],
+        cord: [55.14813, 27.004941],
         photos: [
           "img/food/kulinar/tort-postavi/1.jpg",
           "img/food/kulinar/tort-postavi/2.jpg",
@@ -1434,9 +1495,9 @@ const coordinates = [
           "img/food/kulinar/tort-postavi/9.jpg",
         ],
         text: "Изготовление тортов на заказ",
-      } 
+      },
     ]),
-    (other = [])
+    (other = []),
   ]),
   (handMade = [
     (decore = [
@@ -1634,7 +1695,7 @@ const coordinates = [
           "img/handMade/clothes/platia__anna/9.jpg",
         ],
         text: "Пошив и продажа готовых нарядных платьев и костюмов",
-      }      
+      },
     ]),
   ]),
   (Other = [
@@ -1768,7 +1829,7 @@ const coordinates = [
           "img/other/education/logoped/shuchin/9.jpg",
         ],
         text: "Логопед",
-      }
+      },
     ]),
     (other = [
       {
@@ -1791,7 +1852,7 @@ const coordinates = [
           "img/other/other/pets/eremino/9.jpg",
         ],
         text: "ГОСТИНИЦА, СТРИЖКА для кошек и собак",
-      }
+      },
     ]),
   ]),
 ];
@@ -1929,7 +1990,12 @@ const pagesContent = [
           name: "жалюзи",
           color: "gold",
           coast: [{ name: "консультация", pay: "0р" }],
-        }
+        },
+        {
+          name: "окна",
+          color: "orange",
+          coast: [{ name: "консультация", pay: "0р" }],
+        },
       ],
     },
   ]),
@@ -1953,6 +2019,11 @@ const pagesContent = [
             { name: "Регулировка ручного тормоза", pay: "от 40р" },
             { name: "Регулировка ручного тормоза", pay: "от 40р" },
           ],
+        },
+        {
+          name: "ремонт супортов",
+          color: "red",
+          coast: [{ name: "консультация", pay: "0 р." }],
         },
         {
           name: "автостёкла",
@@ -2014,10 +2085,8 @@ const pagesContent = [
         {
           name: "массаж",
           color: "blue",
-          coast: [
-            { name: "консультация", pay: "0р." }
-          ]
-        }
+          coast: [{ name: "консультация", pay: "0р." }],
+        },
       ],
     },
     {
@@ -2176,7 +2245,12 @@ const pagesContent = [
           name: "мёд",
           color: "gold",
           coast: [{ name: "цветочный", pay: "от 10р" }],
-        }
+        },
+        {
+          name: "питомник",
+          color: "green",
+          coast: [{ name: "консультация", pay: "0р" }],
+        },
       ],
     },
     {
@@ -2220,7 +2294,7 @@ const pagesContent = [
           ],
         },
       ],
-    }        
+    },
   ]),
   (handMade = [
     {
@@ -2277,7 +2351,7 @@ const pagesContent = [
           name: "одежда",
           color: "violet",
           coast: [{ name: "нарядные платья", pay: "0р." }],
-        }
+        },
       ],
     },
   ]),
@@ -2327,7 +2401,7 @@ const pagesContent = [
           name: "домашние питомцы",
           color: "green",
           coast: [{ name: "стрижка", pay: "от 30р" }],
-        }
+        },
       ],
     },
   ]),
@@ -2524,10 +2598,14 @@ const changeCity = () => {
 cities.addEventListener("change", (event) => {
   // console.log(event.target.value);
   changeCity();
-})
+});
 tiktok.addEventListener("click", () => {
-  alert ("Этот канал начнёт работать с 2023-го года. Присоединяйтесь к Instagram");
-})
+  alert(
+    "Этот канал начнёт работать с 2023-го года. Присоединяйтесь к Instagram"
+  );
+});
 youtube.addEventListener("click", () => {
-  alert ("Этот канал начнёт работать с 2023-го года. Присоединяйтесь к Instagram");
-})
+  alert(
+    "Этот канал начнёт работать с 2023-го года. Присоединяйтесь к Instagram"
+  );
+});
